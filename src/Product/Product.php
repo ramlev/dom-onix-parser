@@ -7,7 +7,6 @@ use Dso\Onix\CodeList\CodeList3;
 
 class Product
 {
-
     /**
      * RecordReference
      *
@@ -44,11 +43,11 @@ class Product
     protected $RecordSourceName;
 
     /**
-     * ProductItentifiers
+     * ProductIdentifiers
      *
-     * @var array|ProductItentifier
+     * @var array|ProductIdentifier
      */
-    protected $ProductItentifier = [];
+    protected $ProductIdentifier = [];
 
     /**
      * DescriptiveDetail
@@ -124,8 +123,9 @@ class Product
      * @param RecordSourceIdentifier $RecordSourceIdentifier
      * @return void
      */
-    public function setRecordSourceIdentifier(RecordSourceIdentifier $RecordSourceIdentifier)
-    {
+    public function setRecordSourceIdentifier(
+        RecordSourceIdentifier $RecordSourceIdentifier,
+    ) {
         $this->RecordSourceIdentifier = $RecordSourceIdentifier;
     }
 
@@ -148,7 +148,7 @@ class Product
      */
     public function addProductIdentifier(ProductIdentifier $productIdentifier)
     {
-        $this->ProductItentifier[] = $productIdentifier;
+        $this->ProductIdentifier[] = $productIdentifier;
     }
 
     /**
@@ -157,9 +157,10 @@ class Product
      * @param ProductIdentifier $productIdentifier
      * @return void
      */
-    public function removeProductIdentifier(ProductIdentifier $productIdentifier)
-    {
-        $this->ProductItentifier[] = $productIdentifier;
+    public function removeProductIdentifier(
+        ProductIdentifier $productIdentifier,
+    ) {
+        $this->ProductIdentifier[] = $productIdentifier;
     }
 
     /**
@@ -275,7 +276,7 @@ class Product
      */
     public function getProductIdentifier()
     {
-        return $this->ProductItentifier;
+        return $this->ProductIdentifier;
     }
 
     /**
@@ -327,5 +328,4 @@ class Product
     {
         return $this->RecordSourceName;
     }
-
 }

@@ -18,13 +18,13 @@ class CodeList241 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/241
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary AV Item ID scheme',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -34,13 +34,13 @@ class CodeList241 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/241
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Esquema de tipo de identificador de elemento audiovisual propio / privado',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR',
+		'31' => 'EIDR del contenido',
 	];
 
 	/**
@@ -50,13 +50,13 @@ class CodeList241 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/241
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary AV Item ID scheme',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -82,13 +82,13 @@ class CodeList241 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/241
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di identificazione del componente audiovisivo',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'12' => 'IMBD',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -98,13 +98,13 @@ class CodeList241 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/241
 	 */
 	protected static $nb = [
-		'01' => 'Proprietær',
+		'01' => 'Proprietær ID for AV-produkter',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 
 	/**
@@ -114,12 +114,12 @@ class CodeList241 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/tr/241
 	 */
 	protected static $tr = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary AV Item ID scheme',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'12' => 'IMDB',
 		'18' => 'ISRC',
 		'19' => 'ISAN',
-		'31' => 'EIDR DOI',
+		'31' => 'EIDR Content ID',
 	];
 }

@@ -18,7 +18,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/44
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary name ID scheme',
 		'02' => 'Proprietary',
 		'03' => 'DNB publisher identifier',
 		'04' => 'Börsenverein Verkehrsnummer',
@@ -43,7 +43,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -56,6 +56,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 
 	/**
@@ -65,7 +69,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/44
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Tipo de código de nombre propio / privado',
 		'02' => 'Propio / Privado',
 		'03' => 'Identificador de editorial de la Deutsche Bibliothek',
 		'04' => 'Börsenverein Verkehrsnummer',
@@ -90,7 +94,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'Identificador EIDR',
+		'29' => 'Identificador EIDR de participante',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'Identificador VIAF',
 		'32' => 'Identificador FundRef',
@@ -103,6 +107,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Identificador chino de participante',
 	];
 
 	/**
@@ -112,11 +120,11 @@ class CodeList44 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/44
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary name ID scheme',
 		'02' => 'Proprietary',
 		'03' => 'DNB publisher identifier',
-		'04' => 'Börsenverein Verkehrsnummer',
-		'05' => 'German ISBN Agency publisher identifier',
+		'04' => 'Verkehrsnummer - Börsenverein des deutschen Buchhandels',
+		'05' => 'MVB-Kennnummer',
 		'06' => 'GLN',
 		'07' => 'SAN',
 		'08' => 'MARC organization code',
@@ -137,7 +145,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -150,6 +158,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 
 	/**
@@ -197,6 +209,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Identifiant d’adhérent chinois',
 	];
 
 	/**
@@ -206,7 +222,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/44
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di identificazione dei nomi',
 		'02' => 'Proprietario',
 		'03' => 'Codice identificativo dell’editore della DNB',
 		'04' => 'Börsenverein Verkehrsnummer',
@@ -231,7 +247,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -244,6 +260,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Identificativo cinese del partecipante',
 	];
 
 	/**
@@ -253,7 +273,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/44
 	 */
 	protected static $nb = [
-		'01' => 'Proprietær',
+		'01' => 'Proprietær navne-ID',
 		'02' => 'Proprietær',
 		'03' => 'DNB publisher identifier',
 		'04' => 'Börsenverein Verkehrsnummer',
@@ -278,7 +298,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'26' => 'DUNS',
 		'27' => 'Ringgold ID',
 		'28' => 'Identifiant Editeur Electre',
-		'29' => 'EIDR Party DOI',
+		'29' => 'EIDR Party ID',
 		'30' => 'Identifiant Marque Electre',
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
@@ -291,6 +311,10 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 
 	/**
@@ -338,5 +362,9 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'39' => 'IPI',
 		'40' => 'ROR',
 		'41' => 'EORI',
+		'42' => 'LEI',
+		'43' => 'SIREN',
+		'44' => 'SIRET',
+		'45' => 'Chinese Participant identifier',
 	];
 }

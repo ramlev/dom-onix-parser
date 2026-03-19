@@ -84,10 +84,10 @@ class CodeList28 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/28
 	 */
 	protected static $fr = [
-		'01' => 'Général / adultes',
+		'01' => 'Tous publics',
 		'02' => 'Enfants / jeunesse',
 		'03' => 'Adolescents',
-		'04' => 'Primary and secondary education',
+		'04' => 'Ecole primaire / secondaire',
 		'11' => 'Enseignement maternel',
 		'12' => 'Enseignement primaire',
 		'13' => 'Enseignement secondaire inférieur',
@@ -128,19 +128,19 @@ class CodeList28 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/28
 	 */
 	protected static $nb = [
-		'01' => 'General / adult',
-		'02' => 'Children',
-		'03' => 'Teenage',
-		'04' => 'Primary and secondary education',
-		'11' => 'Pre-primary education',
-		'12' => 'Primary education',
-		'13' => 'Lower secondary education',
-		'14' => 'Upper secondary education',
-		'05' => 'Tertiary education',
-		'06' => 'Professional and scholarly',
-		'08' => 'Adult education',
-		'07' => 'ELT/ESL',
-		'09' => 'Second language teaching',
+		'01' => 'Voksen',
+		'02' => 'Barn',
+		'03' => 'Ungdom',
+		'04' => 'Grunnskole og videregående skole',
+		'11' => 'Førskole',
+		'12' => 'Barneskole',
+		'13' => 'Ungdomsskole',
+		'14' => 'Videregående skole',
+		'05' => 'Høyere utdanning',
+		'06' => 'Profesjon og akademisk',
+		'08' => 'Videreutdanning',
+		'07' => 'ELT / ESL',
+		'09' => 'Undervisning i andrespråk',
 	];
 
 	/**

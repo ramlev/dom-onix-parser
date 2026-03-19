@@ -33,7 +33,7 @@ class CodeList148 extends CodeList implements CodeListInterface
 	protected static $es = [
 		'00' => 'No especificado (valor por defecto)',
 		'10' => 'Conjunto definido por la editorial',
-		'11' => 'Collection éditoriale',
+		'11' => '«Collection éditoriale»',
 		'20' => 'Conjunto definido por algún agente externo a la editorial',
 	];
 
@@ -84,8 +84,8 @@ class CodeList148 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'00' => 'Uspesifisert (standard)',
-		'10' => 'Forlagsserie / Forlagsdefinert samling',
-		'11' => 'Collection éditoriale',
+		'10' => 'Serie',
+		'11' => 'Forlagsserie',
 		'20' => 'Annen tilknytning / Tillagt samling',
 	];
 

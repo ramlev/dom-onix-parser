@@ -33,6 +33,13 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN (EU Combined Nomenclature)',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
+		'20' => 'TARIC additional code',
+		'21' => 'HTSUS additional code',
+		'22' => 'CPPAP',
 		'50' => 'Electre genre',
 	];
 
@@ -43,7 +50,7 @@ class CodeList9 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/9
 	 */
 	protected static $es = [
-		'01' => 'Sistema Armonizado',
+		'01' => 'Sistema armonizado de la OMA',
 		'02' => 'UNSPSC',
 		'03' => 'HMRC',
 		'04' => 'Warenverzeichnis für die Außenhandelsstatistik',
@@ -58,6 +65,13 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'Schedule 8',
 		'15' => 'Clave SAT',
+		'16' => 'CN (Nomenclatura Combinada de la UE)',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
+		'20' => 'Código adicional TARIC',
+		'21' => 'Código adicional HTSUS',
+		'22' => 'CPPAP',
 		'50' => 'Electre genre',
 	];
 
@@ -83,6 +97,13 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN (EU Combined Nomenclature)',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
+		'20' => 'TARIC additional code',
+		'21' => 'HTSUS additional code',
+		'22' => 'CPPAP',
 		'50' => 'Electre genre',
 	];
 
@@ -108,6 +129,13 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'EU NC',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
+		'20' => 'TARIC additional code',
+		'21' => 'HTSUS additional code',
+		'22' => 'CPPAP',
 		'50' => 'Genre Electre',
 	];
 
@@ -133,6 +161,13 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN (Nomenclatura combinata dell’Unione europea)',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
+		'20' => 'Codice aggiuntivo TARIC',
+		'21' => 'Codice aggiuntivo HTSUS',
+		'22' => 'CPPAP',
 		'50' => 'Electre genre',
 	];
 
@@ -143,14 +178,14 @@ class CodeList9 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/9
 	 */
 	protected static $nb = [
-		'01' => 'WCO Harmonized System',
+		'01' => 'Det harmoniserte system for beskrivelse og koding av varer (HS) (WCO Harmonized System)',
 		'02' => 'UNSPSC',
 		'03' => 'HMCE',
 		'04' => 'Tysk varefortegnelse for eksportstatistikk',
 		'05' => 'TARIC',
 		'06' => 'Fondsgroep',
-		'07' => 'Sender’s product category',
-		'08' => 'GAPP Product Class',
+		'07' => 'Avsenders produktkategori',
+		'08' => 'GAPP produktklasser',
 		'09' => 'CPA',
 		'10' => 'NCM',
 		'11' => 'CPV',
@@ -158,6 +193,13 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN (EU Combined Nomenclature)',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
+		'20' => 'TARIC tilleggskode',
+		'21' => 'HTSUS tilleggskode',
+		'22' => 'CPPAP',
 		'50' => 'Electre genre',
 	];
 
@@ -183,6 +225,13 @@ class CodeList9 extends CodeList implements CodeListInterface
 		'13' => 'HTSUS',
 		'14' => 'US Schedule B',
 		'15' => 'Clave SAT',
+		'16' => 'CN (EU Combined Nomenclature)',
+		'17' => 'CCT',
+		'18' => 'CACT',
+		'19' => 'NICO',
+		'20' => 'TARIC additional code',
+		'21' => 'HTSUS additional code',
+		'22' => 'CPPAP',
 		'50' => 'Electre türü',
 	];
 }

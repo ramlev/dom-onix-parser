@@ -77,7 +77,11 @@ class CodeList61 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/61
 	 */
-	protected static $nb = ['00' => 'Uspesifisert', '01' => 'Foreløpig', '02' => 'Fast'];
+	protected static $nb = [
+		'00' => 'Uspesifisert',
+		'01' => 'Foreløpig',
+		'02' => 'Fast',
+	];
 
 	/**
 	 * Code List 61 for tr
@@ -85,5 +89,9 @@ class CodeList61 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/61
 	 */
-	protected static $tr = ['00' => 'Belirtilmemiş', '01' => 'Geçici', '02' => 'Kesin'];
+	protected static $tr = [
+		'00' => 'Belirtilmemiş',
+		'01' => 'Geçici',
+		'02' => 'Kesin',
+	];
 }

@@ -158,7 +158,7 @@ class CodeList227 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/227
 	 */
 	protected static $nb = [
-		'P' => 'Preeschool',
+		'P' => 'Preschool',
 		'K' => 'Kindergarten',
 		'1' => 'Primary school First grade',
 		'2' => 'Primary school Second grade',

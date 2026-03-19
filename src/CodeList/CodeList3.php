@@ -51,7 +51,7 @@ class CodeList3 extends CodeList implements CodeListInterface
 		'07' => 'Proveedor de servicios de conversión de la editorial',
 		'08' => 'Proveedor de servicios de conversión',
 		'09' => 'Agencia del ISBN',
-		'10' => 'Agencia de registro del ISTC',
+		'10' => 'Agencia de registro ISTC',
 		'11' => 'Librería general',
 		'12' => 'Librería para el sector educativo',
 		'13' => 'Biblioteca',
@@ -133,20 +133,20 @@ class CodeList3 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/3
 	 */
 	protected static $nb = [
-		'00' => 'Unspecified',
-		'01' => 'Publisher',
-		'02' => 'Publisher’s distributor',
-		'03' => 'Wholesaler',
-		'04' => 'Bibliographic agency',
-		'05' => 'Library bookseller',
-		'06' => 'Publisher’s sales agent',
-		'07' => 'Publisher’s conversion service provider',
-		'08' => 'Conversion service provider',
-		'09' => 'ISBN Registration Agency',
-		'10' => 'ISTC Registration Agency',
-		'11' => 'Retail bookseller',
-		'12' => 'Education bookseller',
-		'13' => 'Library',
+		'00' => 'Uspesifisert',
+		'01' => 'Forlegger',
+		'02' => 'Forlagets distributør',
+		'03' => 'Grossist',
+		'04' => 'Bibliografisk metadataleverandør',
+		'05' => 'Bibliotekleverandør',
+		'06' => 'Forlagets salgsagent',
+		'07' => 'Leverandør av konverteringstjenester til utgiver',
+		'08' => 'Leverandør av konverteringstjenester',
+		'09' => 'ISBN-registreringsbyrå',
+		'10' => 'ISTC-registreringsbyrå',
+		'11' => 'Bokhandler',
+		'12' => 'Akademisk bokhandler',
+		'13' => 'Bibliotek',
 	];
 
 	/**

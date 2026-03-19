@@ -17,7 +17,11 @@ class CodeList31 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/31
 	 */
-	protected static $en = ['01' => 'Exact', '03' => 'From', '04' => 'To'];
+	protected static $en = [
+		'01' => 'Exact',
+		'03' => 'From',
+		'04' => 'To',
+	];
 
 	/**
 	 * Code List 31 for es
@@ -25,7 +29,11 @@ class CodeList31 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/31
 	 */
-	protected static $es = ['01' => 'Exacta', '03' => 'Desde', '04' => 'Hasta'];
+	protected static $es = [
+		'01' => 'Exacta',
+		'03' => 'Desde',
+		'04' => 'Hasta',
+	];
 
 	/**
 	 * Code List 31 for de
@@ -33,7 +41,11 @@ class CodeList31 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/31
 	 */
-	protected static $de = ['01' => 'Exact', '03' => 'From', '04' => 'To'];
+	protected static $de = [
+		'01' => 'Exact',
+		'03' => 'From',
+		'04' => 'To',
+	];
 
 	/**
 	 * Code List 31 for fr
@@ -53,7 +65,11 @@ class CodeList31 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/31
 	 */
-	protected static $it = ['01' => 'Esatta', '03' => 'Da', '04' => 'A'];
+	protected static $it = [
+		'01' => 'Esatta',
+		'03' => 'Da',
+		'04' => 'A',
+	];
 
 	/**
 	 * Code List 31 for nb
@@ -61,7 +77,11 @@ class CodeList31 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/31
 	 */
-	protected static $nb = ['01' => 'Eksakt', '03' => 'Fra', '04' => 'Til'];
+	protected static $nb = [
+		'01' => 'Eksakt',
+		'03' => 'Fra',
+		'04' => 'Til',
+	];
 
 	/**
 	 * Code List 31 for tr

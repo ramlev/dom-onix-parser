@@ -20,7 +20,11 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $en = [
 		'01' => 'Human readable',
 		'02' => 'Professional readable',
+		'03' => 'Human readable additional license',
+		'04' => 'Professional readable additional license',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
+		'21' => 'ODRL additional license',
 	];
 
 	/**
@@ -32,7 +36,11 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $es = [
 		'01' => 'Legible por usuarios',
 		'02' => 'Legible por profesionales',
+		'03' => 'Licencia adicional en formato legible para humanos',
+		'04' => 'Licencia adicional en formato legible para profesionales',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
+		'21' => 'Licencia adicional ODRL',
 	];
 
 	/**
@@ -44,7 +52,11 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $de = [
 		'01' => 'Human readable',
 		'02' => 'Professional readable',
+		'03' => 'Human readable additional license',
+		'04' => 'Professional readable additional license',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
+		'21' => 'ODRL additional license',
 	];
 
 	/**
@@ -56,7 +68,11 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $fr = [
 		'01' => 'Human readable',
 		'02' => 'Professional readable',
+		'03' => 'Human readable additional license',
+		'04' => 'Professional readable additional license',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
+		'21' => 'ODRL additional license',
 	];
 
 	/**
@@ -68,7 +84,11 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $it = [
 		'01' => 'Leggibile da tutti',
 		'02' => 'Leggibile da professionisti',
+		'03' => 'Licenza aggiuntiva leggibile da tutti',
+		'04' => 'Licenza aggiuntiva leggibile da professionisti',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
+		'21' => 'Licenza aggiuntiva ODRL',
 	];
 
 	/**
@@ -80,7 +100,11 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $nb = [
 		'01' => 'For allmenn bruk',
 		'02' => 'For juridiske eksperter',
+		'03' => 'For allmenn bruk, tilleggslisens',
+		'04' => 'For juridiske eksperter, tilleggslisens',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
+		'21' => 'ODRL tilleggslisens',
 	];
 
 	/**
@@ -92,6 +116,10 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $tr = [
 		'01' => 'Gözle okunabilir',
 		'02' => 'Profesyonel okunabilir',
+		'03' => 'Human readable additional license',
+		'04' => 'Professional readable additional license',
 		'10' => 'ONIX-PL',
+		'20' => 'ODRL',
+		'21' => 'ODRL additional license',
 	];
 }

@@ -108,7 +108,7 @@ class CodeList166 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/166
 	 */
 	protected static $nb = [
-		'02' => 'Frigivelsesdato',
+		'02' => 'Sperrefrist',
 		'08' => 'Forventet tilgjengelighetsdato',
 		'18' => 'Siste dato for retur',
 		'25' => 'Tidsfrist for reservasjonsordre',

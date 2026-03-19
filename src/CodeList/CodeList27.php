@@ -148,6 +148,9 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
+		'D4' => 'Austlang',
+		'D5' => 'German Tropes list',
 	];
 
 	/**
@@ -168,12 +171,12 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'09' => 'CDU – Completa',
 		'10' => 'Código de categoría BISAC',
 		'11' => 'Código de región BISAC',
-		'12' => 'Categoría de materias BIC',
-		'13' => 'Calificador geográfico BIC',
-		'14' => 'Calificador de idioma BIC',
-		'15' => 'Calificador cronológico BIC',
-		'16' => 'Calificador de objetivo escolar BIC',
-		'17' => 'Calificador de nivel de lectura e interés especial BIC',
+		'12' => 'Categoría de materias BIC/iBIC',
+		'13' => 'Calificador geográfico BIC/iBIC',
+		'14' => 'Calificador de idioma BIC/iBIC (Idioma como materia)',
+		'15' => 'Calificador cronológico BIC/iBIC',
+		'16' => 'Calificador de objetivo educativo BIC/iBIC',
+		'17' => 'Calificador de nivel de lectura e interés especial BIC/iBIC',
 		'18' => 'DDC-Sachgruppen der Deutschen Nationalbibliografie',
 		'19' => 'Código de género de ficción de la LC',
 		'20' => 'Palabras clave',
@@ -278,8 +281,8 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'C1' => 'Kompetansemål-LK20',
 		'C2' => 'Kompetansemålsett-LK20',
 		'C3' => 'Tverrfaglige temaer-LK20',
-		'C4' => 'CLIL - Type d’article scolaire',
-		'C5' => 'GAR - Type pédagogique',
+		'C4' => 'CLIL – Type d’article scolaire',
+		'C5' => 'GAR – Type pédagogique',
 		'C6' => 'CINE-F',
 		'C7' => 'Klassifikationen von Spielen, Puzzles und Spielwaren',
 		'C8' => 'NBVok NTSF',
@@ -287,6 +290,9 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'Lugares YSO',
+		'D3' => 'Norske emneord',
+		'D4' => 'Austlang',
+		'D5' => 'Lista de tópicos, motivos, ideas o temas recurrentes alemanes (en inglés «tropes»)',
 	];
 
 	/**
@@ -426,6 +432,9 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
+		'D4' => 'Austlang',
+		'D5' => 'German Tropes list',
 	];
 
 	/**
@@ -565,6 +574,9 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'Kauno',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
+		'D4' => 'Austlang',
+		'D5' => 'German Tropes list',
 	];
 
 	/**
@@ -704,6 +716,9 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-luoghi',
+		'D3' => 'Norske emneord',
+		'D4' => 'Austlang',
+		'D5' => 'Elenco dei tropi tedeschi',
 	];
 
 	/**
@@ -724,7 +739,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'09' => 'UDK',
 		'10' => 'BISAC category code',
 		'11' => 'BISAC regionkoder',
-		'12' => 'BIC subsidiary subject',
+		'12' => 'BIC subject category',
 		'13' => 'BIC geographical qualifier',
 		'14' => 'BIC language qualifier (language as subject)',
 		'15' => 'BIC time period qualifier',
@@ -843,6 +858,9 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord (NEO)',
+		'D4' => 'Austlang',
+		'D5' => 'Tysk liste over troper',
 	];
 
 	/**
@@ -982,5 +1000,8 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D0' => 'KAUNO',
 		'D1' => 'SLM',
 		'D2' => 'YSO-places',
+		'D3' => 'Norske emneord',
+		'D4' => 'Austlang',
+		'D5' => 'German Tropes list',
 	];
 }

@@ -19,12 +19,12 @@ class CodeList46 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'00' => 'Sales rights unknown or unstated for any reason',
-		'01' => 'For sale with exclusive rights in the specified countries or territories',
-		'02' => 'For sale with non-exclusive rights in the specified countries or territories',
-		'03' => 'Not for sale in the specified countries or territories (reason unspecified)',
-		'04' => 'Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)',
-		'05' => 'Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)',
-		'06' => 'Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)',
+		'01' => 'For sale, based on publisher’s exclusive publishing rights in the specified territory',
+		'02' => 'For sale, based on publisher’s non-exclusive publishing rights in the specified territory',
+		'03' => 'Not for sale in the specified territory (reason unspecified)',
+		'04' => 'Not for sale in the specified territory (but publisher holds exclusive publishing rights in that territory)',
+		'05' => 'Not for sale in the specified territory (but publisher holds non-exclusive publishing rights in that territory)',
+		'06' => 'Not for sale in the specified territory (because publisher does not hold publishing rights in that territory)',
 		'07' => 'For sale with exclusive rights in the specified countries or territories (sales restriction applies)',
 		'08' => 'For sale with non-exclusive rights in the specified countries or territories (sales restriction applies)',
 	];
@@ -37,12 +37,12 @@ class CodeList46 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'00' => 'Derechos de venta desconocidos o no especificados, por cualquier razón',
-		'01' => 'En venta, con derechos exclusivos, en los países y territorios especificados',
-		'02' => 'En venta, con derechos no exclusivos, en los países y territorios especificados',
-		'03' => 'No la venta en los países y territorios especificados',
-		'04' => 'No a la venta en los países y territorios especificados (pero la editorial conserva los derechos exclusivos en esos países o territorios)',
-		'05' => 'No a la venta en los países y territorios especificados (pero la editorial conserva los derechos no exclusivos en esos países o territorios)',
-		'06' => 'No a la venta en los países y territorios especificados (porque la editorial no tiene los derechos en esos países o territorios)',
+		'01' => 'En venta, basado en los derechos exclusivos de la editorial en el territorio indicado',
+		'02' => 'En venta, basado en los derechos no exclusivos de la editorial en el territorio indicado',
+		'03' => 'No a la venta en el territorio indicado (motivo sin especificar)',
+		'04' => 'No a la venta en el territorio indicado (pero la editorial mantiene los derechos exclusivos de publicación en ese territorio)',
+		'05' => 'No a la venta en el territorio indicado (pero la editorial mantiene los derechos de publicación no exclusivos en ese territorio)',
+		'06' => 'No a la venta en el territorio indicado (porque la editorial no tiene los derechos de publicación en ese territorio)',
 		'07' => 'A la venta, con derechos exclusivos, en los países y territorios especificados (existen restricciones de venta)',
 		'08' => 'A la venta, con derechos no exclusivos, en los países y territorios especificados (existen restricciones de venta)',
 	];
@@ -55,12 +55,12 @@ class CodeList46 extends CodeList implements CodeListInterface
 	 */
 	protected static $de = [
 		'00' => 'Sales rights unknown or unstated for any reason',
-		'01' => 'For sale with exclusive rights in the specified countries or territories',
-		'02' => 'For sale with non-exclusive rights in the specified countries or territories',
-		'03' => 'Not for sale in the specified countries or territories (reason unspecified)',
-		'04' => 'Not for sale in the specified countries (but publisher holds exclusive rights in those countries or territories)',
-		'05' => 'Not for sale in the specified countries (publisher holds non-exclusive rights in those countries or territories)',
-		'06' => 'Not for sale in the specified countries (because publisher does not hold rights in those countries or territories)',
+		'01' => 'For sale, based on publisher’s exclusive publishing rights in the specified territory',
+		'02' => 'For sale, based on publisher’s non-exclusive publishing rights in the specified territory',
+		'03' => 'Not for sale in the specified territory (reason unspecified)',
+		'04' => 'Not for sale in the specified territory (but publisher holds exclusive publishing rights in that territory)',
+		'05' => 'Not for sale in the specified territory (but publisher holds non-exclusive publishing rights in that territory)',
+		'06' => 'Not for sale in the specified territory (because publisher does not hold publishing rights in that territory)',
 		'07' => 'For sale with exclusive rights in the specified countries or territories (sales restriction applies)',
 		'08' => 'For sale with non-exclusive rights in the specified countries or territories (sales restriction applies)',
 	];
@@ -91,12 +91,12 @@ class CodeList46 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'00' => 'Diritti di vendita non conosciuti o non dichiarati',
-		'01' => 'Vendita senza restrizioni con diritti esclusivi nei paesi/regioni specificati',
-		'02' => 'Vendita senza restrizioni con diritti non esclusivi nei paesi/regioni specificati',
-		'03' => 'Divieto di vendita nei paesi/regioni specificati (senza indicazione delle motivazioni)',
-		'04' => 'Divieto di vendita nei paesi specificati (ma l’editore detiene diritti esclusivi di vendita in tali paesi/regioni)',
-		'05' => 'Divieto di vendita nei paesi specificati (ma l’editore detiene diritti non esclusivi di vendita in tali paesi/regioni)',
-		'06' => 'Divieto di vendita nei paesi specificati (perché l’editore non detiene diritti di vendita in tali paesi/regioni)',
+		'01' => 'Vendita in base ai diritti esclusivi di pubblicazione dell’editore nel territorio specificato',
+		'02' => 'Vendita in base ai diritti non esclusivi di pubblicazione dell’editore nel territorio specificato',
+		'03' => 'Divieto di vendita nel territorio specificato (senza indicazione delle motivazioni)',
+		'04' => 'Divieto di vendita nel territorio specificato (ma l’editore detiene i diritti esclusivi di pubblicazione in quel territorio)',
+		'05' => 'Divieto di vendita nel territorio specificato (ma l’editore detiene diritti non esclusivi di pubblicazione in quel territorio)',
+		'06' => 'Divieto di vendita nel territorio specificato (perché l’editore non detiene diritti di pubblicazione in quel territorio)',
 		'07' => 'Diritti esclusivi di vendita nei paesi/regioni specificati (con restrizioni)',
 		'08' => 'Diritti non esclusivi di vendita nei paesi/regioni specificati (con restrizioni)',
 	];
@@ -109,12 +109,12 @@ class CodeList46 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'00' => 'Salgsrettigheter er ikke angitt',
-		'01' => 'For salg med eksklusive rettigheter i spesifisert(e) land',
-		'02' => 'For salg med ikke-eksklusive rettigheter i spesifisert(e) land',
-		'03' => 'Ikke for salg i spesifisert(e) land',
-		'04' => 'Ikke for salg i de spesifiserte landene (men utgiver har eksklusive rettigheter i disse landene eller territoriene)',
-		'05' => 'Ikke for salg i de spesifiserte landene (utgiver har ikke-eksklusive rettigheter i disse landene eller territoriene)',
-		'06' => 'Ikke for salg i de spesifiserte landene (pga. at utgiveren ikke har rettigheter for disse landene eller territoriene)',
+		'01' => 'For salg basert på utgivers eksklusive rettigheter for utgivelse i spesifisert(e) land eller territorier',
+		'02' => 'For salg basert på utgivers ikke-eksklusive rettigheter for utgivelse i spesifisert(e) land eller territorier',
+		'03' => 'Ikke for salg i spesifisert(e) land eller territorier',
+		'04' => 'Ikke for salg i de spesifiserte landene eller territoriene (men utgiver har eksklusive rettigheter for utgivelse i disse landene eller territoriene)',
+		'05' => 'Ikke for salg i de spesifiserte landene eller territoriene (men utgiver har ikke-eksklusive rettigheter for utgivelse i disse landene eller territoriene)',
+		'06' => 'Ikke for salg i de spesifiserte landene eller territoriene (pga. at utgiveren ikke har rettigheter for utgivelse i disse landene eller territoriene)',
 		'07' => 'For salg med eksklusive rettigheter i de spesifiserte landene eller territoriene (salgsrestriksjoner gjelder)',
 		'08' => 'For salg med ikke-eksklusive rettigheter i de spesifiserte landene eller territoriene (salgsrestriksjoner gjelder)',
 	];

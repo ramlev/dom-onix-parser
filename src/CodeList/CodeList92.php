@@ -18,7 +18,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/92
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary name ID scheme',
 		'02' => 'Proprietary',
 		'04' => 'Börsenverein Verkehrsnummer',
 		'05' => 'German ISBN Agency publisher identifier',
@@ -28,6 +28,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -37,7 +39,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/92
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Tipo de identificador de proveedor propio / privado',
 		'02' => 'Propio / Privado',
 		'04' => 'Börsenverein Verkehrsnummer',
 		'05' => 'German ISBN Agency publisher identifier',
@@ -47,6 +49,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'Número de identificación fiscal (NIF) europeo («VAT Id number»)',
+		'41' => 'Número EORI',
+		'45' => 'Identificador chino de participante',
 	];
 
 	/**
@@ -56,7 +60,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/92
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary name ID scheme',
 		'02' => 'Proprietary',
 		'04' => 'Börsenverein Verkehrsnummer',
 		'05' => 'German ISBN Agency publisher identifier',
@@ -66,6 +70,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -85,6 +91,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'Numéro d’identification TVA',
+		'41' => 'EORI',
+		'45' => 'Identifiant d’adhérent chinois',
 	];
 
 	/**
@@ -94,7 +102,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/92
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di identificazione del fornitore',
 		'02' => 'Proprietario',
 		'04' => 'Börsenverein Verkehrsnummer',
 		'05' => 'Codice identificativo attribuito dall’Agenzia ISBN tedesca',
@@ -104,6 +112,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'Numero di partita IVA',
+		'41' => 'EORI',
+		'45' => 'Identificativo cinese del partecipante',
 	];
 
 	/**
@@ -113,7 +123,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/92
 	 */
 	protected static $nb = [
-		'01' => 'Proprietær',
+		'01' => 'Proprietær navne-ID',
 		'02' => 'Proprietær',
 		'04' => 'Börsenverein Verkehrsnummer',
 		'05' => 'German ISBN Agency publisher identifier',
@@ -123,6 +133,8 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'VAT Identity Number',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 
 	/**
@@ -142,5 +154,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'13' => 'Fondscode Boekenbank',
 		'16' => 'ISNI',
 		'23' => 'KDV Kimlik Numarası',
+		'41' => 'EORI',
+		'45' => 'Chinese participant identifier',
 	];
 }

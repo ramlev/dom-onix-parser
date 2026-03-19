@@ -18,7 +18,7 @@ class CodeList179 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/179
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary price coding scheme',
 		'02' => 'Finnish Pocket Book price code',
 		'03' => 'Finnish Miki Book price code',
 	];
@@ -30,7 +30,7 @@ class CodeList179 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/179
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Esquema de códigos de precio propio / privado',
 		'02' => 'Código de precio para libros de bolsillo en Finlandia',
 		'03' => 'Código de precio para «Miki Books» en Finlandia',
 	];
@@ -42,7 +42,7 @@ class CodeList179 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/179
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary price coding scheme',
 		'02' => 'Finnish Pocket Book price code',
 		'03' => 'Finnish Miki Book price code',
 	];
@@ -66,7 +66,7 @@ class CodeList179 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/179
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di codifica del prezzo',
 		'02' => 'Codice prezzo Finnish Pocket Book',
 		'03' => 'Codice prezzo Finnish Miki Book',
 	];
@@ -78,7 +78,7 @@ class CodeList179 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/179
 	 */
 	protected static $nb = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary price coding scheme',
 		'02' => 'Finnish Pocket Book price code',
 		'03' => 'Finnish Miki Book price code',
 	];

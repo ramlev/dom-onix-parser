@@ -18,7 +18,7 @@ class CodeList102 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/102
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary sales outlet ID scheme',
 		'03' => 'ONIX retail sales outlet ID code',
 		'04' => 'Retail sales outlet GLN',
 		'05' => 'Retail sales outlet SAN',
@@ -31,7 +31,7 @@ class CodeList102 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/102
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Esquema de tipo de identificador de punto de venta propio / privado',
 		'03' => 'Código de identificación ONIX del punto de venta a usuarios finales',
 		'04' => 'Identificador GLN del punto de venta',
 		'05' => 'Identificador SAN del punto de venta',
@@ -44,7 +44,7 @@ class CodeList102 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/102
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary sales outlet ID scheme',
 		'03' => 'ONIX retail sales outlet ID code',
 		'04' => 'Retail sales outlet GLN',
 		'05' => 'Retail sales outlet SAN',
@@ -70,7 +70,7 @@ class CodeList102 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/102
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di identificazione del punto vendita',
 		'03' => 'Codice identificativo ONIX del punto vendita al dettaglio',
 		'04' => 'GLN del punto vendita al dettaglio',
 		'05' => 'SAN del punto vendita al dettaglio',
@@ -83,8 +83,8 @@ class CodeList102 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/102
 	 */
 	protected static $nb = [
-		'01' => 'Proprietær',
-		'03' => 'ONIX retail sales outlet ID code',
+		'01' => 'Proprietær ID for utsalgssteder',
+		'03' => 'ONIX-ID for utsalgssteder',
 		'04' => 'GLN for forhandler/utsalgssted',
 		'05' => 'SAN for forhandler/utsalgssted',
 	];

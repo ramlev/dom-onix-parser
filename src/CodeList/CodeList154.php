@@ -21,14 +21,16 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'00' => 'Unrestricted',
 		'01' => 'Restricted',
 		'02' => 'Booktrade',
-		'03' => 'End-customers',
+		'03' => 'End customers',
 		'04' => 'Librarians',
 		'05' => 'Teachers',
 		'06' => 'Students',
 		'07' => 'Press',
 		'08' => 'Shopping comparison service',
 		'09' => 'Search engine index',
-		'10' => 'Bloggers',
+		'10' => 'Social media',
+		'11' => 'Children',
+		'12' => 'Teens',
 	];
 
 	/**
@@ -48,7 +50,9 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'07' => 'Prensa',
 		'08' => 'Servicios de comparación de ofertas de compra',
 		'09' => 'Para indexación por motores de búsqueda',
-		'10' => '«Bloggers»',
+		'10' => 'Redes sociales',
+		'11' => 'Niños',
+		'12' => 'Adolescentes',
 	];
 
 	/**
@@ -61,14 +65,16 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'00' => 'Unrestricted',
 		'01' => 'Restricted',
 		'02' => 'Booktrade',
-		'03' => 'End-customers',
+		'03' => 'End customers',
 		'04' => 'Librarians',
 		'05' => 'Teachers',
 		'06' => 'Students',
 		'07' => 'Press',
 		'08' => 'Shopping comparison service',
 		'09' => 'Search engine index',
-		'10' => 'Bloggers',
+		'10' => 'Social media',
+		'11' => 'Children',
+		'12' => 'Teens',
 	];
 
 	/**
@@ -89,6 +95,8 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'08' => 'Service comparatif d’achats',
 		'09' => 'Index de moteur de recherche',
 		'10' => 'Blogueurs',
+		'11' => 'Children',
+		'12' => 'Teens',
 	];
 
 	/**
@@ -108,7 +116,9 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'07' => 'Stampa',
 		'08' => 'Servizio di confronto degli acquisti',
 		'09' => 'Indice per motori di ricerca',
-		'10' => 'Blogger',
+		'10' => 'Social media',
+		'11' => 'Bambini',
+		'12' => 'Adolescenti',
 	];
 
 	/**
@@ -126,9 +136,11 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'05' => 'Lærere',
 		'06' => 'Studenter',
 		'07' => 'Presse',
-		'08' => 'Shopping comparison service',
+		'08' => 'Sammenligningstjeneste',
 		'09' => 'Søkemotorindeks',
-		'10' => 'Bloggere',
+		'10' => 'Sosiale medier',
+		'11' => 'Barn',
+		'12' => 'Ungdom',
 	];
 
 	/**
@@ -148,6 +160,8 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'07' => 'Basın',
 		'08' => 'Alışveriş karşılaştırma hizmeti',
 		'09' => 'Arama motoru dizini',
-		'10' => 'Bloggers',
+		'10' => 'Social media',
+		'11' => 'Children',
+		'12' => 'Teens',
 	];
 }

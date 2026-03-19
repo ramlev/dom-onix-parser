@@ -22,8 +22,8 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'02' => 'Co-publisher',
 		'03' => 'Sponsor',
 		'04' => 'Publisher of original-language version',
-		'05' => 'Host/distributor of electronic content',
-		'06' => 'Published for/on behalf of',
+		'05' => 'Host / distributor of electronic content',
+		'06' => 'Published for / on behalf of',
 		'07' => 'Published in association with',
 		'09' => 'New or acquiring publisher',
 		'10' => 'Publishing group',
@@ -36,6 +36,7 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'17' => 'Printer',
 		'18' => 'Binder',
 		'19' => 'Manufacturer',
+		'21' => 'Previous publisher',
 	];
 
 	/**
@@ -63,6 +64,7 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'17' => 'Impresor',
 		'18' => 'Encuadernador',
 		'19' => 'Fabricante',
+		'21' => 'Editorial previa',
 	];
 
 	/**
@@ -76,8 +78,8 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'02' => 'Co-publisher',
 		'03' => 'Sponsor',
 		'04' => 'Publisher of original-language version',
-		'05' => 'Host/distributor of electronic content',
-		'06' => 'Published for/on behalf of',
+		'05' => 'Host / distributor of electronic content',
+		'06' => 'Published for / on behalf of',
 		'07' => 'Published in association with',
 		'09' => 'New or acquiring publisher',
 		'10' => 'Publishing group',
@@ -90,6 +92,7 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'17' => 'Printer',
 		'18' => 'Binder',
 		'19' => 'Manufacturer',
+		'21' => 'Previous publisher',
 	];
 
 	/**
@@ -110,13 +113,14 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'10' => 'Groupe de publication',
 		'11' => 'Editeur de l’original du fac-similé',
 		'12' => 'Nouveau relieur de l’édition préreliée',
-		'13' => 'Précédent éditeur',
+		'13' => 'Ancien éditeur',
 		'14' => 'Organisme de financement de publication',
 		'15' => 'Organisme de financement de recherche',
 		'16' => 'Organisme de financement',
 		'17' => 'Imprimeur',
 		'18' => 'Relieur',
 		'19' => 'Fabricant',
+		'21' => 'Editeur précédent',
 	];
 
 	/**
@@ -144,6 +148,7 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'17' => 'Stampatore',
 		'18' => 'Rilegatore',
 		'19' => 'Produttore',
+		'21' => 'Editore precedente',
 	];
 
 	/**
@@ -156,7 +161,7 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'01' => 'Vareeier/utgiver',
 		'02' => 'Sampublisert med',
 		'03' => 'Sponsor',
-		'04' => 'Forlag/utgiver for versjonen på orginalspråket',
+		'04' => 'Forlag/utgiver for versjonen på originalspråket',
 		'05' => 'Vert/distributør av elektronisk innhold',
 		'06' => 'Utgitt for/på vegne av',
 		'07' => 'Utgitt i samarbeid med',
@@ -164,13 +169,14 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'10' => 'Utgivergruppe',
 		'11' => 'Utgiver av original (for faksimile)',
 		'12' => 'Repackager of prebound edition',
-		'13' => 'Tidligere utgiver',
+		'13' => 'Forrige utgiver',
 		'14' => 'Ansvarlig for finansiering av publikasjon',
 		'15' => 'Ansvarlig for finansiering av forskning',
 		'16' => 'Ansvarlig for finansiering',
 		'17' => 'Trykkeri',
 		'18' => 'Bokbinder',
 		'19' => 'Produsent',
+		'21' => 'Tidligere utgiver',
 	];
 
 	/**
@@ -198,5 +204,6 @@ class CodeList45 extends CodeList implements CodeListInterface
 		'17' => 'Basımcı',
 		'18' => 'Mücellit',
 		'19' => 'Üretici',
+		'21' => 'Previous publisher',
 	];
 }

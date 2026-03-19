@@ -18,7 +18,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/43
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary text item ID scheme',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'09' => 'PII',
@@ -35,7 +35,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/43
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Código de tipo de identificador de elemento de texto propio / privado',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'09' => 'PII',
@@ -52,7 +52,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/43
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary text item ID scheme',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'09' => 'PII',
@@ -86,7 +86,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/43
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di identificazione degli elementi di testo',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'09' => 'PII',
@@ -103,7 +103,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/43
 	 */
 	protected static $nb = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary text item ID scheme',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'09' => 'PII',

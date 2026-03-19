@@ -45,6 +45,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Imitation leather',
 		'26' => 'Pigskin',
 		'27' => 'Goatskin',
+		'28' => 'Rubber',
+		'29' => 'Padded or quilted fabric',
 	];
 
 	/**
@@ -81,6 +83,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Imitación piel',
 		'26' => 'Piel de cerdo',
 		'27' => 'Piel de cabra',
+		'28' => 'Caucho',
+		'29' => 'Tela acolchada o con relleno',
 	];
 
 	/**
@@ -117,6 +121,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Imitation leather',
 		'26' => 'Pigskin',
 		'27' => 'Goatskin',
+		'28' => 'Rubber',
+		'29' => 'Padded or quilted fabric',
 	];
 
 	/**
@@ -153,6 +159,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Imitation cuir',
 		'26' => 'Cuir de porc',
 		'27' => 'Cuir de chèvre',
+		'28' => 'Rubber',
+		'29' => 'Padded or quilted fabric',
 	];
 
 	/**
@@ -189,6 +197,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Similpelle',
 		'26' => 'Pelle di maiale',
 		'27' => 'Pelle di capra',
+		'28' => 'Gomma',
+		'29' => 'Tessuto imbottito o trapuntato',
 	];
 
 	/**
@@ -225,6 +235,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Imitation leather',
 		'26' => 'Pigskin',
 		'27' => 'Goatskin',
+		'28' => 'Rubber',
+		'29' => 'Padded or quilted fabric',
 	];
 
 	/**
@@ -261,5 +273,7 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Suni deri',
 		'26' => 'Domuz derisi',
 		'27' => 'Keçi derisi',
+		'28' => 'Rubber',
+		'29' => 'Padded or quilted fabric',
 	];
 }

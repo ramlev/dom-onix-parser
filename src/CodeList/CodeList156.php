@@ -24,6 +24,8 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'04' => '‘One locality, one book’ program',
 		'05' => 'Curated list',
 		'06' => 'Commentary / discussion',
+		'07' => 'Interview',
+		'08' => 'Soundtrack',
 	];
 
 	/**
@@ -39,6 +41,8 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'04' => 'Programa «One locality, one book» (Una localidad, un libro)',
 		'05' => 'Lista seleccionada',
 		'06' => 'Comentario / debate',
+		'07' => 'Entrevista',
+		'08' => 'Banda sonora',
 	];
 
 	/**
@@ -54,6 +58,8 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'04' => '‘One locality, one book’ program',
 		'05' => 'Curated list',
 		'06' => 'Commentary / discussion',
+		'07' => 'Interview',
+		'08' => 'Soundtrack',
 	];
 
 	/**
@@ -69,6 +75,8 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'04' => 'Programme « Une ville, un livre »',
 		'05' => 'Bibliographie sélective',
 		'06' => 'Commentaire/discussion',
+		'07' => 'Interview',
+		'08' => 'Soundtrack',
 	];
 
 	/**
@@ -84,6 +92,8 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'04' => 'Programma «One locality, one book»',
 		'05' => 'Lista selezionata',
 		'06' => 'Commento/discussione',
+		'07' => 'Intervista',
+		'08' => 'Traccia audio',
 	];
 
 	/**
@@ -99,6 +109,8 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'04' => '‘One locality, one book’ program',
 		'05' => 'Redigert liste',
 		'06' => 'Kommentar / diskusjon',
+		'07' => 'Intervju',
+		'08' => 'Lydspor',
 	];
 
 	/**
@@ -114,5 +126,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'04' => '‘Bir yer, bir kitap’ programı',
 		'05' => 'Seçilmiş liste',
 		'06' => 'Commentary / discussion',
+		'07' => 'Interview',
+		'08' => 'Soundtrack',
 	];
 }

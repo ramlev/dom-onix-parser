@@ -17,7 +17,10 @@ class CodeList222 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/222
 	 */
-	protected static $en = ['01' => 'Ingest date', '02' => 'Export date'];
+	protected static $en = [
+		'01' => 'Ingest date',
+		'02' => 'Export date',
+	];
 
 	/**
 	 * Code List 222 for es
@@ -25,7 +28,10 @@ class CodeList222 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/222
 	 */
-	protected static $es = ['01' => 'Ingest date', '02' => 'Export date'];
+	protected static $es = [
+		'01' => 'Ingest date',
+		'02' => 'Export date',
+	];
 
 	/**
 	 * Code List 222 for de
@@ -33,7 +39,10 @@ class CodeList222 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/222
 	 */
-	protected static $de = ['01' => 'Ingest date', '02' => 'Export date'];
+	protected static $de = [
+		'01' => 'Ingest date',
+		'02' => 'Export date',
+	];
 
 	/**
 	 * Code List 222 for fr
@@ -41,7 +50,10 @@ class CodeList222 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/222
 	 */
-	protected static $fr = ['01' => 'Date d’intégration', '02' => 'Date d’export'];
+	protected static $fr = [
+		'01' => 'Date d’intégration',
+		'02' => 'Date d’export',
+	];
 
 	/**
 	 * Code List 222 for it
@@ -49,7 +61,10 @@ class CodeList222 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/222
 	 */
-	protected static $it = ['01' => 'Data di importazione', '02' => 'Data di esportazione'];
+	protected static $it = [
+		'01' => 'Data di importazione',
+		'02' => 'Data di esportazione',
+	];
 
 	/**
 	 * Code List 222 for nb
@@ -57,7 +72,10 @@ class CodeList222 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/222
 	 */
-	protected static $nb = ['01' => 'Ingest date', '02' => 'Export date'];
+	protected static $nb = [
+		'01' => 'Ingest date',
+		'02' => 'Export date',
+	];
 
 	/**
 	 * Code List 222 for tr
@@ -65,5 +83,8 @@ class CodeList222 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/222
 	 */
-	protected static $tr = ['01' => 'Ingest date', '02' => 'Export date'];
+	protected static $tr = [
+		'01' => 'Ingest date',
+		'02' => 'Export date',
+	];
 }

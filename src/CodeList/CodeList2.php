@@ -50,13 +50,13 @@ class CodeList2 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/2
 	 */
 	protected static $de = [
-		'00' => 'Einteiliges Produkt',
-		'01' => 'Single-component, not available separately',
-		'10' => 'Mehrteiliges Produkt',
-		'11' => 'Multiple-item collection, retailed as separate parts',
+		'00' => 'Produktzusammensetzung (Product composition)',
+		'01' => 'Einteiliges Produkt',
+		'10' => 'Einteiliges Produkt, nicht einzeln erhältlich',
+		'11' => 'Mehrteiliges Produkt',
 		'20' => 'Trade-only product',
 		'30' => 'Multiple-item trade-only pack',
-		'31' => 'Multiple-item pack',
+		'31' => 'Mehrartikelpaket',
 	];
 
 	/**

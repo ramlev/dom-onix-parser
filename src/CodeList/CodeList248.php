@@ -27,10 +27,11 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'A425' => 'ID3v2',
 		'B001' => 'Printed long grain',
 		'B002' => 'Printed short grain',
-		'B003' => 'Monochrome',
+		'B003' => 'Printed monochrome',
 		'B004' => 'Printed CMYK',
 		'B005' => 'Printed higher-quality CMYK',
 		'B006' => 'Printed with bleed',
+		'B007' => 'Printed higher-quality monochrome',
 	];
 
 	/**
@@ -49,10 +50,11 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'A425' => 'ID3v2',
 		'B001' => 'Impreso en grano largo',
 		'B002' => 'Impreso en grano corto',
-		'B003' => 'Monocromo',
+		'B003' => 'Impreso en monocromo',
 		'B004' => 'Impreso en CMYK',
 		'B005' => 'Impreso en CMYK de alta calidad',
 		'B006' => 'Impreso con sangrado',
+		'B007' => 'Impreso en monocromo de alta calidad',
 	];
 
 	/**
@@ -71,10 +73,11 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'A425' => 'ID3v2',
 		'B001' => 'Printed long grain',
 		'B002' => 'Printed short grain',
-		'B003' => 'Monochrome',
+		'B003' => 'Printed monochrome',
 		'B004' => 'Printed CMYK',
 		'B005' => 'Printed higher-quality CMYK',
 		'B006' => 'Printed with bleed',
+		'B007' => 'Printed higher-quality monochrome',
 	];
 
 	/**
@@ -97,6 +100,7 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'B004' => 'Impression CMJN',
 		'B005' => 'Impression d’une qualité supérieure CMJN',
 		'B006' => 'Impression avec débordement du cadre d’impression',
+		'B007' => 'Printed higher-quality monochrome',
 	];
 
 	/**
@@ -115,10 +119,11 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'A425' => 'ID3v2',
 		'B001' => 'Stampa su carta a grana lunga',
 		'B002' => 'Stampa su carta a grana corta',
-		'B003' => 'Monocromia',
+		'B003' => 'Stampa in monocromia',
 		'B004' => 'Stampa in quadricromia',
 		'B005' => 'Stampa in quadricromia di qualità superiore',
 		'B006' => 'Stampa al vivo',
+		'B007' => 'Stampa in monocromia di qualità superiore',
 	];
 
 	/**
@@ -137,10 +142,11 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'A425' => 'ID3v2',
 		'B001' => 'Printed long grain',
 		'B002' => 'Printed short grain',
-		'B003' => 'Monochrome',
+		'B003' => 'Printed monochrome',
 		'B004' => 'Printed CMYK',
 		'B005' => 'Printed higher-quality CMYK',
 		'B006' => 'Printed with bleed',
+		'B007' => 'Printed higher-quality monochrome',
 	];
 
 	/**
@@ -159,9 +165,10 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'A425' => 'ID3v2',
 		'B001' => 'Printed long grain',
 		'B002' => 'Printed short grain',
-		'B003' => 'Monochrome',
+		'B003' => 'Printed monochrome',
 		'B004' => 'Printed CMYK',
 		'B005' => 'Printed higher-quality CMYK',
 		'B006' => 'Printed with bleed',
+		'B007' => 'Printed higher-quality monochrome',
 	];
 }

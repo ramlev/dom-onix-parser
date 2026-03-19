@@ -3,6 +3,8 @@
 namespace Dso\Onix\Normalizer;
 
 use Dso\Onix\CodeList\CodeList;
+use Dso\Onix\Exception\InvalidCodeListCodeException;
+use Symfony\Component\Serializer\Exception\NotNormalizableValueException;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 
@@ -38,7 +40,11 @@ class CodeListNormalizer implements NormalizerInterface, DenormalizerInterface
 
     public function denormalize(mixed $data, string $type, ?string $format = null, array $context = []): mixed
     {
-        return $type::resolve($data, $this->language);
+        try {
+            return $type::resolve($data, $this->language);
+        } catch (InvalidCodeListCodeException $e) {
+            throw new NotNormalizableValueException($e->getMessage(), $e->getCode(), $e);
+        }
     }
 
 }

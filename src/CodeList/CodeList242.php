@@ -39,6 +39,8 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'27' => 'Zinc-Carbon',
 		'28' => 'Zinc-air',
 		'29' => 'Silver oxide',
+		'97' => 'WEEE waste',
+		'98' => 'Battery safety warning text',
 		'99' => 'Battery description',
 	];
 
@@ -70,6 +72,8 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'27' => 'Cinc-Carbono',
 		'28' => 'Cinc-Aire',
 		'29' => 'Óxido de plata',
+		'97' => 'Residuos RAEE («WEEE» en inglés)',
+		'98' => 'Texto de advertencia sobre la seguridad de las baterías',
 		'99' => 'Descripción de la batería',
 	];
 
@@ -101,6 +105,8 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'27' => 'Zinc-Carbon',
 		'28' => 'Zinc-air',
 		'29' => 'Silver oxide',
+		'97' => 'WEEE waste',
+		'98' => 'Battery safety warning text',
 		'99' => 'Battery description',
 	];
 
@@ -127,11 +133,13 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'22' => 'Lithium-polymère',
 		'23' => 'Lithium-métal',
 		'24' => 'Nickel-hydrure métallique',
-		'25' => 'Nickel-cadmium',
+		'25' => 'Nickel-Cadmium',
 		'26' => 'Zinc-dioxyde de manganèse',
 		'27' => 'Zinc-carbone',
 		'28' => 'Zinc-air',
 		'29' => 'Pile à l’oxyde d’argent',
+		'97' => 'WEEE waste',
+		'98' => 'Battery safety warning text',
 		'99' => 'Description de la batterie',
 	];
 
@@ -163,6 +171,8 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'27' => 'Zinco-carbone',
 		'28' => 'Zinco-aria',
 		'29' => 'Ossido d’argento',
+		'97' => 'Rifiuto RAEE',
+		'98' => 'Testo di avvertenza sulla sicurezza della batteria',
 		'99' => 'Descrizione della batteria',
 	];
 
@@ -173,28 +183,30 @@ class CodeList242 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/242
 	 */
 	protected static $nb = [
-		'00' => 'Batteries not required',
-		'01' => 'Batteries built in',
-		'02' => 'Batteries pre-installed',
-		'03' => 'Batteries supplied',
-		'04' => 'Batteries required',
-		'05' => 'Batteries supplied spare',
-		'06' => 'Safety data sheet available',
-		'07' => 'Technical data sheet available',
-		'08' => 'Rechargeable',
-		'09' => 'Non-rechargeable',
-		'10' => 'Battery warning text',
-		'20' => 'Battery chemistry',
-		'21' => 'Lithium-ion',
-		'22' => 'Lithium-polymer',
-		'23' => 'Lithium-metal',
-		'24' => 'Nickel-metal hydride',
-		'25' => 'Nickel-Cadmium',
-		'26' => 'Zinc-Manganese dioxide',
-		'27' => 'Zinc-Carbon',
-		'28' => 'Zinc-air',
-		'29' => 'Silver oxide',
-		'99' => 'Battery description',
+		'00' => 'Batterier er ikke inkludert',
+		'01' => 'Innebygde batterier',
+		'02' => 'Forhåndsinstallerte batterier',
+		'03' => 'Batterier medfølger',
+		'04' => 'Batterier kreves',
+		'05' => 'Reservebatterier inkludert',
+		'06' => 'Sikkerhetsdatablad',
+		'07' => 'Teknisk datablad',
+		'08' => 'Oppladbare',
+		'09' => 'Ikke oppladbare',
+		'10' => 'Batteri',
+		'20' => 'Batterikjemi',
+		'21' => 'Litium-ionebatteri',
+		'22' => 'Litiumpolymerbatteri',
+		'23' => 'Litiummetallbatteri',
+		'24' => 'Nikkel-metalhydrid',
+		'25' => 'Nikkel-kadmium',
+		'26' => 'Alkaliske batterier',
+		'27' => 'Sink-karbonbatteri',
+		'28' => 'Sink-luftbatteri',
+		'29' => 'Sølvoksidbatteri',
+		'97' => 'WEEE-avfall',
+		'98' => 'Batterier: sikkerhet og advarsler',
+		'99' => 'Batteribeskrivelse',
 	];
 
 	/**
@@ -225,6 +237,8 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'27' => 'Zinc-Carbon',
 		'28' => 'Zinc-air',
 		'29' => 'Silver oxide',
+		'97' => 'WEEE waste',
+		'98' => 'Battery safety warning text',
 		'99' => 'Battery description',
 	];
 }

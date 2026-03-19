@@ -17,7 +17,9 @@ class CodeList97 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/97
 	 */
-	protected static $en = ['RL' => 'Red letter'];
+	protected static $en = [
+		'RL' => 'Red letter',
+	];
 
 	/**
 	 * Code List 97 for es
@@ -25,7 +27,9 @@ class CodeList97 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/97
 	 */
-	protected static $es = ['RL' => 'Letras rojas'];
+	protected static $es = [
+		'RL' => 'Letras rojas',
+	];
 
 	/**
 	 * Code List 97 for de
@@ -33,7 +37,9 @@ class CodeList97 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/97
 	 */
-	protected static $de = ['RL' => 'Red letter'];
+	protected static $de = [
+		'RL' => 'Red letter',
+	];
 
 	/**
 	 * Code List 97 for fr
@@ -41,7 +47,9 @@ class CodeList97 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/97
 	 */
-	protected static $fr = ['RL' => 'Lettres rouges'];
+	protected static $fr = [
+		'RL' => 'Lettres rouges',
+	];
 
 	/**
 	 * Code List 97 for it
@@ -49,7 +57,9 @@ class CodeList97 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/97
 	 */
-	protected static $it = ['RL' => 'Caratteri rossi'];
+	protected static $it = [
+		'RL' => 'Caratteri rossi',
+	];
 
 	/**
 	 * Code List 97 for nb
@@ -57,7 +67,9 @@ class CodeList97 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/97
 	 */
-	protected static $nb = ['RL' => 'Rød skrift'];
+	protected static $nb = [
+		'RL' => 'Rød skrift',
+	];
 
 	/**
 	 * Code List 97 for tr
@@ -65,5 +77,7 @@ class CodeList97 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/97
 	 */
-	protected static $tr = ['RL' => 'Kırmızı harfli'];
+	protected static $tr = [
+		'RL' => 'Kırmızı harfli',
+	];
 }

@@ -26,9 +26,11 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'05' => 'Text to speech',
 		'06' => 'Lend',
 		'07' => 'Time-limited license',
-		'08' => 'Loan renewal',
+		'08' => 'Library loan renewal',
 		'09' => 'Multi-user license',
 		'10' => 'Preview on premises',
+		'11' => 'Text and data mining',
+		'16' => 'Library loan',
 	];
 
 	/**
@@ -44,11 +46,13 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'03' => 'Copiar / Pegar',
 		'04' => 'Compartir',
 		'05' => 'Texto a voz',
-		'06' => 'Préstamo',
+		'06' => 'Préstamo entre particulares',
 		'07' => 'Licencia por tiempo limitado',
-		'08' => 'Renovación de préstamo',
+		'08' => 'Renovación de préstamo en biblioteca',
 		'09' => 'Licencia multi-usuario',
 		'10' => 'Previsualización en una ubicación física',
+		'11' => 'Minería de texto y datos',
+		'16' => 'Préstamo en biblioteca',
 	];
 
 	/**
@@ -66,9 +70,11 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'05' => 'Text to speech',
 		'06' => 'Lend',
 		'07' => 'Time-limited license',
-		'08' => 'Loan renewal',
+		'08' => 'Library loan renewal',
 		'09' => 'Multi-user license',
 		'10' => 'Preview on premises',
+		'11' => 'Text and data mining',
+		'16' => 'Library loan',
 	];
 
 	/**
@@ -89,6 +95,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Renouvellement du prêt',
 		'09' => 'Licence multi-utilisateurs',
 		'10' => 'Aperçu sur site',
+		'11' => 'Text and data mining',
+		'16' => 'Library loan',
 	];
 
 	/**
@@ -106,9 +114,11 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'05' => 'Da testo a voce',
 		'06' => 'Prestito',
 		'07' => 'Licenza limitata nel tempo',
-		'08' => 'Rinnovo del prestito',
+		'08' => 'Rinnovo del prestito bibliotecario',
 		'09' => 'Licenza multiutente',
 		'10' => 'Anteprima in loco',
+		'11' => 'Estrazione di testo e dati (Text and Data mining)',
+		'16' => 'Prestito bibliotecario',
 	];
 
 	/**
@@ -126,9 +136,11 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'05' => 'Tekst til tale',
 		'06' => 'Lån',
 		'07' => 'Tidsbegrenset lisens',
-		'08' => 'Fornyelse av lån',
+		'08' => 'Fornyelse av biblioteklån',
 		'09' => 'Flerbrukerlisens',
-		'10' => 'Forhåndvisning på lokasjon',
+		'10' => 'Forhåndsvisning på lokasjon',
+		'11' => 'Tekst- og dataanalyse',
+		'16' => 'Bibliotekutlån',
 	];
 
 	/**
@@ -149,5 +161,7 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'08' => 'Ödünç yenileme',
 		'09' => 'Çok kullanıcılı lisans',
 		'10' => 'Preview on premises',
+		'11' => 'Text and data mining',
+		'16' => 'Library loan',
 	];
 }

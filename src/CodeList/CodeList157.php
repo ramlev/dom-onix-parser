@@ -22,6 +22,9 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'02' => 'Website',
 		'03' => 'Radio',
 		'04' => 'TV',
+		'05' => 'Podcast',
+		'06' => 'Social media',
+		'07' => 'Playlist',
 	];
 
 	/**
@@ -35,6 +38,9 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'02' => 'Sitio web',
 		'03' => 'Radio',
 		'04' => 'TV',
+		'05' => '«Podcast»',
+		'06' => 'Redes sociales',
+		'07' => 'Lista de reproducción',
 	];
 
 	/**
@@ -48,6 +54,9 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'02' => 'Website',
 		'03' => 'Radio',
 		'04' => 'TV',
+		'05' => 'Podcast',
+		'06' => 'Social media',
+		'07' => 'Playlist',
 	];
 
 	/**
@@ -61,6 +70,9 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'02' => 'Site web',
 		'03' => 'Radio',
 		'04' => 'TV',
+		'05' => 'Podcast',
+		'06' => 'Social media',
+		'07' => 'Playlist',
 	];
 
 	/**
@@ -74,6 +86,9 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'02' => 'Sito internet',
 		'03' => 'Radio',
 		'04' => 'TV',
+		'05' => 'Podcast',
+		'06' => 'Social media',
+		'07' => 'Playlist',
 	];
 
 	/**
@@ -87,6 +102,9 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'02' => 'Nettsted',
 		'03' => 'Radio',
 		'04' => 'TV',
+		'05' => 'Podkast',
+		'06' => 'Sosiale medier',
+		'07' => 'Spilleliste',
 	];
 
 	/**
@@ -100,5 +118,8 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'02' => 'İnternet sitesi',
 		'03' => 'Radyo',
 		'04' => 'TV',
+		'05' => 'Podcast',
+		'06' => 'Social media',
+		'07' => 'Playlist',
 	];
 }

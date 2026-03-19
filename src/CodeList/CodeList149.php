@@ -24,6 +24,7 @@ class CodeList149 extends CodeList implements CodeListInterface
 		'04' => 'Content item',
 		'05' => 'Master brand',
 		'06' => 'Sub-subcollection',
+		'07' => 'Universe',
 	];
 
 	/**
@@ -34,11 +35,12 @@ class CodeList149 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'01' => 'Producto',
-		'02' => 'Nivel del conjunto',
-		'03' => 'Subnivel',
+		'02' => 'Primer nivel del conjunto jerárquico',
+		'03' => 'Segundo nivel del conjunto jerárquico',
 		'04' => 'Elemento de contenido',
 		'05' => 'Marca global («Master brand»)',
-		'06' => 'Sub-subcolección',
+		'06' => 'Tercer nivel del conjunto jerárquico',
+		'07' => 'Universo',
 	];
 
 	/**
@@ -54,6 +56,7 @@ class CodeList149 extends CodeList implements CodeListInterface
 		'04' => 'Content item',
 		'05' => 'Master brand',
 		'06' => 'Sub-subcollection',
+		'07' => 'Universe',
 	];
 
 	/**
@@ -69,6 +72,7 @@ class CodeList149 extends CodeList implements CodeListInterface
 		'04' => 'Elément contenu',
 		'05' => 'Marque principale',
 		'06' => 'Sous-sous-collection',
+		'07' => 'Univers',
 	];
 
 	/**
@@ -84,6 +88,7 @@ class CodeList149 extends CodeList implements CodeListInterface
 		'04' => 'Contenuto',
 		'05' => 'Brand principale',
 		'06' => 'Sotto-sottocollezione',
+		'07' => 'Universo',
 	];
 
 	/**
@@ -99,6 +104,7 @@ class CodeList149 extends CodeList implements CodeListInterface
 		'04' => 'Innholdselement',
 		'05' => 'Merkevarenavn',
 		'06' => 'Samlingsnivå (tredje nivå)',
+		'07' => 'Univers',
 	];
 
 	/**
@@ -114,5 +120,6 @@ class CodeList149 extends CodeList implements CodeListInterface
 		'04' => 'İçerik ögesi',
 		'05' => 'Ana marka',
 		'06' => 'Alt-alt koleksiyon',
+		'07' => 'Universe',
 	];
 }

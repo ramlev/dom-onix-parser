@@ -33,6 +33,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Expanded title',
 		'14' => 'Alternative title',
 		'15' => 'Alternative title on spine',
+		'16' => 'Translated from title',
 	];
 
 	/**
@@ -43,7 +44,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'00' => 'No definido',
-		'01' => 'Título distintivo',
+		'01' => 'Título distintivo (libro); Título de elemento contenido, de un conjunto o de un recurso',
 		'02' => 'Título clave de la publicación periódica atribuido por el ISSN',
 		'03' => 'Título en idioma original',
 		'04' => 'Acrónimo del título',
@@ -51,12 +52,13 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'06' => 'Título en otro idioma',
 		'07' => 'Título monográfico de número suelto de publicación periódica',
 		'08' => 'Título anterior',
-		'10' => 'Título para el distribuidor',
+		'10' => 'Título del distribuidor',
 		'11' => 'Título alternativo en cubierta',
 		'12' => 'Título alternativo en contracubierta',
 		'13' => 'Título expandido para libro de texto',
 		'14' => 'Título alternativo',
 		'15' => 'Título alternativo en el lomo',
+		'16' => 'Traducido del título',
 	];
 
 	/**
@@ -140,7 +142,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 	protected static $nb = [
 		'00' => 'Udefinert',
 		'01' => 'Fullstendig tittel (bok eller serie)',
-		'02' => 'ISSN-nøkkeltittel for tidskrift',
+		'02' => 'ISSN-nøkkeltittel for tidsskrift',
 		'03' => 'Originaltittel',
 		'04' => 'Tittelakronym',
 		'05' => 'Forkortet tittel',
@@ -153,6 +155,7 @@ class CodeList15 extends CodeList implements CodeListInterface
 		'13' => 'Utvidet tittel',
 		'14' => 'Alternativ tittel',
 		'15' => 'Ryggtittel',
+		'16' => 'Oversatt fra',
 	];
 
 	/**

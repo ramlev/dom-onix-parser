@@ -17,7 +17,10 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/251
 	 */
-	protected static $en = [];
+	protected static $en = [
+		'C01' => 'Cover',
+		'C02' => 'Jacket',
+	];
 
 	/**
 	 * Code List 251 for es
@@ -25,7 +28,10 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/251
 	 */
-	protected static $es = [];
+	protected static $es = [
+		'C01' => 'Cubierta',
+		'C02' => 'Sobrecubierta',
+	];
 
 	/**
 	 * Code List 251 for de
@@ -33,7 +39,10 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/251
 	 */
-	protected static $de = [];
+	protected static $de = [
+		'C01' => 'Cover',
+		'C02' => 'Jacket',
+	];
 
 	/**
 	 * Code List 251 for fr
@@ -41,7 +50,10 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/251
 	 */
-	protected static $fr = [];
+	protected static $fr = [
+		'C01' => 'Cover',
+		'C02' => 'Jacket',
+	];
 
 	/**
 	 * Code List 251 for it
@@ -49,7 +61,10 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/251
 	 */
-	protected static $it = [];
+	protected static $it = [
+		'C01' => 'Copertina',
+		'C02' => 'Sovraccoperta',
+	];
 
 	/**
 	 * Code List 251 for nb
@@ -57,7 +72,10 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/251
 	 */
-	protected static $nb = [];
+	protected static $nb = [
+		'C01' => 'Cover',
+		'C02' => 'Jacket',
+	];
 
 	/**
 	 * Code List 251 for tr
@@ -65,5 +83,8 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/251
 	 */
-	protected static $tr = [];
+	protected static $tr = [
+		'C01' => 'Cover',
+		'C02' => 'Jacket',
+	];
 }

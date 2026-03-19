@@ -17,7 +17,9 @@ class CodeList89 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/89
 	 */
-	protected static $en = ['01' => 'Church season or activity'];
+	protected static $en = [
+		'01' => 'Church season or activity',
+	];
 
 	/**
 	 * Code List 89 for es
@@ -25,7 +27,9 @@ class CodeList89 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/89
 	 */
-	protected static $es = ['01' => 'Fecha o actividad litúrgica'];
+	protected static $es = [
+		'01' => 'Fecha o actividad litúrgica',
+	];
 
 	/**
 	 * Code List 89 for de
@@ -33,7 +37,9 @@ class CodeList89 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/89
 	 */
-	protected static $de = ['01' => 'Church season or activity'];
+	protected static $de = [
+		'01' => 'Church season or activity',
+	];
 
 	/**
 	 * Code List 89 for fr
@@ -41,7 +47,9 @@ class CodeList89 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/89
 	 */
-	protected static $fr = ['01' => 'Saison ou activité de l’église'];
+	protected static $fr = [
+		'01' => 'Saison ou activité de l’église',
+	];
 
 	/**
 	 * Code List 89 for it
@@ -49,7 +57,9 @@ class CodeList89 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/89
 	 */
-	protected static $it = ['01' => 'Attività o calendarizzazione religiose'];
+	protected static $it = [
+		'01' => 'Attività o calendarizzazione religiose',
+	];
 
 	/**
 	 * Code List 89 for nb
@@ -57,7 +67,9 @@ class CodeList89 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/89
 	 */
-	protected static $nb = ['01' => 'Church season or activity'];
+	protected static $nb = [
+		'01' => 'Church season or activity',
+	];
 
 	/**
 	 * Code List 89 for tr
@@ -65,5 +77,7 @@ class CodeList89 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/89
 	 */
-	protected static $tr = ['01' => 'Kilise dönemi ya da etkinliği'];
+	protected static $tr = [
+		'01' => 'Kilise dönemi ya da etkinliği',
+	];
 }

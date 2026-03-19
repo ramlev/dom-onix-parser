@@ -17,7 +17,10 @@ class CodeList225 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/225
 	 */
-	protected static $en = ['000' => 'Unknown error', '001' => 'Unknown warning'];
+	protected static $en = [
+		'000' => 'Unknown error',
+		'001' => 'Unknown warning',
+	];
 
 	/**
 	 * Code List 225 for es
@@ -25,7 +28,10 @@ class CodeList225 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/225
 	 */
-	protected static $es = ['000' => 'Unknown error', '001' => 'Unknown warning'];
+	protected static $es = [
+		'000' => 'Unknown error',
+		'001' => 'Unknown warning',
+	];
 
 	/**
 	 * Code List 225 for de
@@ -33,7 +39,10 @@ class CodeList225 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/225
 	 */
-	protected static $de = ['000' => 'Unknown error', '001' => 'Unknown warning'];
+	protected static $de = [
+		'000' => 'Unknown error',
+		'001' => 'Unknown warning',
+	];
 
 	/**
 	 * Code List 225 for fr
@@ -41,7 +50,10 @@ class CodeList225 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/225
 	 */
-	protected static $fr = ['000' => 'Erreur inconnue', '001' => 'Avertissement inconnu'];
+	protected static $fr = [
+		'000' => 'Erreur inconnue',
+		'001' => 'Avertissement inconnu',
+	];
 
 	/**
 	 * Code List 225 for it
@@ -49,7 +61,10 @@ class CodeList225 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/225
 	 */
-	protected static $it = ['000' => 'Errore sconosciuto', '001' => 'Avvertimento sconosciuto'];
+	protected static $it = [
+		'000' => 'Errore sconosciuto',
+		'001' => 'Avvertimento sconosciuto',
+	];
 
 	/**
 	 * Code List 225 for nb
@@ -57,7 +72,10 @@ class CodeList225 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/225
 	 */
-	protected static $nb = ['000' => 'Unknown error', '001' => 'Unknown warning'];
+	protected static $nb = [
+		'000' => 'Unknown error',
+		'001' => 'Unknown warning',
+	];
 
 	/**
 	 * Code List 225 for tr
@@ -65,5 +83,8 @@ class CodeList225 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/225
 	 */
-	protected static $tr = ['000' => 'Unknown error', '001' => 'Unknown warning'];
+	protected static $tr = [
+		'000' => 'Unknown error',
+		'001' => 'Unknown warning',
+	];
 }

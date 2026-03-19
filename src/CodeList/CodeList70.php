@@ -17,7 +17,10 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/70
 	 */
-	protected static $en = ['01' => 'Proprietary', '02' => 'APA stock quantity code'];
+	protected static $en = [
+		'01' => 'Proprietary stock quantity coding scheme',
+		'02' => 'APA stock quantity code',
+	];
 
 	/**
 	 * Code List 70 for es
@@ -25,7 +28,10 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/70
 	 */
-	protected static $es = ['01' => 'Propio / Privado', '02' => 'Código de stock de la APA'];
+	protected static $es = [
+		'01' => 'Tipo de código de cantidad en stock propio / privado',
+		'02' => 'Código de stock de la APA',
+	];
 
 	/**
 	 * Code List 70 for de
@@ -33,7 +39,10 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/70
 	 */
-	protected static $de = ['01' => 'Proprietary', '02' => 'APA stock quantity code'];
+	protected static $de = [
+		'01' => 'Proprietary stock quantity coding scheme',
+		'02' => 'APA stock quantity code',
+	];
 
 	/**
 	 * Code List 70 for fr
@@ -41,7 +50,10 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/70
 	 */
-	protected static $fr = ['01' => 'Propriétaire', '02' => 'Quantité de stock APA'];
+	protected static $fr = [
+		'01' => 'Propriétaire',
+		'02' => 'Quantité de stock APA',
+	];
 
 	/**
 	 * Code List 70 for it
@@ -49,7 +61,10 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/70
 	 */
-	protected static $it = ['01' => 'Proprietario', '02' => 'Codice APA'];
+	protected static $it = [
+		'01' => 'Sistema di codifica proprietario della quantità in stock',
+		'02' => 'Codice APA',
+	];
 
 	/**
 	 * Code List 70 for nb
@@ -57,7 +72,10 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/70
 	 */
-	protected static $nb = ['01' => 'Proprietær', '02' => 'APA stock quantity code'];
+	protected static $nb = [
+		'01' => 'Proprietære koder for lagerbeholdning',
+		'02' => 'APA stock quantity code',
+	];
 
 	/**
 	 * Code List 70 for tr
@@ -65,5 +83,8 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/70
 	 */
-	protected static $tr = ['01' => 'Özel', '02' => 'APA stok miktarı kodu'];
+	protected static $tr = [
+		'01' => 'Özel',
+		'02' => 'APA stok miktarı kodu',
+	];
 }

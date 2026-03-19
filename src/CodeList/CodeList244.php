@@ -17,7 +17,9 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/244
 	 */
-	protected static $en = ['01' => 'Proprietary'];
+	protected static $en = [
+		'01' => 'Proprietary event ID scheme',
+	];
 
 	/**
 	 * Code List 244 for es
@@ -25,7 +27,9 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/244
 	 */
-	protected static $es = ['01' => 'Propio / Privado'];
+	protected static $es = [
+		'01' => 'Esquema de tipo de identificador del evento propio / privado',
+	];
 
 	/**
 	 * Code List 244 for de
@@ -33,7 +37,9 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/244
 	 */
-	protected static $de = ['01' => 'Proprietary'];
+	protected static $de = [
+		'01' => 'Proprietary event ID scheme',
+	];
 
 	/**
 	 * Code List 244 for fr
@@ -41,7 +47,9 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/244
 	 */
-	protected static $fr = ['01' => 'Propriétaire'];
+	protected static $fr = [
+		'01' => 'Propriétaire',
+	];
 
 	/**
 	 * Code List 244 for it
@@ -49,7 +57,9 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/244
 	 */
-	protected static $it = ['01' => 'Proprietario'];
+	protected static $it = [
+		'01' => 'Schema proprietario di identificazione dell’evento',
+	];
 
 	/**
 	 * Code List 244 for nb
@@ -57,7 +67,9 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/244
 	 */
-	protected static $nb = ['01' => 'Proprietary'];
+	protected static $nb = [
+		'01' => 'Proprietary event ID scheme',
+	];
 
 	/**
 	 * Code List 244 for tr
@@ -65,5 +77,7 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/244
 	 */
-	protected static $tr = ['01' => 'Proprietary'];
+	protected static $tr = [
+		'01' => 'Proprietary event ID scheme',
+	];
 }

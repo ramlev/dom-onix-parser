@@ -23,9 +23,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'09' => 'Public announcement date',
 		'10' => 'Trade announcement date',
 		'11' => 'Date of first publication',
-		'12' => 'Last reprint date',
+		'12' => 'Latest reprint date',
 		'13' => 'Out-of-print / permanently withdrawn date',
-		'16' => 'Last reissue date',
+		'16' => 'Latest reissue date',
 		'19' => 'Publication date of print counterpart',
 		'20' => 'Date of first publication in original language',
 		'21' => 'Forthcoming reissue date',
@@ -38,7 +38,10 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date of production',
 		'30' => 'Streaming embargo date',
 		'31' => 'Subscription embargo date',
+		'32' => 'Download embargo date',
+		'33' => 'Purchase embargo date',
 		'35' => 'CIP date',
+		'36' => 'Date of first unabridged publication',
 	];
 
 	/**
@@ -68,7 +71,10 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Fecha de producción',
 		'30' => 'Fecha de embargo para «streaming»',
 		'31' => 'Fecha de embargo para suscripciones',
+		'32' => 'Fecha de embargo de descarga',
+		'33' => 'Fecha de embargo de compra',
 		'35' => 'Fecha de la «catalogación en publicación» (CIP)',
+		'36' => 'Fecha de la primera publicación íntegra',
 	];
 
 	/**
@@ -83,9 +89,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'09' => 'Public announcement date',
 		'10' => 'Trade announcement date',
 		'11' => 'Date of first publication',
-		'12' => 'Last reprint date',
+		'12' => 'Latest reprint date',
 		'13' => 'Out-of-print / permanently withdrawn date',
-		'16' => 'Last reissue date',
+		'16' => 'Latest reissue date',
 		'19' => 'Publication date of print counterpart',
 		'20' => 'Date of first publication in original language',
 		'21' => 'Forthcoming reissue date',
@@ -98,7 +104,10 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date of production',
 		'30' => 'Streaming embargo date',
 		'31' => 'Subscription embargo date',
+		'32' => 'Download embargo date',
+		'33' => 'Purchase embargo date',
 		'35' => 'CIP date',
+		'36' => 'Date of first unabridged publication',
 	];
 
 	/**
@@ -113,9 +122,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'09' => 'Date d’annonce publique',
 		'10' => 'Date d’annonce commerciale',
 		'11' => 'Date de première publication',
-		'12' => 'Dernière date de réimpression',
+		'12' => 'Date de réimpression la plus récente',
 		'13' => 'Date de passage en épuisé / arrêt définitif de commercialisation',
-		'16' => 'Dernière date de réédition',
+		'16' => 'Date de réédition la plus récente',
 		'19' => 'Date de publication de l’équivalent imprimé',
 		'20' => 'Date de première publication dans la langue d’origine',
 		'21' => 'Prochaine date de réédition',
@@ -128,7 +137,10 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date de production',
 		'30' => 'Date d’embargo pour le streaming',
 		'31' => 'Date d’embargo pour la souscription',
+		'32' => 'Download embargo date',
+		'33' => 'Purchase embargo date',
 		'35' => 'Date du catalogage avant publication',
+		'36' => 'Date of first unabridged publication',
 	];
 
 	/**
@@ -158,7 +170,10 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Data di produzione',
 		'30' => 'Data di embargo dello streaming',
 		'31' => 'Data di embargo dell’abbonamento',
+		'32' => 'Data di embargo del download',
+		'33' => 'Data di embargo sull’acquisto',
 		'35' => 'Data del CIP (Cataloguing in publication)',
+		'36' => 'Data della prima pubblicazione integrale',
 	];
 
 	/**
@@ -169,7 +184,7 @@ class CodeList163 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'01' => 'Utgivelsesdato',
-		'02' => 'Frigivelsesdato',
+		'02' => 'Sperrefrist',
 		'09' => 'Offentliggjøringsdato',
 		'10' => 'Offentliggjøringsdato for bransjen',
 		'11' => 'Første utgivelsesdato',
@@ -180,15 +195,18 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'20' => 'Første utgivelsesdato på originalspråket',
 		'21' => 'Forventet dato for nyutgivelse',
 		'22' => 'Forventet tilgjengelighetsdato etter midlertidig ikke tilgjengelig',
-		'23' => 'Dato for anmeldelser',
+		'23' => 'Sperrefrist for anmeldelser',
 		'25' => 'Utgivers frist for å legge forhåndsordre',
 		'26' => 'Forventet dato for nytt opplag',
-		'27' => 'Sperredato for forhåndsordre',
+		'27' => 'Sperrefrist for forhåndsordre',
 		'28' => 'Overføringsdato',
 		'29' => 'Produksjonsdato',
-		'30' => 'Sperredato for strømming',
+		'30' => 'Sperrefrist for strømming',
 		'31' => 'Sperredato for abonnement',
+		'32' => 'Sperrefrist for nedlasting',
+		'33' => 'Sperrefrist for kjøp',
 		'35' => 'CIP-dato',
+		'36' => 'Dato for første forkortede utgave',
 	];
 
 	/**
@@ -218,6 +236,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date of production',
 		'30' => 'Streaming embargo date',
 		'31' => 'Subscription embargo date',
+		'32' => 'Download embargo date',
+		'33' => 'Purchase embargo date',
 		'35' => 'CIP date',
+		'36' => 'Date of first unabridged publication',
 	];
 }

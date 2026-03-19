@@ -17,7 +17,10 @@ class CodeList246 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/246
 	 */
-	protected static $en = ['A' => 'Announced', 'C' => 'Cancelled'];
+	protected static $en = [
+		'A' => 'Announced',
+		'C' => 'Cancelled',
+	];
 
 	/**
 	 * Code List 246 for es
@@ -25,7 +28,10 @@ class CodeList246 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/246
 	 */
-	protected static $es = ['A' => 'Anunciado', 'C' => 'Cancelado'];
+	protected static $es = [
+		'A' => 'Anunciado',
+		'C' => 'Cancelado',
+	];
 
 	/**
 	 * Code List 246 for de
@@ -33,7 +39,10 @@ class CodeList246 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/246
 	 */
-	protected static $de = ['A' => 'Announced', 'C' => 'Cancelled'];
+	protected static $de = [
+		'A' => 'Announced',
+		'C' => 'Cancelled',
+	];
 
 	/**
 	 * Code List 246 for fr
@@ -41,7 +50,10 @@ class CodeList246 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/246
 	 */
-	protected static $fr = ['A' => 'Annoncé', 'C' => 'Annulé'];
+	protected static $fr = [
+		'A' => 'Annoncé',
+		'C' => 'Annulé',
+	];
 
 	/**
 	 * Code List 246 for it
@@ -49,7 +61,10 @@ class CodeList246 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/246
 	 */
-	protected static $it = ['A' => 'Annunciato', 'C' => 'Cancellato'];
+	protected static $it = [
+		'A' => 'Annunciato',
+		'C' => 'Cancellato',
+	];
 
 	/**
 	 * Code List 246 for nb
@@ -57,7 +72,10 @@ class CodeList246 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/246
 	 */
-	protected static $nb = ['A' => 'Announced', 'C' => 'Cancelled'];
+	protected static $nb = [
+		'A' => 'Announced',
+		'C' => 'Cancelled',
+	];
 
 	/**
 	 * Code List 246 for tr
@@ -65,5 +83,8 @@ class CodeList246 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/246
 	 */
-	protected static $tr = ['A' => 'Announced', 'C' => 'Cancelled'];
+	protected static $tr = [
+		'A' => 'Announced',
+		'C' => 'Cancelled',
+	];
 }

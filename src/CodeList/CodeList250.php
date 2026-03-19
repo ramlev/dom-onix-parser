@@ -17,7 +17,10 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/en/250
 	 */
-	protected static $en = ['01' => 'Proprietary', '09' => 'ISCC'];
+	protected static $en = [
+		'01' => 'Proprietary resource ID scheme',
+		'09' => 'ISCC',
+	];
 
 	/**
 	 * Code List 250 for es
@@ -25,7 +28,10 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/es/250
 	 */
-	protected static $es = ['01' => 'Propio', '09' => 'ISCC'];
+	protected static $es = [
+		'01' => 'Esquema de tipo de identificador de recurso propio / privado',
+		'09' => 'ISCC',
+	];
 
 	/**
 	 * Code List 250 for de
@@ -33,7 +39,10 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/de/250
 	 */
-	protected static $de = ['01' => 'Proprietary', '09' => 'ISCC'];
+	protected static $de = [
+		'01' => 'Proprietary resource ID scheme',
+		'09' => 'ISCC',
+	];
 
 	/**
 	 * Code List 250 for fr
@@ -41,7 +50,10 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/fr/250
 	 */
-	protected static $fr = ['01' => 'Propriétaire', '09' => 'ISCC'];
+	protected static $fr = [
+		'01' => 'Propriétaire',
+		'09' => 'ISCC',
+	];
 
 	/**
 	 * Code List 250 for it
@@ -49,7 +61,10 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/it/250
 	 */
-	protected static $it = ['01' => 'Proprietario', '09' => 'ISCC'];
+	protected static $it = [
+		'01' => 'Schema proprietario di identificazione della risorsa',
+		'09' => 'ISCC',
+	];
 
 	/**
 	 * Code List 250 for nb
@@ -57,7 +72,10 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/nb/250
 	 */
-	protected static $nb = ['01' => 'Proprietary', '09' => 'ISCC'];
+	protected static $nb = [
+		'01' => 'Proprietary resource ID scheme',
+		'09' => 'ISCC',
+	];
 
 	/**
 	 * Code List 250 for tr
@@ -65,5 +83,8 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @var array
 	 * @see https://ns.editeur.org/onix/tr/250
 	 */
-	protected static $tr = ['01' => 'Proprietary', '09' => 'ISCC'];
+	protected static $tr = [
+		'01' => 'Proprietary resource ID scheme',
+		'09' => 'ISCC',
+	];
 }

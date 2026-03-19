@@ -19,7 +19,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'01' => 'Sender-defined text',
-		'02' => 'Short description/annotation',
+		'02' => 'Short description / annotation',
 		'03' => 'Description',
 		'04' => 'Table of contents',
 		'05' => 'Primary cover copy',
@@ -33,7 +33,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'13' => 'Publisher’s notice',
 		'14' => 'Excerpt',
 		'15' => 'Index',
-		'16' => 'Short description/annotation for collection',
+		'16' => 'Short description / annotation for collection',
 		'17' => 'Description for collection',
 		'18' => 'New feature',
 		'19' => 'Version history',
@@ -50,11 +50,13 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'30' => 'Abstract',
 		'31' => 'Rules or instructions',
 		'32' => 'List of contents',
-		'33' => 'Short description/annotation for imprint',
+		'33' => 'Short description / annotation for imprint',
 		'34' => 'Description for imprint',
-		'35' => 'Short description/annotation for publisher',
+		'35' => 'Short description / annotation for publisher',
 		'36' => 'Description for publisher',
 		'37' => 'Cover line',
+		'38' => 'Special cover statement',
+		'39' => 'List of bonus contents',
 	];
 
 	/**
@@ -100,7 +102,9 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'34' => 'Descripción del sello',
 		'35' => 'Breve descripción/anotación de la editorial',
 		'36' => 'Descripción de la editorial',
-		'37' => 'Línea de cubierta',
+		'37' => '«Cover line»',
+		'38' => 'Detalles de cubierta especial',
+		'39' => 'Lista de contenidos adicionales',
 	];
 
 	/**
@@ -111,7 +115,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 	 */
 	protected static $de = [
 		'01' => 'Sender-defined text',
-		'02' => 'Short description/annotation',
+		'02' => 'Short description / annotation',
 		'03' => 'Description',
 		'04' => 'Table of contents',
 		'05' => 'Primary cover copy',
@@ -125,7 +129,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'13' => 'Publisher’s notice',
 		'14' => 'Excerpt',
 		'15' => 'Index',
-		'16' => 'Short description/annotation for collection',
+		'16' => 'Short description / annotation for collection',
 		'17' => 'Description for collection',
 		'18' => 'New feature',
 		'19' => 'Version history',
@@ -142,11 +146,13 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'30' => 'Abstract',
 		'31' => 'Rules or instructions',
 		'32' => 'List of contents',
-		'33' => 'Short description/annotation for imprint',
+		'33' => 'Short description / annotation for imprint',
 		'34' => 'Description for imprint',
-		'35' => 'Short description/annotation for publisher',
+		'35' => 'Short description / annotation for publisher',
 		'36' => 'Description for publisher',
 		'37' => 'Cover line',
+		'38' => 'Special cover statement',
+		'39' => 'List of bonus contents',
 	];
 
 	/**
@@ -192,7 +198,9 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'34' => 'Description de la marque',
 		'35' => 'Brève description de l’éditeur',
 		'36' => 'Description de l’éditeur',
-		'37' => 'Cover line',
+		'37' => 'Phrase de couverture',
+		'38' => 'Special cover statement',
+		'39' => 'List of bonus contents',
 	];
 
 	/**
@@ -210,7 +218,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'06' => 'Citazione da una recensione',
 		'07' => 'Citazione da una recensione: edizione precedente',
 		'08' => 'Citazione da una recensione: opera precedente',
-		'09' => 'Riconoscimento',
+		'09' => 'Endorsement',
 		'10' => 'Slogan pubblicitario',
 		'11' => 'Caratteristiche particolari',
 		'12' => 'Nota biografica',
@@ -228,7 +236,7 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'24' => 'Snippet schema.org',
 		'25' => 'Errata corrige',
 		'26' => 'Introduzione',
-		'27' => 'Testo secondario del risvolto di copertina/copertina',
+		'27' => 'Testo secondario del risvolto/quarta di copertina',
 		'28' => 'Cast completo e credits',
 		'29' => 'Bibliografia',
 		'30' => 'Abstract',
@@ -239,6 +247,8 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'35' => 'Descrizione sintetica dell’editore',
 		'36' => 'Descrizione dell’editore',
 		'37' => 'Testo aggiuntivo in copertina',
+		'38' => 'Descrizione della copertina speciale',
+		'39' => 'Lista dei contenuti extra',
 	];
 
 	/**
@@ -281,10 +291,12 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'31' => 'Regler eller instruksjoner',
 		'32' => 'Innholdsoversikt',
 		'33' => 'Kort beskrivelse / annotasjon av forlag',
-		'34' => 'Beskrivelse av forlag',
-		'35' => 'Kort beskrivelse / annotasjon av utgiver',
-		'36' => 'Beskrivelse av utgiver',
+		'34' => 'Tekst om forlaget',
+		'35' => 'Kort tekst om utgiveren',
+		'36' => 'Tekst om utgiveren',
 		'37' => 'Omslagstekst',
+		'38' => 'Omslagsbeskrivelse',
+		'39' => 'Bonusinnhold',
 	];
 
 	/**
@@ -326,10 +338,12 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'30' => 'Abstract',
 		'31' => 'Rules or instructions',
 		'32' => 'List of contents',
-		'33' => 'Short description/annotation for imprint',
+		'33' => 'Short description / annotation for imprint',
 		'34' => 'Description for imprint',
-		'35' => 'Short description/annotation for publisher',
+		'35' => 'Short description / annotation for publisher',
 		'36' => 'Description for publisher',
 		'37' => 'Cover line',
+		'38' => 'Special cover statement',
+		'39' => 'List of bonus contents',
 	];
 }

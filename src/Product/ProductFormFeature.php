@@ -2,10 +2,10 @@
 
 namespace Dso\Onix\Product;
 
+use Dso\Onix\CodeList\CodeList196;
 use Dso\Onix\CodeList\CodeList220;
 use Dso\Onix\CodeList\CodeList79;
 use Dso\Onix\CodeList\CodeList98;
-//use Dso\Onix\CodeList\CodeList220;
 
 class ProductFormFeature
 {
@@ -45,10 +45,10 @@ class ProductFormFeature
     /**
      * Set ProductFormFeatureValue
      *
-     * @param CodeList220 | CodeList98 $ProductFormFeatureValue
+     * @param CodeList196 | CodeList220 | CodeList98 $ProductFormFeatureValue
      * @return void
      */
-    public function setProductFormFeatureValue(CodeList220 | CodeList98 $ProductFormFeatureValue)
+    public function setProductFormFeatureValue(CodeList196 | CodeList220 | CodeList98 $ProductFormFeatureValue)
     {
         $this->ProductFormFeatureValue = $ProductFormFeatureValue;
     }

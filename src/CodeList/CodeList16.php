@@ -18,12 +18,13 @@ class CodeList16 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/16
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary work ID scheme',
 		'02' => 'ISBN-10',
 		'06' => 'DOI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
 		'18' => 'ISRC',
+		'31' => 'EIDR Content ID',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
 		'39' => 'ISCC',
@@ -36,12 +37,13 @@ class CodeList16 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/16
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Tipo de identificador de la obra propio / privado',
 		'02' => 'ISBN-10',
 		'06' => 'DOI',
-		'11' => 'ISTC',
+		'11' => 'ISTC – Código Normalizado Internacional de Texto',
 		'15' => 'ISBN-13',
 		'18' => 'ISRC',
+		'31' => 'ID de Contenido EIDR',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
 		'39' => 'ISCC',
@@ -54,12 +56,13 @@ class CodeList16 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/16
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary work ID scheme',
 		'02' => 'ISBN-10',
 		'06' => 'DOI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
 		'18' => 'ISRC',
+		'31' => 'EIDR Content ID',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
 		'39' => 'ISCC',
@@ -78,6 +81,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
 		'18' => 'ISRC',
+		'31' => 'EIDR Content ID',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
 		'39' => 'ISCC',
@@ -90,12 +94,13 @@ class CodeList16 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/16
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di identificazione dell’opera',
 		'02' => 'ISBN-10',
 		'06' => 'DOI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
 		'18' => 'ISRC',
+		'31' => 'EIDR Content ID',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
 		'39' => 'ISCC',
@@ -108,12 +113,13 @@ class CodeList16 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/16
 	 */
 	protected static $nb = [
-		'01' => 'Proprietær',
+		'01' => 'Proprietær verks-ID',
 		'02' => 'ISBN-10',
 		'06' => 'DOI',
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
 		'18' => 'ISRC',
+		'31' => 'EIDR Content ID',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
 		'39' => 'ISCC',
@@ -132,6 +138,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 		'11' => 'ISTC',
 		'15' => 'ISBN-13',
 		'18' => 'ISRC',
+		'31' => 'EIDR Content ID',
 		'32' => 'GLIMIR',
 		'33' => 'OWI',
 		'39' => 'ISCC',

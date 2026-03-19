@@ -18,10 +18,10 @@ class CodeList197 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/197
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary collection sequence type',
 		'02' => 'Title order',
 		'03' => 'Publication order',
-		'04' => 'Temporal/narrative order',
+		'04' => 'Temporal / narrative order',
 		'05' => 'Original publication order',
 		'06' => 'Suggested reading order',
 		'07' => 'Suggested display order',
@@ -50,10 +50,10 @@ class CodeList197 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/197
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary collection sequence type',
 		'02' => 'Title order',
 		'03' => 'Publication order',
-		'04' => 'Temporal/narrative order',
+		'04' => 'Temporal / narrative order',
 		'05' => 'Original publication order',
 		'06' => 'Suggested reading order',
 		'07' => 'Suggested display order',

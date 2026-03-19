@@ -30,6 +30,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'09' => 'Registered in',
 		'10' => 'Operating from',
 		'11' => 'Eligible for geographical marketing programs',
+		'12' => 'Indigenous to (Indigenous geographies or territorialities)',
 	];
 
 	/**
@@ -51,6 +52,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'09' => 'Registrada en',
 		'10' => 'Opera desde',
 		'11' => 'Elegible para programas de marketing geográfico',
+		'12' => 'Indígena de (geografías o territorialidades indígenas)',
 	];
 
 	/**
@@ -72,6 +74,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'09' => 'Registered in',
 		'10' => 'Operating from',
 		'11' => 'Eligible for geographical marketing programs',
+		'12' => 'Indigenous to (Indigenous geographies or territorialities)',
 	];
 
 	/**
@@ -93,6 +96,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'09' => 'Enregistré(e) à/en',
 		'10' => 'Opère depuis',
 		'11' => 'Eligible aux programmes de marketing géographique',
+		'12' => 'Indigenous to (Indigenous geographies or territorialities)',
 	];
 
 	/**
@@ -114,6 +118,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'09' => 'Registrato a',
 		'10' => 'Operativo a',
 		'11' => 'Idoneo per programmi di marketing geografico',
+		'12' => 'Indigeno di (area geografica o territorialità indigene)',
 	];
 
 	/**
@@ -134,7 +139,8 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'08' => 'Innbygger i',
 		'09' => 'Registrert i',
 		'10' => 'Opererer fra',
-		'11' => 'Eligible for geographical marketing programs',
+		'11' => 'Kvalifiserer for lokasjonsbaserte markedsføringsprogrammer',
+		'12' => 'Med tilhørighet til (geografiske områder i forbindelse med urfolk)',
 	];
 
 	/**
@@ -156,5 +162,6 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'09' => 'Registered in',
 		'10' => 'Operating from',
 		'11' => 'Eligible for geographical marketing programs',
+		'12' => 'Indigenous to (Indigenous geographies or territorialities)',
 	];
 }

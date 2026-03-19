@@ -19,7 +19,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'01' => 'ONIX audience codes',
-		'02' => 'Proprietary',
+		'02' => 'Proprietary audience scheme',
 		'03' => 'MPAA rating',
 		'04' => 'BBFC rating',
 		'05' => 'FSK rating',
@@ -34,7 +34,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'14' => 'Ausbildungsberuf',
 		'15' => 'Suomalainen kouluasteluokitus',
 		'16' => 'CBG age guidance',
-		'17' => 'Nielsen Book audience code',
+		'17' => 'BookData audience code',
 		'18' => 'AVI (revised)',
 		'19' => 'Lexile measure',
 		'20' => 'Fry Readability score',
@@ -58,7 +58,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'01' => 'Códigos de audiencia ONIX',
-		'02' => 'Propio / Privado',
+		'02' => 'Tipo de código de público objetivo propio / privado',
 		'03' => 'Calificación MPAA',
 		'04' => 'Calificación BBFC',
 		'05' => 'Calificación FSK',
@@ -73,7 +73,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'14' => 'Ausbildungsberuf',
 		'15' => 'Suomalainen kouluasteluokitus',
 		'16' => 'Recomendación de edad de CBG',
-		'17' => 'Nielsen Book audience code',
+		'17' => 'Código de público de BookData',
 		'18' => 'AVI (Revisado)',
 		'19' => 'Medida Lexile',
 		'20' => 'Puntuación de legibilidad Fry',
@@ -97,7 +97,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 	 */
 	protected static $de = [
 		'01' => 'ONIX audience codes',
-		'02' => 'Proprietary',
+		'02' => 'Proprietary audience scheme',
 		'03' => 'MPAA rating',
 		'04' => 'BBFC rating',
 		'05' => 'FSK rating',
@@ -112,13 +112,13 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'14' => 'Ausbildungsberuf',
 		'15' => 'Suomalainen kouluasteluokitus',
 		'16' => 'CBG age guidance',
-		'17' => 'Nielsen Book audience code',
+		'17' => 'BookData audience code',
 		'18' => 'AVI (revised)',
 		'19' => 'Lexile measure',
 		'20' => 'Fry Readability score',
 		'21' => 'Japanese Children’s audience code',
 		'22' => 'ONIX Adult audience rating',
-		'23' => 'Der Gemeinsame europäische Referenzrahmen für Sprachen (GER oder GERS)',
+		'23' => 'Common European Framework of Reference for Language Learning (CEFR)',
 		'24' => 'Korean Publication Ethics Commission rating',
 		'25' => 'IoE Book Band',
 		'26' => 'FSK Lehr-/Infoprogramm',
@@ -175,7 +175,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'01' => 'Codifica del destinatario ONIX',
-		'02' => 'Proprietario',
+		'02' => 'Schema proprietario di identificazione dei destinatari',
 		'03' => 'MPAA rating',
 		'04' => 'BBFC rating',
 		'05' => 'FSK rating',
@@ -190,7 +190,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'14' => 'Ausbildungsberuf',
 		'15' => 'Suomalainen kouluasteluokitus',
 		'16' => 'CBG age guidance',
-		'17' => 'Nielsen Book audience code',
+		'17' => 'BookData audience code',
 		'18' => 'AVI (revised)',
 		'19' => 'Parametri Lexile',
 		'20' => 'Fry Readability score',
@@ -214,7 +214,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'01' => 'ONIX målgruppekoder',
-		'02' => 'Proprietær',
+		'02' => 'Proprietære målgrupper',
 		'03' => 'MPAA rating',
 		'04' => 'BBFC rating',
 		'05' => 'FSK rating',
@@ -229,7 +229,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'14' => 'Ausbildungsberuf',
 		'15' => 'Suomalainen kouluasteluokitus',
 		'16' => 'CBG age guidance',
-		'17' => 'Nielsen Book audience code',
+		'17' => 'BookData audience code',
 		'18' => 'AVI (revised)',
 		'19' => 'Lexile measure',
 		'20' => 'Fry Readability score',

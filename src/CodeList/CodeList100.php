@@ -19,10 +19,10 @@ class CodeList100 extends CodeList implements CodeListInterface
 	 */
 	protected static $en = [
 		'01' => 'BIC discount group code',
-		'02' => 'Proprietary discount code',
+		'02' => 'Proprietary discount code scheme',
 		'03' => 'Boeksoort',
 		'04' => 'German terms code',
-		'05' => 'Proprietary commission code',
+		'05' => 'Proprietary commission code scheme',
 		'06' => 'BIC commission group code',
 		'07' => 'ISNI-based discount group code',
 	];
@@ -35,10 +35,10 @@ class CodeList100 extends CodeList implements CodeListInterface
 	 */
 	protected static $es = [
 		'01' => 'Código de grupo de descuento BIC',
-		'02' => 'Código de descuento propio',
+		'02' => 'Esquema de códigos de descuento propio / privado',
 		'03' => 'Boeksoort',
 		'04' => 'Código de condiciones de Alemania',
-		'05' => 'Código de comisión propio',
+		'05' => 'Esquema de códigos de comisión propio / privado',
 		'06' => 'Código de grupo de comisión BIC',
 		'07' => 'Código de descuento basado en ISNI',
 	];
@@ -51,10 +51,10 @@ class CodeList100 extends CodeList implements CodeListInterface
 	 */
 	protected static $de = [
 		'01' => 'BIC discount group code',
-		'02' => 'Proprietary discount code',
+		'02' => 'Proprietary discount code scheme',
 		'03' => 'Boeksoort',
 		'04' => 'German terms code',
-		'05' => 'Proprietary commission code',
+		'05' => 'Proprietary commission code scheme',
 		'06' => 'BIC commission group code',
 		'07' => 'ISNI-based discount group code',
 	];
@@ -83,10 +83,10 @@ class CodeList100 extends CodeList implements CodeListInterface
 	 */
 	protected static $it = [
 		'01' => 'BIC discount group code',
-		'02' => 'Codice di sconto proprietario',
+		'02' => 'Schema proprietario del tipo di sconto',
 		'03' => 'Boeksoort',
 		'04' => 'Codice delle condizioni tedesche',
-		'05' => 'Codice di commissione proprietario',
+		'05' => 'Schema proprietario del tasso di commissione',
 		'06' => 'BIC commission group code',
 		'07' => 'Codice per gruppo di sconto basati su ISNI',
 	];
@@ -99,10 +99,10 @@ class CodeList100 extends CodeList implements CodeListInterface
 	 */
 	protected static $nb = [
 		'01' => 'BIC discount group code',
-		'02' => 'Proprietary discount code',
+		'02' => 'Proprietary discount code scheme',
 		'03' => 'Boeksoort',
 		'04' => 'German terms code',
-		'05' => 'Proprietary commission code',
+		'05' => 'Proprietary commission code scheme',
 		'06' => 'BIC commission group code',
 		'07' => 'ISNI-based discount group code',
 	];

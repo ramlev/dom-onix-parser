@@ -18,7 +18,7 @@ class CodeList53 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/53
 	 */
 	protected static $en = [
-		'00' => 'Proprietary',
+		'00' => 'Proprietary returns coding scheme',
 		'01' => 'French book trade returns conditions code',
 		'02' => 'BISAC Returnable Indicator code',
 		'03' => 'UK book trade returns conditions code',
@@ -32,7 +32,7 @@ class CodeList53 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/53
 	 */
 	protected static $es = [
-		'00' => 'Propio / Privado',
+		'00' => 'Tipo de código para devoluciones propio / privado',
 		'01' => 'Código de condiciones de devolución de libros en Francia',
 		'02' => 'Código de condiciones de devolución de libros en EE.UU.',
 		'03' => 'Código de condiciones de devolución de libros en el Reino Unido',
@@ -46,7 +46,7 @@ class CodeList53 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/53
 	 */
 	protected static $de = [
-		'00' => 'Proprietary',
+		'00' => 'Proprietary returns coding scheme',
 		'01' => 'French book trade returns conditions code',
 		'02' => 'BISAC Returnable Indicator code',
 		'03' => 'UK book trade returns conditions code',
@@ -74,7 +74,7 @@ class CodeList53 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/53
 	 */
 	protected static $it = [
-		'00' => 'Proprietario',
+		'00' => 'Schema di codifica proprietario dei resi',
 		'01' => 'Codice delle condizioni di reso nel mercato francese',
 		'02' => 'BISAC Returnable Indicator code',
 		'03' => 'Codice delle condizioni di reso nel mercato del Regno Unito',
@@ -88,7 +88,7 @@ class CodeList53 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/53
 	 */
 	protected static $nb = [
-		'00' => 'Proprietær',
+		'00' => 'Proprietære koder for retur',
 		'01' => 'French book trade returns conditions code',
 		'02' => 'BISAC Returnable Indicator code',
 		'03' => 'UK book trade returns conditions code',

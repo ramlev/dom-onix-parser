@@ -18,7 +18,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/en/5
 	 */
 	protected static $en = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary product ID scheme',
 		'02' => 'ISBN-10',
 		'03' => 'GTIN-13',
 		'04' => 'UPC',
@@ -36,9 +36,11 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'27' => 'JP e-code',
 		'28' => 'OLCC number',
 		'29' => 'JP Magazine ID',
-		'30' => 'UPC12+5',
+		'30' => 'UPC-12+5',
 		'31' => 'BNF Control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
+		'36' => 'Digital file internal version number',
 	];
 
 	/**
@@ -48,7 +50,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/es/5
 	 */
 	protected static $es = [
-		'01' => 'Propio / Privado',
+		'01' => 'Identificador del producto propio / privado',
 		'02' => 'ISBN-10',
 		'03' => 'GTIN-13',
 		'04' => 'UPC',
@@ -68,7 +70,9 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'Identificador JP Magazine',
 		'30' => 'UPC12+5',
 		'31' => 'Número de control de la BNF',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
+		'36' => 'Número de versión interna del archivo digital',
 	];
 
 	/**
@@ -78,7 +82,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/de/5
 	 */
 	protected static $de = [
-		'01' => 'Proprietary',
+		'01' => 'Proprietary product ID scheme',
 		'02' => 'ISBN-10',
 		'03' => 'GTIN-13',
 		'04' => 'UPC',
@@ -96,9 +100,11 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'27' => 'JP e-code',
 		'28' => 'OLCC number',
 		'29' => 'JP Magazine ID',
-		'30' => 'UPC12+5',
+		'30' => 'UPC-12+5',
 		'31' => 'BNF Control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
+		'36' => 'Digital file internal version number',
 	];
 
 	/**
@@ -128,7 +134,9 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Magazine ID',
 		'30' => 'UPC12+5',
 		'31' => 'Numéro BnF',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
+		'36' => 'Digital file internal version number',
 	];
 
 	/**
@@ -138,7 +146,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/it/5
 	 */
 	protected static $it = [
-		'01' => 'Proprietario',
+		'01' => 'Schema proprietario di identificazione del prodotto',
 		'02' => 'ISBN-10',
 		'03' => 'GTIN-13',
 		'04' => 'UPC',
@@ -158,7 +166,9 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Magazine ID',
 		'30' => 'UPC12+5',
 		'31' => 'Numero di controllo BNF',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
+		'36' => 'Numero di versione interna del file digitale',
 	];
 
 	/**
@@ -168,7 +178,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/5
 	 */
 	protected static $nb = [
-		'01' => 'Proprietær',
+		'01' => 'Proprietær produkt-ID',
 		'02' => 'ISBN-10',
 		'03' => 'GTIN-13',
 		'04' => 'UPC',
@@ -188,7 +198,9 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Magazine ID',
 		'30' => 'UPC 12+5',
 		'31' => 'BNF control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
+		'36' => 'Internt versjonsnummer for digital fil',
 	];
 
 	/**
@@ -218,6 +230,8 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'29' => 'JP Dergi Tanımlayıcı',
 		'30' => 'UPC12 + 5',
 		'31' => 'BNF Control number',
+		'34' => 'ISSN-13',
 		'35' => 'ARK',
+		'36' => 'Digital file internal version number',
 	];
 }

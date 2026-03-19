@@ -25,7 +25,7 @@ class CodeList1 extends CodeList implements CodeListInterface
 		'05' => 'Delete',
 		'08' => 'Notice of sale',
 		'09' => 'Notice of acquisition',
-		'88' => 'Test update (Partial)',
+		'88' => 'Test update (partial)',
 		'89' => 'Test record',
 	];
 
@@ -56,12 +56,12 @@ class CodeList1 extends CodeList implements CodeListInterface
 	protected static $de = [
 		'01' => 'Early notification',
 		'02' => 'Advance notification (confirmed)',
-		'03' => 'Benachrichtigung bei Veröffentlichung bestätigt',
+		'03' => 'Notification confirmed on publication',
 		'04' => 'Update (partial)',
 		'05' => 'Delete',
 		'08' => 'Notice of sale',
 		'09' => 'Notice of acquisition',
-		'88' => 'Test update (Partial)',
+		'88' => 'Test update (partial)',
 		'89' => 'Test record',
 	];
 

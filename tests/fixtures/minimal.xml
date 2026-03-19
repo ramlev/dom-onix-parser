@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">
+    <Header>
+        <Sender>
+            <SenderName>Test Publisher</SenderName>
+            <ContactName>Jane Doe</ContactName>
+            <EmailAddress>jane@example.com</EmailAddress>
+        </Sender>
+        <SentDateTime dateformat="00">20240315</SentDateTime>
+        <MessageNumber>1</MessageNumber>
+    </Header>
+    <Product>
+        <RecordReference>978-3-16-148410-0</RecordReference>
+        <NotificationType>03</NotificationType>
+        <ProductIdentifier>
+            <ProductIDType>15</ProductIDType>
+            <IDValue>9783161484100</IDValue>
+        </ProductIdentifier>
+        <DescriptiveDetail>
+            <ProductComposition>00</ProductComposition>
+            <ProductForm>BB</ProductForm>
+            <TitleDetail>
+                <TitleType>01</TitleType>
+                <TitleElement>
+                    <TitleElementLevel>01</TitleElementLevel>
+                    <TitleText>Test Book Title</TitleText>
+                    <Subtitle>A Subtitle</Subtitle>
+                </TitleElement>
+            </TitleDetail>
+            <Contributor>
+                <SequenceNumber>1</SequenceNumber>
+                <ContributorRole>A01</ContributorRole>
+                <PersonName>John Author</PersonName>
+            </Contributor>
+            <Language>
+                <LanguageRole>01</LanguageRole>
+                <LanguageCode>eng</LanguageCode>
+            </Language>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType>03</TextType>
+                <ContentAudience>00</ContentAudience>
+                <Text textformat="06">A short description of the book.</Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole>01</PublishingRole>
+                <PublisherName>Test Publisher House</PublisherName>
+            </Publisher>
+            <PublishingStatus>04</PublishingStatus>
+            <PublishingDate>
+                <PublishingDateRole>01</PublishingDateRole>
+                <Date dateformat="00">20240101</Date>
+            </PublishingDate>
+        </PublishingDetail>
+        <ProductSupply>
+            <SupplyDetail>
+                <Supplier>
+                    <SupplierRole>01</SupplierRole>
+                    <SupplierName>Test Distributor</SupplierName>
+                </Supplier>
+                <ProductAvailability>20</ProductAvailability>
+                <Price>
+                    <PriceType>02</PriceType>
+                    <PriceAmount>29.99</PriceAmount>
+                    <CurrencyCode>EUR</CurrencyCode>
+                </Price>
+            </SupplyDetail>
+        </ProductSupply>
+    </Product>
+</ONIXMessage>

@@ -2,64 +2,59 @@
 
 namespace Dso\Onix\Message;
 
-use Dso\Onix\XmlIterator;
-
 class Sender
 {
 
     /**
      * Name of the sender, e.g. organization
      *
-     * @var string
+     * @var ?string
      */
-    protected $SenderName;
+    protected ?string $SenderName = null;
 
     /**
      * Name of the primary sender contact,
      * e.g. first name / last name
      *
-     * @var string
+     * @var ?string
      */
-    protected $ContactName;
+    protected ?string $ContactName = null;
 
     /**
      * E-Mail address of the sender
      *
-     * @var string
+     * @var ?string
      */
-    protected $EmailAddress;
+    protected ?string $EmailAddress = null;
 
-    /**
-     * Set the senders organizational name
-     *
-     * @param string $senderName
-     * @return void
-     */
-    public function setSenderName(string $senderName)
+    public function setSenderName(string $senderName): void
     {
         $this->SenderName = $senderName;
     }
 
-    /**
-     * Set the sender's contact name
-     *
-     * @param string $contactName
-     * @return void
-     */
-    public function setContactName(string $contactName)
+    public function setContactName(string $contactName): void
     {
         $this->ContactName = $contactName;
     }
 
-    /**
-     * Set the senders email address
-     *
-     * @param string $emailAddress
-     * @return void
-     */
-    public function setEmailAddress(string $emailAddress)
+    public function setEmailAddress(string $emailAddress): void
     {
         $this->EmailAddress = $emailAddress;
+    }
+
+    public function getSenderName(): ?string
+    {
+        return $this->SenderName;
+    }
+
+    public function getContactName(): ?string
+    {
+        return $this->ContactName;
+    }
+
+    public function getEmailAddress(): ?string
+    {
+        return $this->EmailAddress;
     }
 
 }

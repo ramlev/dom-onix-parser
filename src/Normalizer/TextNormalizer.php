@@ -3,53 +3,39 @@
 namespace Dso\Onix\Normalizer;
 
 use Dso\Onix\Text;
-use Symfony\Component\Serializer\Encoder\XmlEncoder;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 
 class TextNormalizer implements NormalizerInterface, DenormalizerInterface
 {
 
-    /**
-     * {@inheritDoc}
-     */
-    public function normalize($object, $format = null, array $context = [])
+    public function getSupportedTypes(?string $format): array
     {
-
+        return [Text::class => true];
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    public function denormalize($data, $type, $format = null, array $context = [])
+    public function supportsNormalization(mixed $data, ?string $format = null, array $context = []): bool
     {
-
-        $textFormat = isset($data['@textformat']) ? $data['@textformat'] : Text::TYPE_DEFAULT;
-        $language = isset($data['@language']) ? $data['@language'] : null;
-        $content = is_array($data) ? $data['#'] : $data;
-
-        if ($content == null) {
-            dump($data);
-        }
-
-        return new Text($content, $textFormat, $language);
-
+        return $data instanceof Text;
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    public function supportsNormalization($data, $format = null)
+    public function normalize(mixed $object, ?string $format = null, array $context = []): array|string|int|float|bool|\ArrayObject|null
     {
-
+        return (string) $object;
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    public function supportsDenormalization($data, $type, $format = null)
+    public function supportsDenormalization(mixed $data, string $type, ?string $format = null, array $context = []): bool
     {
-        return $type == Text::class;
+        return $type === Text::class;
+    }
+
+    public function denormalize(mixed $data, string $type, ?string $format = null, array $context = []): mixed
+    {
+        $textFormat = $data['@textformat'] ?? Text::TYPE_DEFAULT;
+        $language = $data['@language'] ?? null;
+        $content = is_array($data) ? ($data['#'] ?? '') : $data;
+
+        return new Text((string) $content, $textFormat, $language);
     }
 
 }

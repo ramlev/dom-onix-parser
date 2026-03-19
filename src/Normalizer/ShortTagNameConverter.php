@@ -458,20 +458,20 @@ class ShortTagNameConverter implements NameConverterInterface
      * @param string $propertyName
      * @return string
      */
-    public function normalize($propertyName): string
+    public function normalize(string $propertyName, ?string $class = null, ?string $format = null, array $context = []): string
     {
         return ($key = array_search($propertyName, self::$shortToRef)) ?
             $key : $propertyName;
     }
 
     /**
-     * Converts short tag names to ref names on normalization,
-     * e.g. on converting objects to xml files
+     * Converts short tag names to ref names on denormalization,
+     * e.g. on converting XML to objects
      *
      * @param string $propertyName
      * @return string
      */
-    public function denormalize($propertyName): string
+    public function denormalize(string $propertyName, ?string $class = null, ?string $format = null, array $context = []): string
     {
         return array_key_exists($propertyName, self::$shortToRef) ?
             self::$shortToRef[$propertyName] : $propertyName;

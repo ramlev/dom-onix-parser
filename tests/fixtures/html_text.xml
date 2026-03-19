@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">
+    <Header>
+        <Sender>
+            <SenderName>Test Publisher</SenderName>
+        </Sender>
+        <SentDateTime dateformat="00">20240315</SentDateTime>
+        <MessageNumber>1</MessageNumber>
+    </Header>
+    <Product>
+        <RecordReference>html-test-001</RecordReference>
+        <NotificationType>03</NotificationType>
+        <DescriptiveDetail>
+            <ProductComposition>00</ProductComposition>
+            <ProductForm>BB</ProductForm>
+            <TitleDetail>
+                <TitleType>01</TitleType>
+                <TitleElement>
+                    <TitleElementLevel>01</TitleElementLevel>
+                    <TitleText>HTML Book</TitleText>
+                </TitleElement>
+            </TitleDetail>
+        </DescriptiveDetail>
+        <CollateralDetail>
+            <TextContent>
+                <TextType>03</TextType>
+                <ContentAudience>00</ContentAudience>
+                <Text textformat="02"><p>A <strong>bold</strong> description.</p><p>Second paragraph.</p></Text>
+            </TextContent>
+        </CollateralDetail>
+        <PublishingDetail>
+            <Publisher>
+                <PublishingRole>01</PublishingRole>
+                <PublisherName>HTML Publisher</PublisherName>
+            </Publisher>
+            <PublishingStatus>04</PublishingStatus>
+        </PublishingDetail>
+    </Product>
+</ONIXMessage>

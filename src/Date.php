@@ -31,23 +31,24 @@ class Date
      * @param CodeList $formatCode
      * @return void
      */
-    public function setFormatCode(CodeList $formatCode)
+    public function setFormatCode(CodeList $formatCode): void
     {
         $this->formatCode = $formatCode;
     }
-    
+
     /**
      * Parse the input date string
      *
      * @param string $input
      * @return void
      */
-    public function parseDate(string $input)
+    public function parseDate(string $input): void
     {
         
         // if the date was given in a text string format, we don't need to parse
         if (in_array($this->formatCode->getCode(), self::TEXT_FORMATS)) {
-            return $this->dates[] = $input;
+            $this->dates[] = $input;
+            return;
         }
 
         $format = $this->formatCode->getValue();
@@ -121,7 +122,7 @@ class Date
                     empty($day) ? 1 : $day
                 ]);
 
-                $dateString .= 'T' . $time ?? '00:00:00';
+                $dateString .= 'T' . ($time ?? '00:00:00');
 
                 $this->dates[] = new DateTime($dateString);
 
@@ -138,7 +139,7 @@ class Date
      * @param string $formatCode
      * @return void
      */
-    public static function parse(string $input, string $formatCode = "00")
+    public static function parse(string $input, string $formatCode = "00"): static
     {
         $class = new self();
         
@@ -155,7 +156,7 @@ class Date
      * @param string $dateFormat Date format according to DateTime::format()
      * @return string
      */
-    public function format(string $dateFormat)
+    public function format(string $dateFormat): string
     {
     	$output = '';
     	
@@ -163,7 +164,13 @@ class Date
 			if ($i > 0) {
 				$output .= ' – ';
 			}
-			$output .= $date->format($dateFormat);
+			if (is_array($date)) {
+				$output .= $date[0]->format($dateFormat) . ' – ' . $date[1]->format($dateFormat);
+			} elseif ($date instanceof \DateTime) {
+				$output .= $date->format($dateFormat);
+			} else {
+				$output .= (string) $date;
+			}
     	}
     	
     	return $output;

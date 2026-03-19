@@ -41,18 +41,12 @@ class Text
      * @param string $format
      * @param string $language
      */
-    public function __construct(string $content, string $format = self::TYPE_DEFAULT, $language = null)
+    public function __construct(string $content, string $format = self::TYPE_DEFAULT, ?string $language = null)
     {
 
         if (!in_array($format, [self::TYPE_ASCII, self::TYPE_DEFAULT, self::TYPE_HTML, self::TYPE_XHTML, self::TYPE_XML])) {
             throw new InvalidTextFormatException(sprintf('Unknown text format: %s. See ONIX CodeList 34 for more information.', $format));
         }
-
-
-        if ($format !== self::TYPE_HTML && $format !== self::TYPE_XML && $format !== self::TYPE_XHTML && $format !== self::TYPE_DEFAULT && $format !== self::TYPE_ASCII) {
-
-        }
-
 
         $this->content = $content;
         $this->textFormat = $format;
@@ -64,20 +58,20 @@ class Text
      *
      * @return string
      */
-    public function toPlain()
+    public function toPlain(): string
     {
 
-		if ($this->textFormat == self::TYPE_DEFAULT || $this->textFormat == self::TYPE_ASCII) {
+		if ($this->textFormat === self::TYPE_DEFAULT || $this->textFormat === self::TYPE_ASCII) {
     		return $this->content;
     	}
 
-        $content = preg_replace('/<br\s?/?>/', "\n", $this->content);
+        $content = preg_replace('/<br\s?\/?>/i', "\n", $this->content) ?? $this->content;
         $content = strip_tags($content);
 
         return $content;
 
     }
-    
+
     /**
      * Output plain text as HTML by translating simple line
      * breaks to HTML paragraphs and encode special HTML
@@ -85,9 +79,9 @@ class Text
      *
      * @return string
      */
-    public function toHtml()
+    public function toHtml(): string
     {
-    	if ($this->textFormat == self::TYPE_HTML || $this->textFormat == self::TYPE_XHTML) {
+    	if ($this->textFormat === self::TYPE_HTML || $this->textFormat === self::TYPE_XHTML) {
     		return $this->content;
     	}
     

@@ -29,7 +29,7 @@ class CodeList
      * @param string $language
      * @return CodeList
      */
-    public static function resolve(string $code, string $language = 'en')
+    public static function resolve(string $code, string $language = 'en'): static
     {
 
         $codeList = new static();
@@ -54,7 +54,7 @@ class CodeList
      *
      * @return string
      */
-    public function getCode()
+    public function getCode(): string
     {
         return $this->code;
     }
@@ -64,7 +64,7 @@ class CodeList
      *
      * @return string
      */
-    public function getValue()
+    public function getValue(): string
     {
         return $this->value;
     }
@@ -74,7 +74,7 @@ class CodeList
      *
      * @return string
      */
-    public function __toString()
+    public function __toString(): string
     {
         return $this->value;
     }

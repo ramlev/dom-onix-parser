@@ -4,7 +4,6 @@ namespace Dso\Onix\Message;
 
 use Dso\Onix\Message\Header as Header;
 use Dso\Onix\Product\Product;
-use Doctrine\Common\Annotations\Annotation\Attribute;
 
 class Message
 {

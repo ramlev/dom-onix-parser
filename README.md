@@ -1,112 +1,124 @@
 # PHP ONIX 3.0 Parser
-This package is a simple PHP library for reading ONIX 3.0 files in the general formats Short and Ref. Helper functions in the individual units make it easy to read out the details that you need from the data record. Text elements in different formats as well as the different ONIX date formats are automatically parsed and can therefore be used easily.
 
-__This package is currently under development. Although most fields should be detected and parsed by the library, some fields still need more work.__
+A PHP library for reading ONIX 3.0 files in both Short and Ref tag formats. Text elements in different formats and ONIX date formats are automatically parsed. Code list values are resolved to human-readable strings.
+
+**This library is under active development. Most fields are detected and parsed, but some still need work.**
+
+## Requirements
+
+- PHP >= 8.3
+- Symfony Serializer ^7.4
 
 ## Installation
-PHP >=8.1
 
-Installation is recommended to be done via composer by running:
 ```
-composer require dominservice/onix-parser
+composer require ramlev/dom-onix-parser
 ```
 
 ## Usage
-To parse an ONIX message in XML format, a new parser is instantiated. The XML file is then passed to the parser. The result is the complete ONIX message that can now be processed.
 
 ```php
-
 $parser = new \Dso\Onix\Parser();
 
-/** @var Dso\Onix\Message\Message; */
-$message = $parser->parseString(
-    file_get_contents('sample.xml')
-);
+/** @var \Dso\Onix\Message\Message */
+$message = $parser->parseString(file_get_contents('sample.xml'));
 
-/** @var Dso\Onix\Product\Product[] */
+/** @var \Dso\Onix\Product\Product[] */
 $products = $message->getProducts();
 ```
 
 ## Code Lists
-The library contains all current code lists in __issue 61__. Codes that are specified in the ONIX file are automatically read out, so that you receive a readable version of the codes.
 
-Let's say, you have a product in your message showing a specific NotificationType:
+All code lists from **issue 61** are included. Codes in the ONIX file are automatically resolved to their human-readable values.
 
 ```xml
-<ONIXMessage>
-    <Product>
-        <NotificationType>03</NotificationType>
-        [...]
-    </Product>
-</ONIXMessage>
+<Product>
+    <NotificationType>03</NotificationType>
+</Product>
 ```
 
 ```php
-// Either get the Code object and read it's code and/or value
 $type = $product->getNotificationType();
-$code = $code->getCode();   // "03"
-$value = $code->getValue(); // "Notification confirmed on publication"
 
-// or directly get the value as string
-$value = (string) $product->getNotificationType();
+$type->getCode();   // "03"
+$type->getValue();  // "Notification confirmed on publication"
+(string) $type;     // "Notification confirmed on publication"
 ```
 
 ### Multi-Language Code Lists
-According to the website of the official publisher of the ONIX format, the code lists are provided in several languages. The following languages are currently supported:
 
-| Language          | Language Code |
-| ----------------- | ------------- |
-| English (default) | `en`          |
-| Spanish           | `es`          |
-| German            | `de`          |
-| French            | `fr`          |
-| Italian           | `it`          |
-| Norwegian         | `nb`          |
-| Turkish           | `tr`          |
-
-__Please note that the code lists were automatically scraped from the [EDITEUR website](https://ns.editeur.org/onix/en). Therefore, some translations into the individual languages can be incorrect or partly missing. Feel free to submit a pull request with your fixed language of the code lists.__
-
-To use a specific language, just pass the language code as argument in the parser constructor:
+Pass a language code to the parser constructor to get code list values in that language:
 
 ```php
-// Create parser using german code list values
 $parser = new \Dso\Onix\Parser('de');
 ```
 
-## Measurements ##
-The PHP ONIX Parser reads all of the given Measurements from the ONIX file and assigns the correct codes for them. Using that, you can either loop through all given Measurements:
-```php
-// get the DescriptiveDetail portion of the product
-$descriptiveDetail = $product->getDescriptiveDetail();
+| Language          | Code |
+|-------------------|------|
+| English (default) | `en` |
+| Spanish           | `es` |
+| German            | `de` |
+| French            | `fr` |
+| Italian           | `it` |
+| Norwegian         | `nb` |
+| Turkish           | `tr` |
 
-foreach ($descriptiveDetail->getMeasures() as $measure) {
-	echo sprintf('%s: %s %s',                      // -> "Height: 210 Centimeters"
-		(string) $measure->getMeasureType(),       // e.g. "Height"
-		$measure->getMeasurement(),                // e.g. "210"
-		(string) $measure->getMeasureUnitCode()    // e.g. "Centimeters"
-	);
-}
+> Code lists were scraped from the [EDITEUR website](https://ns.editeur.org/onix/en). Some translations may be incomplete or inaccurate — pull requests are welcome.
+
+## Text Content
+
+Text fields are returned as `Text` objects and support multiple ONIX text formats (plain, HTML, XHTML, XML):
+
+```php
+$text = $textContent->getText();
+
+(string) $text;     // raw content
+$text->toPlain();   // strips HTML tags, converts <br> to newlines
+$text->toHtml();    // returns HTML; wraps plain text in <p> tags
 ```
-Using shorthand functions you can also search for measurements of type height, width, thickness or weight:
-```php
-/** @var Dso\Onix\Product\Measure */
-$height = $descriptiveDetail->getHeight();
-$width = $descriptiveDetail->getWidth();
-$thickness = $descriptiveDetail->getThickness();
-$weight = $descriptiveDetail->getWeight();
 
-echo sprintf("Height: %s %s", $height->getMeasurement(), $height->getMeasureUnitCode()->getCode());
-// --> Height: 210 cm
+## Dates
+
+Date fields are returned as `Date` objects and support all ONIX date format codes (CodeList 55), including ranges, weeks, quarters and seasons:
+
+```php
+$date = $publishingDate->getDate();
+
+$date->format('Y-m-d');         // e.g. "2024-03-15"
+$date->format('d. F Y');        // e.g. "15. March 2024"
+```
+
+## Measurements
+
+```php
+$detail = $product->getDescriptiveDetail();
+
+// Loop all measures
+foreach ($detail->getMeasures() as $measure) {
+    echo sprintf('%s: %s %s',
+        (string) $measure->getMeasureType(),    // e.g. "Height"
+        $measure->getMeasurement(),             // e.g. "210"
+        (string) $measure->getMeasureUnitCode() // e.g. "Centimeters"
+    );
+}
+
+// Shorthand helpers
+$detail->getHeight();
+$detail->getWidth();
+$detail->getThickness();
+$detail->getWeight();
+```
+
+## Running Tests
+
+```
+composer test
 ```
 
 ## Built With
-This library uses parts of the Symfony Serializer to parse the XML files and convert them into PHP objects.
 
-## To Do
-This library is still work in progress. Here's what's coming in the next releases:
-- [.] Optimize translations
-- [.] Add more shorthand functions (like `$product->getDescriptionText()`)
-- [.] Add a writer to create ONIX files from PHP objects
+- [Symfony Serializer](https://symfony.com/doc/current/components/serializer.html)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+MIT — see [LICENSE](LICENSE).

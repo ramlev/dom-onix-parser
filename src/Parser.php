@@ -81,7 +81,7 @@ class Parser
      * @param string $xml
      * @return Message
      */
-    public function parseString(string $xml)
+    public function parseString(string $xml): Message
     {
         $message = $this->serializer->deserialize($xml, Message::class, 'xml', [
             // XmlEncoder::DECODER_IGNORED_NODE_TYPES => [XML_TEXT_NODE],

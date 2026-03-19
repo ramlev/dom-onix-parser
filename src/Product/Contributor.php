@@ -1,6 +1,6 @@
 <?php
 
-namespace RiDsobal\Onix\Product;
+namespace Dso\Onix\Product;
 
 use Dso\Onix\CodeList\CodeList17;
 use Dso\Onix\Text;

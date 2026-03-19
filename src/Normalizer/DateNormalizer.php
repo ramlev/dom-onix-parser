@@ -2,7 +2,6 @@
 
 namespace Dso\Onix\Normalizer;
 
-use Dso\Onix\CodeList\CodeList55;
 use Dso\Onix\Date;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
@@ -10,29 +9,32 @@ use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 class DateNormalizer implements NormalizerInterface, DenormalizerInterface
 {
 
-    public function normalize($object, $format = null, array $context = [])
+    public function getSupportedTypes(?string $format): array
     {
-        return $object->formatOnix();
+        return [Date::class => true];
     }
 
-    public function denormalize($data, $type, $format = null, array $context = [])
-    {
-        $date = Date::parse(
-            is_array($data) ? $data['#'] : $data,
-            is_array($data) ? $data['@dateformat'] : '00'
-        );
-
-        return $date;
-    }
-
-    public function supportsNormalization($data, $format = null)
+    public function supportsNormalization(mixed $data, ?string $format = null, array $context = []): bool
     {
         return $data instanceof Date;
     }
 
-    public function supportsDenormalization($data, $type, $format = null)
+    public function normalize(mixed $object, ?string $format = null, array $context = []): array|string|int|float|bool|\ArrayObject|null
     {
-        return $type == Date::class;
+        return $object->formatOnix();
+    }
+
+    public function supportsDenormalization(mixed $data, string $type, ?string $format = null, array $context = []): bool
+    {
+        return $type === Date::class;
+    }
+
+    public function denormalize(mixed $data, string $type, ?string $format = null, array $context = []): mixed
+    {
+        return Date::parse(
+            is_array($data) ? $data['#'] : $data,
+            is_array($data) ? $data['@dateformat'] : '00'
+        );
     }
 
 }

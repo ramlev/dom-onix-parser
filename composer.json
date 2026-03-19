@@ -1,30 +1,30 @@
 {
-    "name": "dominservice/onix-parser",
-    "description": "An ONIX 3.0 Parser",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mateusz Domin",
-            "email": "biuro@dso.biz.pl"
-        },
-        {
-            "name": "Chris Ribal",
-            "email": "c.ribal@ribal-webentwicklung.de"
-        },
-        {
-            "name": "Common Knowledge",
-            "email": "hello@commonknowledge.coop"
-        }
-    ],
-    "require": {
-        "symfony/serializer": "^6.3",
-        "symfony/property-info": "^6.3",
-        "symfony/property-access": "^6.3"
+  "name": "dominservice/onix-parser",
+  "description": "An ONIX 3.0 Parser",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mateusz Domin",
+      "email": "biuro@dso.biz.pl"
     },
-    "autoload": {
-        "psr-4": {
-            "Dso\\Onix\\": "src/"
-        }
+    {
+      "name": "Chris Ribal",
+      "email": "c.ribal@ribal-webentwicklung.de"
+    },
+    {
+      "name": "Common Knowledge",
+      "email": "hello@commonknowledge.coop"
     }
+  ],
+  "require": {
+    "symfony/serializer": "^7.4",
+    "symfony/property-info": "^7.4",
+    "symfony/property-access": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dso\\Onix\\": "src/"
+    }
+  }
 }

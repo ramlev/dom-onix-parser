@@ -160,13 +160,50 @@ class SupportingResource
     /**
      * Get the link to a file or resource
      *
-     * @return string
+     * @return string|null
      */
-    public function getLink()
+    public function getLink(): ?string
     {
-    	if ($this->ResourceVersion && $this->ResourceVersion->hasLink()) {
-    		return $this->ResourceVersion->getResourceLink();
-    	}
+        if ($this->ResourceVersion && $this->ResourceVersion->hasLink()) {
+            return $this->ResourceVersion->getResourceLink();
+        }
+
+        return null;
+    }
+
+    public function getWidth(): ?int
+    {
+        return $this->ResourceVersion?->getWidth();
+    }
+
+    public function getHeight(): ?int
+    {
+        return $this->ResourceVersion?->getHeight();
+    }
+
+    public function getMd5(): ?string
+    {
+        return $this->ResourceVersion?->getMd5();
+    }
+
+    public function getSha256(): ?string
+    {
+        return $this->ResourceVersion?->getSha256();
+    }
+
+    public function getFilename(): ?string
+    {
+        return $this->ResourceVersion?->getFilename();
+    }
+
+    public function getFileSizeBytes(): ?int
+    {
+        return $this->ResourceVersion?->getFileSizeBytes();
+    }
+
+    public function getFileSizeMb(): ?float
+    {
+        return $this->ResourceVersion?->getFileSizeMb();
     }
 
 }

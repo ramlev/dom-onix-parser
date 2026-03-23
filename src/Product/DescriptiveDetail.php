@@ -681,6 +681,22 @@ class DescriptiveDetail
     }
     
     /**
+     * Get the main content page count, if set
+     *
+     * @return int|null
+     */
+    public function getPages(): ?int
+    {
+        foreach ($this->Extent as $extent) {
+            if ($extent->getExtentType()->getCode() === '00') {
+                return (int) $extent->getExtentValue();
+            }
+        }
+
+        return null;
+    }
+
+    /**
      * Get all contributors marked as authors
      *
      * @return array

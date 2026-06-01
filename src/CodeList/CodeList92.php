@@ -81,7 +81,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/92
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification des noms',
 		'02' => 'Propriétaire',
 		'04' => 'Börsenverein Verkehrsnummer',
 		'05' => 'Identifiant éditeur de l’Agence ISBN allemande',

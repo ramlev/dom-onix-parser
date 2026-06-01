@@ -114,7 +114,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/5
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification de produit',
 		'02' => 'ISBN-10',
 		'03' => 'GTIN-13',
 		'04' => 'UPC',
@@ -136,7 +136,7 @@ class CodeList5 extends CodeList implements CodeListInterface
 		'31' => 'Numéro BnF',
 		'34' => 'ISSN-13',
 		'35' => 'ARK',
-		'36' => 'Digital file internal version number',
+		'36' => 'Numéro de version interne du fichier numérique',
 	];
 
 	/**

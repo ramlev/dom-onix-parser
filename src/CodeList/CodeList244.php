@@ -48,7 +48,7 @@ class CodeList244 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/244
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification des événements',
 	];
 
 	/**

@@ -69,7 +69,7 @@ class CodeList43 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/43
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système d’identification propriétaire des éléments textuels',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'09' => 'PII',

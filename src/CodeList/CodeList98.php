@@ -135,7 +135,7 @@ class CodeList98 extends CodeList implements CodeListInterface
 		'GLD' => 'Or',
 		'GRN' => 'Vert',
 		'GRY' => 'Gris',
-		'HOL' => 'Holographic',
+		'HOL' => 'Holographique',
 		'MUL' => 'Multicolore',
 		'NAV' => 'Bleu marine / bleu foncé',
 		'ORG' => 'Orange',

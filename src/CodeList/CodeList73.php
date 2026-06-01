@@ -248,7 +248,7 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'51' => 'Site web de dépôt légal pour la conservation numérique',
 		'52' => 'Formulaire de contact de l’éditeur ou d’un tiers',
 		'53' => 'Site web de l’organisme pour la responsabilité sociale des entreprises',
-		'54' => 'Website for Indigenous statement or resource',
+		'54' => 'Site web contenant une déclaration ou une ressource relative aux peuples autochtones',
 	];
 
 	/**

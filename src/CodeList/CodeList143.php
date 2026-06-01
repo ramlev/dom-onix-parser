@@ -125,7 +125,7 @@ class CodeList143 extends CodeList implements CodeListInterface
 		'05' => 'AVERTISSEMENT : RISQUE D’ÉTOUFFEMENT – Le jouet est une bille | Interdit aux enfants de moins de 3 ans',
 		'06' => 'AVERTISSEMENT : RISQUE D’ÉTOUFFEMENT – Le jouet contient une bille | Interdit aux enfants de moins de 3 ans',
 		'07' => 'Aucun avertissement nécessaire sur les risques d’étouffement',
-		'08' => 'AVERTISSEMENT : RISQUE DE STRANGULATION – Corde longue | Interdit aux enfants de moins de 3 ans',
+		'08' => 'AVERTISSEMENT : RISQUE DE STRANGULATION – Corde longue | Interdit aux enfants de moins de 3 ans',
 		'09' => 'Aucun avertissement nécessaire sur les risques d’étranglement',
 		'11' => 'AVERTISSEMENT : RISQUE LIE A UN AIMANT – Le produit contient un (des) petit(s) aimant(s)',
 		'12' => 'Aucun avertissement nécessaire pour les risques liés à un aimant',

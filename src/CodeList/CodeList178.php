@@ -172,7 +172,7 @@ class CodeList178 extends CodeList implements CodeListInterface
 		'D107' => 'SWF',
 		'D108' => '3GP',
 		'D109' => 'WebM',
-		'D401' => 'PDF',
+		'D401' => 'PDF (page unique)',
 		'D501' => 'GIF',
 		'D502' => 'JPEG',
 		'D503' => 'PNG',

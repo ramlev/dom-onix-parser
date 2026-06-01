@@ -83,7 +83,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/nb/239
 	 */
 	protected static $nb = [
-		'07' => 'Return authorization contact',
+		'07' => 'Return authorisation contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
 		'99' => 'Customer services contact',

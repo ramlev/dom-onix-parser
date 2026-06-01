@@ -576,7 +576,7 @@ class CodeList27 extends CodeList implements CodeListInterface
 		'D2' => 'YSO-places',
 		'D3' => 'Norske emneord',
 		'D4' => 'Austlang',
-		'D5' => 'German Tropes list',
+		'D5' => 'Liste des tropes allemands',
 	];
 
 	/**

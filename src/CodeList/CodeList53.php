@@ -60,7 +60,7 @@ class CodeList53 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/53
 	 */
 	protected static $fr = [
-		'00' => 'Propriétaire',
+		'00' => 'Système propriétaire de codage des retours',
 		'01' => 'Code des conditions de retour de l’industrie du livre en France',
 		'02' => 'Code des conditions de retour BISAC',
 		'03' => 'Code des conditions de retour de l’industrie du livre au Royaume-Uni',

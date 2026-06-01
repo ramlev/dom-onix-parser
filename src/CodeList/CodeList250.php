@@ -51,7 +51,7 @@ class CodeList250 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/250
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification des ressources',
 		'09' => 'ISCC',
 	];
 

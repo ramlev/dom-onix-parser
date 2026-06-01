@@ -159,8 +159,8 @@ class CodeList99 extends CodeList implements CodeListInterface
 		'25' => 'Imitation cuir',
 		'26' => 'Cuir de porc',
 		'27' => 'Cuir de chèvre',
-		'28' => 'Rubber',
-		'29' => 'Padded or quilted fabric',
+		'28' => 'Caoutchouc',
+		'29' => 'Tissu rembourré ou matelassé',
 	];
 
 	/**

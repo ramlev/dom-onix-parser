@@ -30,6 +30,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'09' => 'Multi-user license',
 		'10' => 'Preview on premises',
 		'11' => 'Text and data mining',
+		'13' => 'TDM for AI to enhance the private purchase experience',
+		'14' => 'TDM for AI to enhance the private reading experience',
 		'16' => 'Library loan',
 	];
 
@@ -52,6 +54,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'09' => 'Licencia multi-usuario',
 		'10' => 'Previsualización en una ubicación física',
 		'11' => 'Minería de texto y datos',
+		'13' => 'TDM for AI to enhance the private purchase experience',
+		'14' => 'TDM for AI to enhance the private reading experience',
 		'16' => 'Préstamo en biblioteca',
 	];
 
@@ -74,6 +78,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'09' => 'Multi-user license',
 		'10' => 'Preview on premises',
 		'11' => 'Text and data mining',
+		'13' => 'TDM for AI to enhance the private purchase experience',
+		'14' => 'TDM for AI to enhance the private reading experience',
 		'16' => 'Library loan',
 	];
 
@@ -92,11 +98,13 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'05' => 'Synthèse vocale',
 		'06' => 'Prêt',
 		'07' => 'Licence avec limite de durée',
-		'08' => 'Renouvellement du prêt',
+		'08' => 'Renouvellement du prêt en bibliothèque',
 		'09' => 'Licence multi-utilisateurs',
 		'10' => 'Aperçu sur site',
 		'11' => 'Text and data mining',
-		'16' => 'Library loan',
+		'13' => 'TDM for AI to enhance the private purchase experience',
+		'14' => 'TDM for AI to enhance the private reading experience',
+		'16' => 'Prêt en bibliothèque',
 	];
 
 	/**
@@ -118,6 +126,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'09' => 'Licenza multiutente',
 		'10' => 'Anteprima in loco',
 		'11' => 'Estrazione di testo e dati (Text and Data mining)',
+		'13' => 'Estrazione di testo e dati per migliorare l’esperienza privata di acquisto tramite IA',
+		'14' => 'Estrazione di testo e dati per migliorare l’esperienza privata di lettura tramite IA',
 		'16' => 'Prestito bibliotecario',
 	];
 
@@ -140,6 +150,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'09' => 'Flerbrukerlisens',
 		'10' => 'Forhåndsvisning på lokasjon',
 		'11' => 'Tekst- og dataanalyse',
+		'13' => 'Tekst- og dataanalyse for å forbedre kjøpsopplevelsen',
+		'14' => 'Tekst- og dataanalyse for å forbedre leseopplevelsen',
 		'16' => 'Bibliotekutlån',
 	];
 
@@ -162,6 +174,8 @@ class CodeList145 extends CodeList implements CodeListInterface
 		'09' => 'Çok kullanıcılı lisans',
 		'10' => 'Preview on premises',
 		'11' => 'Text and data mining',
+		'13' => 'TDM for AI to enhance the private purchase experience',
+		'14' => 'TDM for AI to enhance the private reading experience',
 		'16' => 'Library loan',
 	];
 }

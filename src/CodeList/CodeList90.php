@@ -125,7 +125,7 @@ class CodeList90 extends CodeList implements CodeListInterface
 		'05' => 'Blessings',
 		'06' => 'Scholastic cycles',
 		'07' => 'Confirmation and Holy Communion',
-		'08' => 'Summer activities',
+		'08' => 'Summer activites',
 		'09' => 'Easter',
 		'10' => 'Lent',
 		'11' => 'Marian themes',

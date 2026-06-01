@@ -96,11 +96,11 @@ class CodeList248 extends CodeList implements CodeListInterface
 		'A425' => 'ID3v2',
 		'B001' => 'Impression grain long',
 		'B002' => 'Impression grain court',
-		'B003' => 'Monochrome',
+		'B003' => 'Imprimé en monochrome',
 		'B004' => 'Impression CMJN',
 		'B005' => 'Impression d’une qualité supérieure CMJN',
 		'B006' => 'Impression avec débordement du cadre d’impression',
-		'B007' => 'Printed higher-quality monochrome',
+		'B007' => 'Imprimé monochrome de qualité supérieure',
 	];
 
 	/**

@@ -51,7 +51,7 @@ class CodeList223 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/223
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Code propriétaire de détail du statut',
 		'02' => 'Code du détail du statut ONIX',
 	];
 

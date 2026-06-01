@@ -81,7 +81,7 @@ class CodeList13 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/13
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification de collection',
 		'02' => 'ISSN',
 		'03' => 'Identifiant des publications en série de la bibliographie nationale allemande',
 		'04' => 'Identifiant des publications en série allemandes',

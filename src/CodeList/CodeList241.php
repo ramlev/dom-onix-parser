@@ -66,7 +66,7 @@ class CodeList241 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/241
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification des articles audiovisuels',
 		'03' => 'GTIN-13',
 		'06' => 'DOI',
 		'12' => 'IMDB',

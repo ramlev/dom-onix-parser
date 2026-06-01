@@ -57,7 +57,7 @@ class CodeList102 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/102
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification des points de vente',
 		'03' => 'Code ID point de vente au détail ONIX',
 		'04' => 'GLN du point de vente au détail',
 		'05' => 'SAN du point de vente au détail',

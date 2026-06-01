@@ -171,7 +171,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/44
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification des noms',
 		'02' => 'Propriétaire',
 		'03' => 'Identifiant éditeur de la Bibliothèque nationale d’Allemagne',
 		'04' => 'Börsenverein Verkehrsnummer',
@@ -303,7 +303,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'31' => 'VIAF ID',
 		'32' => 'FundRef DOI',
 		'33' => 'BNE CN',
-		'34' => 'BNF Control Number',
+		'34' => 'BNF Control number',
 		'35' => 'ARK',
 		'36' => 'Nasjonalt autoritetsregister',
 		'37' => 'GRID',

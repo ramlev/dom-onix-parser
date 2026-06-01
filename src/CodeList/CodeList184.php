@@ -83,7 +83,7 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'05' => 'Porte un autre texte relatif à la sécurité des jouets',
 		'06' => 'Fiche technique disponible sur la sécurité du matériel',
 		'07' => 'Déclaration de conformité disponible',
-		'08' => 'Porte la déclaration « Conforme à la norme EN71 »',
+		'08' => 'Porte la déclaration « Conforme à la norme EN71 »',
 		'09' => 'Porte le logo UKCA',
 	];
 

@@ -138,8 +138,8 @@ class CodeList242 extends CodeList implements CodeListInterface
 		'27' => 'Zinc-carbone',
 		'28' => 'Zinc-air',
 		'29' => 'Pile à l’oxyde d’argent',
-		'97' => 'WEEE waste',
-		'98' => 'Battery safety warning text',
+		'97' => 'Déchets DEEE',
+		'98' => 'Texte d’avertissement relatif à la sécurité des piles',
 		'99' => 'Description de la batterie',
 	];
 

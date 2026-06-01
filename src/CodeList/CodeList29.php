@@ -136,7 +136,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 	 */
 	protected static $fr = [
 		'01' => 'Code Public ONIX',
-		'02' => 'Propriétaire',
+		'02' => 'Classification propriétaire du public',
 		'03' => 'Evaluation MPAA',
 		'04' => 'Evaluation BBFC',
 		'05' => 'Evaluation FSK',
@@ -151,7 +151,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'14' => 'Ausbildungsberuf',
 		'15' => 'Suomalainen kouluasteluokitus',
 		'16' => 'Recommandations CBG pour l’âge',
-		'17' => 'Code Public Nielsen Book',
+		'17' => 'Code public BookData',
 		'18' => 'AVI (révisé)',
 		'19' => 'Mesure Lexile',
 		'20' => 'Score de lisibilité Fry',
@@ -195,7 +195,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'19' => 'Parametri Lexile',
 		'20' => 'Fry Readability score',
 		'21' => 'Japanese Children’s audience code',
-		'22' => 'ONIX Adult audience rating',
+		'22' => 'Classificazione di materiale per adulti ONIX',
 		'23' => 'Quadro comune europeo di riferimento per la conoscenza delle lingue (QCER)',
 		'24' => 'Korean Publication Ethics Commission rating',
 		'25' => 'IoE Book Band',

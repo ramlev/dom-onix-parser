@@ -27,6 +27,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Later name',
 		'07' => 'Fictional character name',
 		'08' => 'Acronym / initialism',
+		'09' => 'Professional name',
 	];
 
 	/**
@@ -45,6 +46,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Nombre posterior',
 		'07' => 'Nombre de personaje ficticio',
 		'08' => 'Acrónimo / sigla',
+		'09' => 'Professional name',
 	];
 
 	/**
@@ -63,6 +65,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Later name',
 		'07' => 'Fictional character name',
 		'08' => 'Acronym / initialism',
+		'09' => 'Professional name',
 	];
 
 	/**
@@ -81,6 +84,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Dernière forme du nom',
 		'07' => 'Nom de personnage de fiction',
 		'08' => 'Acronyme/Sigle',
+		'09' => 'Professional name',
 	];
 
 	/**
@@ -99,6 +103,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Nome successivo',
 		'07' => 'Nome del personaggio di fantasia',
 		'08' => 'Acronimo/Sigla',
+		'09' => 'Nome professionale',
 	];
 
 	/**
@@ -117,6 +122,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Senere navn',
 		'07' => 'Navn på fiktiv karakter',
 		'08' => 'Akronym',
+		'09' => 'Navn brukt i yrkessammenheng',
 	];
 
 	/**
@@ -135,5 +141,6 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Sonraki adı',
 		'07' => 'Fictional character name',
 		'08' => 'Acronym / initialism',
+		'09' => 'Professional name',
 	];
 }

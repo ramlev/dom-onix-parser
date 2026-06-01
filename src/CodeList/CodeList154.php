@@ -94,9 +94,9 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'07' => 'Presse',
 		'08' => 'Service comparatif d’achats',
 		'09' => 'Index de moteur de recherche',
-		'10' => 'Blogueurs',
-		'11' => 'Children',
-		'12' => 'Teens',
+		'10' => 'Réseaux sociaux',
+		'11' => 'Enfants',
+		'12' => 'Adolescents',
 	];
 
 	/**

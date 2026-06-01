@@ -1127,7 +1127,7 @@ class CodeList96 extends CodeList implements CodeListInterface
 		'GTQ' => 'Quetzal',
 		'GWP' => 'Guinea-Bissau Peso',
 		'GYD' => 'Guyansk dollar',
-		'HKD' => 'Hong Kong Dollar',
+		'HKD' => 'Hong Kong dollar',
 		'HNL' => 'Lempira',
 		'HRK' => 'Kroatisk kuna',
 		'HTG' => 'Haitisk gourde',

@@ -51,7 +51,7 @@ class CodeList70 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/70
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire de codage des quantités en stock',
 		'02' => 'Quantité de stock APA',
 	];
 

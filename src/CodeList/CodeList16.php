@@ -75,7 +75,7 @@ class CodeList16 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/16
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification des œuvres',
 		'02' => 'ISBN-10',
 		'06' => 'DOI',
 		'11' => 'ISTC',

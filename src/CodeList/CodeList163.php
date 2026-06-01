@@ -42,6 +42,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Purchase embargo date',
 		'35' => 'CIP date',
 		'36' => 'Date of first unabridged publication',
+		'37' => 'Year of publication',
+		'38' => 'Preview embargo date',
+		'39' => 'Library embargo date',
 	];
 
 	/**
@@ -75,6 +78,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Fecha de embargo de compra',
 		'35' => 'Fecha de la «catalogación en publicación» (CIP)',
 		'36' => 'Fecha de la primera publicación íntegra',
+		'37' => 'Year of publication',
+		'38' => 'Preview embargo date',
+		'39' => 'Library embargo date',
 	];
 
 	/**
@@ -108,6 +114,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Purchase embargo date',
 		'35' => 'CIP date',
 		'36' => 'Date of first unabridged publication',
+		'37' => 'Year of publication',
+		'38' => 'Preview embargo date',
+		'39' => 'Library embargo date',
 	];
 
 	/**
@@ -137,10 +146,13 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'29' => 'Date de production',
 		'30' => 'Date d’embargo pour le streaming',
 		'31' => 'Date d’embargo pour la souscription',
-		'32' => 'Download embargo date',
-		'33' => 'Purchase embargo date',
+		'32' => 'Date d’embargo du téléchargement',
+		'33' => 'Date d’embargo d’achat',
 		'35' => 'Date du catalogage avant publication',
-		'36' => 'Date of first unabridged publication',
+		'36' => 'Date de la première publication intégrale',
+		'37' => 'Year of publication',
+		'38' => 'Preview embargo date',
+		'39' => 'Library embargo date',
 	];
 
 	/**
@@ -174,6 +186,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Data di embargo sull’acquisto',
 		'35' => 'Data del CIP (Cataloguing in publication)',
 		'36' => 'Data della prima pubblicazione integrale',
+		'37' => 'Anno di pubblicazione',
+		'38' => 'Data di embargo dell’anteprima',
+		'39' => 'Data di embargo per la biblioteca',
 	];
 
 	/**
@@ -207,6 +222,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Sperrefrist for kjøp',
 		'35' => 'CIP-dato',
 		'36' => 'Dato for første forkortede utgave',
+		'37' => 'Utgivelsesår',
+		'38' => 'Sperrefrist for forhåndsvisning',
+		'39' => 'Sperrefrist for bibliotek',
 	];
 
 	/**
@@ -240,5 +258,8 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Purchase embargo date',
 		'35' => 'CIP date',
 		'36' => 'Date of first unabridged publication',
+		'37' => 'Year of publication',
+		'38' => 'Preview embargo date',
+		'39' => 'Library embargo date',
 	];
 }

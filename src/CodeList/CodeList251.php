@@ -51,8 +51,8 @@ class CodeList251 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/251
 	 */
 	protected static $fr = [
-		'C01' => 'Cover',
-		'C02' => 'Jacket',
+		'C01' => 'Couverture',
+		'C02' => 'Jaquette',
 	];
 
 	/**

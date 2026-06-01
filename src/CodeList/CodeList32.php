@@ -134,7 +134,7 @@ class CodeList32 extends CodeList implements CodeListInterface
 		'04' => 'IoE Book Band',
 		'05' => 'Fountas and Pinnell Text Level Gradient',
 		'06' => 'Lexile measure',
-		'07' => 'ATOS for Books',
+		'07' => 'ATOS for books',
 		'08' => 'Flesch-Kincaid Grade Level',
 		'09' => 'Guided Reading Level',
 		'10' => 'Reading Recovery Level',

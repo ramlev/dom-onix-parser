@@ -71,7 +71,7 @@ class CodeList157 extends CodeList implements CodeListInterface
 		'03' => 'Radio',
 		'04' => 'TV',
 		'05' => 'Podcast',
-		'06' => 'Social media',
+		'06' => 'Réseaux sociaux',
 		'07' => 'Playlist',
 	];
 

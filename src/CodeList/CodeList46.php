@@ -73,12 +73,12 @@ class CodeList46 extends CodeList implements CodeListInterface
 	 */
 	protected static $fr = [
 		'00' => 'Droits de vente inconnus ou non spécifiés pour une quelconque raison',
-		'01' => 'Pour la vente libre avec droits exclusifs dans les pays ou territoires spécifiés',
-		'02' => 'Pour la vente libre avec droits non exclusifs dans les pays ou territoires spécifiés',
+		'01' => 'Pour la vente libre, sur la base des droits d’édition exclusifs de l’éditeur sur le territoire spécifié',
+		'02' => 'Pour la vente libre, sur la base des droits d’édition non exclusifs de l’éditeur sur le territoire spécifié',
 		'03' => 'Interdit à la vente dans les pays ou territoires spécifiés (raison non mentionnée)',
-		'04' => 'Interdit à la vente dans les pays spécifiés (mais l’éditeur détient les droits exclusifs dans ces pays ou territoires)',
-		'05' => 'Interdit à la vente dans les pays spécifiés (l’éditeur détient les droits non exclusifs dans ces pays ou territoires)',
-		'06' => 'Interdit à la vente dans les pays spécifiés (car l’éditeur ne détient pas les droits dans ces pays ou territoires)',
+		'04' => 'Interdit à la vente dans le territoire spécifié (mais l’éditeur détient les droits exclusifs dans ce territoire)',
+		'05' => 'Interdit à la vente dans le territoire spécifié (mais l’éditeur détient les droits non exclusifs dans ce territoire)',
+		'06' => 'Interdit à la vente dans le territoire spécifié (car l’éditeur ne détient pas les droits dans ce territoire)',
 		'07' => 'Pour la vente avec droits exclusifs dans les pays ou territoires spécifiés (les restrictions de vente s’appliquent)',
 		'08' => 'Pour la vente avec droits non exclusifs dans les pays ou territoires spécifiés (les restrictions de vente s’appliquent)',
 	];

@@ -199,8 +199,8 @@ class CodeList153 extends CodeList implements CodeListInterface
 		'35' => 'Brève description de l’éditeur',
 		'36' => 'Description de l’éditeur',
 		'37' => 'Phrase de couverture',
-		'38' => 'Special cover statement',
-		'39' => 'List of bonus contents',
+		'38' => 'Mention spéciale sur la couverture',
+		'39' => 'Liste des contenus bonus',
 	];
 
 	/**

@@ -182,7 +182,7 @@ class CodeList21 extends CodeList implements CodeListInterface
 		'ADP' => 'Edition adaptée',
 		'ALT' => 'Autre',
 		'ANN' => 'Edition annotée',
-		'AVS' => 'Anniversary edition',
+		'AVS' => 'Édition anniversaire',
 		'BLL' => 'Edition bilingue',
 		'BLP' => 'Edition bilingue, traduction en vis-à-vis',
 		'BRL' => 'Edition en Braille',

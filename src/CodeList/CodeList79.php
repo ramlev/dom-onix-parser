@@ -224,12 +224,12 @@ class CodeList79 extends CodeList implements CodeListInterface
 	protected static $fr = [
 		'01' => 'Couleur de couverture',
 		'26' => 'Couleur du dos',
-		'27' => 'Couleur de dorure à la presse',
-		'59' => 'Color of foil (on jacket)',
+		'27' => 'Couleur de dorure à la presse (sur la couverture)',
+		'59' => 'Couleur de la feuille métallisée (sur la jaquette)',
 		'02' => 'Couleur des tranches',
 		'55' => 'Couleur des pages de garde',
-		'57' => 'Color of ribbon marker(s)',
-		'58' => 'Color of head and tail bands',
+		'57' => 'Couleur de(s) ruban(s) marque-page(s)',
+		'58' => 'Couleur de tranchefile et tranchefile de pied',
 		'03' => 'Police de caractères',
 		'04' => 'Matériau spécial de couverture',
 		'05' => 'Région DVD',
@@ -277,10 +277,10 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'52' => 'RDUE conforme à la législation nationale',
 		'53' => 'Attestation de non-déforestation RDUE',
 		'54' => 'Attestation de présence des stocks RDUE',
-		'56' => 'EUDR beyond scope attestation',
-		'60' => 'EUDR raw material location (interior or full product) URL',
-		'61' => 'EUDR raw material location (binding) URL',
-		'62' => 'EUDR raw material location (other) URL',
+		'56' => 'Attestation RDUE hors champ',
+		'60' => 'URL de l’emplacement des matières premières RDUE (intérieur ou produit complet)',
+		'61' => 'URL de l’emplacement des matières premières RDUE (reliure)',
+		'62' => 'URL de l’emplacement des matières premières RDUE (autre)',
 	];
 
 	/**

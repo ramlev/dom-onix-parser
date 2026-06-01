@@ -135,7 +135,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'04' => 'Review copy contact',
 		'05' => 'Evaluation copy contact',
 		'06' => 'Permissions contact',
-		'07' => 'Return authorization contact',
+		'07' => 'Return authorisation contact',
 		'08' => 'CIP / Legal deposit contact',
 		'09' => 'Rights and licensing contact',
 		'10' => 'Product safety contact',

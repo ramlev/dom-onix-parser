@@ -54,7 +54,7 @@ class CodeList179 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/179
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système de codification propriétaire des prix',
 		'02' => 'Code de prix des Pocket Books finlandais',
 		'03' => 'Code de prix des Miki Books finlandais',
 	];

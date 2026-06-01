@@ -67,10 +67,10 @@ class CodeList100 extends CodeList implements CodeListInterface
 	 */
 	protected static $fr = [
 		'01' => 'Code de remise BIC',
-		'02' => 'Code remise propriétaire',
+		'02' => 'Système propriétaire de code de remise',
 		'03' => 'Boeksoort',
 		'04' => 'Code conditions allemand',
-		'05' => 'Code commission propriétaire',
+		'05' => 'Système propriétaire de code commission',
 		'06' => 'Code de commission BIC',
 		'07' => 'Code de remise basé sur l’ISNI',
 	];

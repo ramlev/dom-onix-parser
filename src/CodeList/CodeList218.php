@@ -68,11 +68,11 @@ class CodeList218 extends CodeList implements CodeListInterface
 	protected static $fr = [
 		'01' => 'Human readable',
 		'02' => 'Professional readable',
-		'03' => 'Human readable additional license',
-		'04' => 'Professional readable additional license',
+		'03' => 'Licence supplémentaire lisible par l’homme',
+		'04' => 'Licence supplémentaire lisible par les professionnels',
 		'10' => 'ONIX-PL',
 		'20' => 'ODRL',
-		'21' => 'ODRL additional license',
+		'21' => 'Licence supplémentaire ODRL',
 	];
 
 	/**

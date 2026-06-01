@@ -124,15 +124,15 @@ class CodeList256 extends CodeList implements CodeListInterface
 		'24' => 'Perspective en 3D du dos',
 		'33' => 'Perspective en 3D de l’“avant bas”',
 		'34' => 'Perspective en 3D de l’“arrière bas”',
-		'35' => 'Perspective en 3D de « la tranche avant bas »',
-		'36' => 'Perspective en 3D de « la tranche arrière bas »',
+		'35' => 'Perspective en 3D de « la tranche avant bas »',
+		'36' => 'Perspective en 3D de « la tranche arrière bas »',
 		'41' => '2D face',
 		'42' => '2D 4e',
 		'43' => '2D dos',
 		'47' => 'Perspective en 3D horizontale',
 		'48' => 'Perspective en 3D verticale',
-		'49' => 'Perspective en 3D « ouverte »',
-		'50' => 'Perspective en 3D « fermée »',
+		'49' => 'Perspective en 3D « ouverte »',
+		'50' => 'Perspective en 3D « fermée »',
 	];
 
 	/**

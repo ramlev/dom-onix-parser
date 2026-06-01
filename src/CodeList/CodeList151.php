@@ -96,7 +96,7 @@ class CodeList151 extends CodeList implements CodeListInterface
 		'09' => 'Enregistré(e) à/en',
 		'10' => 'Opère depuis',
 		'11' => 'Eligible aux programmes de marketing géographique',
-		'12' => 'Indigenous to (Indigenous geographies or territorialities)',
+		'12' => 'Indigène de (géographies ou territorialités autochtones)',
 	];
 
 	/**

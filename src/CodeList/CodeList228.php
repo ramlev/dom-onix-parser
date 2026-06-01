@@ -51,7 +51,7 @@ class CodeList228 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/228
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
+		'01' => 'Système propriétaire d’identification de subvention',
 		'06' => 'DOI',
 	];
 

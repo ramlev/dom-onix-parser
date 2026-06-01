@@ -66,13 +66,13 @@ class CodeList217 extends CodeList implements CodeListInterface
 	 * @see https://ns.editeur.org/onix/fr/217
 	 */
 	protected static $fr = [
-		'01' => 'Propriétaire',
-		'02' => 'Identifiant propriétaire de niveau de prix',
-		'03' => 'Identifiant propriétaire de type de prix',
-		'04' => 'Identifiant propriétaire de niveau et de type de prix',
-		'05' => 'Identifiant propriétaire de prix unique',
-		'06' => 'Identifiant propriétaire de niveau de prix du produit',
-		'07' => 'Identifiant propriétaire de type de prix du produit',
+		'01' => 'Système d’identifiant propriétaire de prix',
+		'02' => 'Système d’identifiant propriétaire de niveau de prix',
+		'03' => 'Système propriétaire d’identifiant de type de prix',
+		'04' => 'Système propriétaire d’identifiant de niveau et de type de prix',
+		'05' => 'Système propriétaire d’identifiant de prix unique',
+		'06' => 'Système propriétaire d’identifiant de niveau de prix du produit',
+		'07' => 'Système propriétaire d’identifiant de type de prix du produit',
 	];
 
 	/**

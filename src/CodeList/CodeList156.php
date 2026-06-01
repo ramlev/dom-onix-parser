@@ -76,7 +76,7 @@ class CodeList156 extends CodeList implements CodeListInterface
 		'05' => 'Bibliographie sélective',
 		'06' => 'Commentaire/discussion',
 		'07' => 'Interview',
-		'08' => 'Soundtrack',
+		'08' => 'Bande originale',
 	];
 
 	/**

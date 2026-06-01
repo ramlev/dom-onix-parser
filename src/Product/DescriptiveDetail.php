@@ -4,6 +4,7 @@ namespace Dso\Onix\Product;
 
 use Dso\Onix\CodeList\CodeList2;
 use Dso\Onix\CodeList\CodeList81;
+use Dso\Onix\CodeList\CodeList144;
 use Dso\Onix\CodeList\CodeList91;
 use Dso\Onix\CodeList\CodeList150;
 use Dso\Onix\CodeList\CodeList175;
@@ -38,6 +39,20 @@ class DescriptiveDetail
      * @var array|ProductFormFeature
      */
     protected $ProductFormFeature = [];
+
+    /**
+     * EpubTechnicalProtection
+     *
+     * @var CodeList
+     */
+    protected $EpubTechnicalProtection;
+
+    /**
+     * EpubUsageConstraint
+     *
+     * @var array|EpubUsageConstraint
+     */
+    protected $EpubUsageConstraint = [];
 
     /**
      * ProductContentType
@@ -172,6 +187,39 @@ class DescriptiveDetail
     public function addProductFormFeature(ProductFormFeature $ProductFormFeature)
     {
         $this->ProductFormFeature[] = $ProductFormFeature;
+    }
+
+    /**
+     * Set EpubTechnicalProtection
+     *
+     * @param CodeList144 $EpubTechnicalProtection
+     * @return void
+     */
+    public function setEpubTechnicalProtection(CodeList144 $EpubTechnicalProtection)
+    {
+        $this->EpubTechnicalProtection = $EpubTechnicalProtection;
+    }
+
+    /**
+     * Add EpubUsageConstraint
+     *
+     * @param EpubUsageConstraint $EpubUsageConstraint
+     * @return void
+     */
+    public function addEpubUsageConstraint(EpubUsageConstraint $EpubUsageConstraint)
+    {
+        $this->EpubUsageConstraint[] = $EpubUsageConstraint;
+    }
+
+    /**
+     * Remove an EpubUsageConstraint
+     *
+     * @param EpubUsageConstraint $EpubUsageConstraint
+     * @return void
+     */
+    public function removeEpubUsageConstraint(EpubUsageConstraint $EpubUsageConstraint)
+    {
+
     }
 
     /**
@@ -418,6 +466,26 @@ class DescriptiveDetail
     public function getProductFormFeature()
     {
         return $this->ProductFormFeature;
+    }
+
+    /**
+     * Get EpubTechnicalProtection
+     *
+     * @return CodeList144|null
+     */
+    public function getEpubTechnicalProtection()
+    {
+        return $this->EpubTechnicalProtection;
+    }
+
+    /**
+     * Get EpubUsageConstraint
+     *
+     * @return EpubUsageConstraint[]
+     */
+    public function getEpubUsageConstraint()
+    {
+        return $this->EpubUsageConstraint;
     }
 
     /**

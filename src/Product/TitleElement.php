@@ -10,7 +10,7 @@ class TitleElement
     /**
      * SequenceNumber
      *
-     * @var string
+     * @var ?string
      */
     protected $SequenceNumber;
 
@@ -24,35 +24,35 @@ class TitleElement
     /**
      * TitlePrefix
      *
-     * @var string
+     * @var ?string
      */
     protected $TitlePrefix;
 
     /**
      * TitleWithoutPrefix
      *
-     * @var string
+     * @var ?string
      */
     protected $TitleWithoutPrefix;
 
     /**
      * TitleText
      *
-     * @var string
+     * @var ?string
      */
     protected $TitleText;
 
     /**
      * Subtitle
      *
-     * @var string
+     * @var ?string
      */
     protected $Subtitle;
 
     /**
      * PartNumber
      *
-     * @var string
+     * @var ?string
      */
     protected $PartNumber;
 
@@ -136,7 +136,7 @@ class TitleElement
     /**
      * Get SequenceNumber
      *
-     * @return string
+     * @return ?string
      */
     public function getSequenceNumber()
     {
@@ -156,7 +156,7 @@ class TitleElement
     /**
      * Get TitlePrefix
      *
-     * @return void
+     * @return ?string
      */
     public function getTitlePrefix()
     {
@@ -166,7 +166,7 @@ class TitleElement
     /**
      * Get TitleWithoutPrefix
      *
-     * @return string
+     * @return ?string
      */
     public function getTitleWithoutPrefix()
     {
@@ -176,7 +176,7 @@ class TitleElement
     /**
      * Get PartNumber
      *
-     * @return string
+     * @return ?string
      */
     public function getPartNumber()
     {
@@ -186,7 +186,7 @@ class TitleElement
     /**
      * Get TitleText
      *
-     * @return string
+     * @return ?string
      */
     public function getTitleText()
     {
@@ -196,7 +196,7 @@ class TitleElement
     /**
      * Get Subtitle
      *
-     * @return string
+     * @return ?string
      */
     public function getSubtitle()
     {

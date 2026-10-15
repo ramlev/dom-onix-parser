@@ -24,14 +24,14 @@ class Publisher
     /**
      * PublisherName
      *
-     * @var string
+     * @var ?string
      */
     protected $PublisherName;
 
     /**
      * Website
      *
-     * @var Website
+     * @var ?Website
      */
     protected $Website;
 
@@ -117,7 +117,7 @@ class Publisher
     /**
      * Get PublisherName
      *
-     * @return string
+     * @return ?string
      */
     public function getPublisherName()
     {
@@ -127,7 +127,7 @@ class Publisher
     /**
      * Get Website
      *
-     * @return Website
+     * @return ?Website
      */
     public function getWebsite()
     {

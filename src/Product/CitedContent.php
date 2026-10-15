@@ -19,42 +19,42 @@ class CitedContent
     /**
      * ContentAudience
      *
-     * @var CodeList154
+     * @var ?CodeList154
      */
     protected $ContentAudience;
 
     /**
      * SourceType
      *
-     * @var CodeList157
+     * @var ?CodeList157
      */
     protected $SourceType;
 
     /**
      * SourceTitle
      *
-     * @var string
+     * @var ?string
      */
     protected $SourceTitle;
 
     /**
      * CitationNote
      *
-     * @var string
+     * @var ?string
      */
     protected $CitationNote;
 
     /**
      * ResourceLink
      *
-     * @var string
+     * @var ?string
      */
     protected $ResourceLink;
 
     /**
      * ContentDate
      *
-     * @var ContentDate
+     * @var ?ContentDate
      */
     protected $ContentDate;
 
@@ -148,7 +148,7 @@ class CitedContent
     /**
      * Get ContentAudience
      *
-     * @return CodeList154
+     * @return ?CodeList154
      */
     public function getContentAudience()
     {
@@ -158,7 +158,7 @@ class CitedContent
     /**
      * Get SourceType
      *
-     * @return CodeList157
+     * @return ?CodeList157
      */
     public function getSourceType()
     {
@@ -168,7 +168,7 @@ class CitedContent
     /**
      * Get SourceTitle
      *
-     * @return string
+     * @return ?string
      */
     public function getSourceTitle()
     {
@@ -178,7 +178,7 @@ class CitedContent
     /**
      * Get CitationNote
      *
-     * @return string
+     * @return ?string
      */
     public function getCitationNote()
     {
@@ -188,7 +188,7 @@ class CitedContent
     /**
      * Get ResourceLink
      *
-     * @return string
+     * @return ?string
      */
     public function getResourceLink()
     {
@@ -198,7 +198,7 @@ class CitedContent
     /**
      * Get ContentDate
      *
-     * @return ContentDate
+     * @return ?ContentDate
      */
     public function getContentDate()
     {

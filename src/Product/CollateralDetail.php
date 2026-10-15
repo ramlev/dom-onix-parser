@@ -142,7 +142,7 @@ class CollateralDetail
     /**
      * Get the product description text, if set
      *
-     * @return TextContent|null
+     * @return ?TextContent
      */
     public function getDescriptionText()
     {
@@ -156,7 +156,7 @@ class CollateralDetail
     /**
      * Get the front cover resource, if set
      *
-     * @return SupportingResource
+     * @return ?SupportingResource
      */
 	public function getFrontCover()
 	{

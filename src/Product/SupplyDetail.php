@@ -17,7 +17,7 @@ class SupplyDetail
     /**
      * ReturnsConditions
      *
-     * @var ReturnsConditions
+     * @var ?ReturnsConditions
      */
     protected $ReturnsConditions;
 
@@ -31,14 +31,14 @@ class SupplyDetail
     /**
      * Stock
      *
-     * @var Stock
+     * @var ?Stock
      */
     protected $Stock;
 
     /**
      * PackQuantity
      *
-     * @var string
+     * @var ?string
      */
     protected $PackQuantity;
 
@@ -134,7 +134,7 @@ class SupplyDetail
     /**
      * Get ReturnsConditions
      *
-     * @return ReturnsConditions
+     * @return ?ReturnsConditions
      */
     public function getReturnsConditions()
     {
@@ -154,7 +154,7 @@ class SupplyDetail
     /**
      * Get Stock
      *
-     * @return Stock
+     * @return ?Stock
      */
     public function getStock()
     {
@@ -175,7 +175,7 @@ class SupplyDetail
     /**
      * Get PackQuantity
      *
-     * @return string
+     * @return ?string
      */
     public function getPackQuantity()
     {

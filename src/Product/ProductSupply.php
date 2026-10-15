@@ -8,14 +8,14 @@ class ProductSupply
     /**
      * Market
      *
-     * @var Market
+     * @var ?Market
      */
     protected $Market;
 
     /**
      * MarketPublishingDetail
      *
-     * @var MarketPublishingDetail
+     * @var ?MarketPublishingDetail
      */
     protected $MarketPublishingDetail;
 
@@ -62,7 +62,7 @@ class ProductSupply
     /**
      * Get Market
      *
-     * @return Market
+     * @return ?Market
      */
     public function getMarket()
     {
@@ -72,7 +72,7 @@ class ProductSupply
     /**
      * Get MarketPublishingDetail
      *
-     * @return MarketPublishingDetail
+     * @return ?MarketPublishingDetail
      */
     public function getMarketPublishingDetail()
     {

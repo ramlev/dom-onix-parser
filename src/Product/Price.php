@@ -14,70 +14,70 @@ class Price
     /**
      * PriceType
      *
-     * @var CodeList58
+     * @var ?CodeList58
      */
     protected $PriceType;
 
     /**
      * PriceStatus
      *
-     * @var CodeList61
+     * @var ?CodeList61
      */
     protected $PriceStatus;
 
     /**
      * PriceAmount
      *
-     * @var float
+     * @var ?float
      */
     protected $PriceAmount;
 
     /**
      * CurrencyCode
      *
-     * @var CodeList96
+     * @var ?CodeList96
      */
     protected $CurrencyCode;
 
     /**
      * PrintedOnProduct
      *
-     * @var CodeList174
+     * @var ?CodeList174
      */
     protected $PrintedOnProduct;
 
     /**
      * PositionOnProduct
      *
-     * @var CodeList142
+     * @var ?CodeList142
      */
     protected $PositionOnProduct;
 
     /**
      * DiscountCoded
      *
-     * @var DiscountCoded
+     * @var ?DiscountCoded
      */
     protected $DiscountCoded;
 
     /**
      * Discount
      *
-     * @var Discount
+     * @var ?Discount
      */
     protected $Discount;
 
     /**
      * Tax
      *
-     * @var Tax
+     * @var ?Tax
      */
     protected $Tax;
 
     /**
      * Territory
      *
-     * @var Territory
+     * @var ?Territory
      */
     protected $Territory;
 
@@ -194,7 +194,7 @@ class Price
     /**
      * Get PriceType
      *
-     * @return CodeList58
+     * @return ?CodeList58
      */
     public function getPriceType()
     {
@@ -204,7 +204,7 @@ class Price
     /**
      * Get PriceStatus
      *
-     * @return CodeList61
+     * @return ?CodeList61
      */
     public function getPriceStatus()
     {
@@ -214,7 +214,7 @@ class Price
     /**
      * PriceAmount
      *
-     * @return float
+     * @return ?float
      */
     public function getPriceAmount()
     {
@@ -224,7 +224,7 @@ class Price
     /**
      * Get CurrencyCode
      *
-     * @return CodeList96
+     * @return ?CodeList96
      */
     public function getCurrencyCode()
     {
@@ -234,7 +234,7 @@ class Price
     /**
      * Get PrintedOnProduct
      *
-     * @return CodeList174
+     * @return ?CodeList174
      */
     public function getPrintedOnProduct()
     {
@@ -244,7 +244,7 @@ class Price
     /**
      * Get PositionOnProduct
      *
-     * @return CodeList142
+     * @return ?CodeList142
      */
     public function getPositionOnProduct()
     {
@@ -254,7 +254,7 @@ class Price
     /**
      * Get DiscountCoded
      *
-     * @return DiscountCoded
+     * @return ?DiscountCoded
      */
     public function getDiscountCoded()
     {
@@ -264,7 +264,7 @@ class Price
     /**
      * Get Tax
      *
-     * @return Tax
+     * @return ?Tax
      */
     public function getTax()
     {
@@ -274,7 +274,7 @@ class Price
     /**
      * Get Territory
      *
-     * @return Territory
+     * @return ?Territory
      */
     public function getTerritory()
     {
@@ -284,7 +284,7 @@ class Price
     /**
      * Get Discount
      *
-     * @return Discount
+     * @return ?Discount
      */
     public function getDiscount()
     {

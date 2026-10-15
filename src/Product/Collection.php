@@ -17,7 +17,7 @@ class Collection
     /**
      * TitleDetail
      *
-     * @var TitleDetail
+     * @var ?TitleDetail
      */
     protected $TitleDetail;
 
@@ -56,7 +56,7 @@ class Collection
     /**
      * Get TitleDetail
      *
-     * @return TitleDetail
+     * @return ?TitleDetail
      */
     public function getTitleDetail()
     {

@@ -160,7 +160,7 @@ class SupportingResource
     /**
      * Get the link to a file or resource
      *
-     * @return string|null
+     * @return ?string
      */
     public function getLink(): ?string
     {

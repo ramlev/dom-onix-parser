@@ -8,7 +8,7 @@ class Imprint
     /**
      * ImprintName
      *
-     * @var string
+     * @var ?string
      */
     protected $ImprintName;
 
@@ -26,7 +26,7 @@ class Imprint
     /**
      * Get ImprintName
      *
-     * @return string
+     * @return ?string
      */
     public function getImprintName()
     {

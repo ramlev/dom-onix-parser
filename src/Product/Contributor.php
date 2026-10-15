@@ -13,7 +13,7 @@ class Contributor
     /**
      * SequenceNumber
      *
-     * @var string
+     * @var ?string
      */
     protected $SequenceNumber;
 
@@ -34,21 +34,21 @@ class Contributor
     /**
      * NamesBeforeKey
      *
-     * @var string
+     * @var ?string
      */
     protected $NamesBeforeKey;
 
     /**
      * BiographicalNote
      *
-     * @var Text
+     * @var ?Text
      */
     protected $BiographicalNote;
 
     /**
      * KeyNames
      *
-     * @var string
+     * @var ?string
      */
     protected $KeyNames;
 
@@ -132,7 +132,7 @@ class Contributor
     /**
      * Get SequenceNumber
      *
-     * @return string
+     * @return ?string
      */
     public function getSequenceNumber()
     {
@@ -172,7 +172,7 @@ class Contributor
     /**
      * Get NamesBeforeKey
      *
-     * @return string
+     * @return ?string
      */
     public function getNamesBeforeKey()
     {
@@ -182,7 +182,7 @@ class Contributor
     /**
      * Get KeyNames
      *
-     * @return string
+     * @return ?string
      */
     public function getKeyNames()
     {
@@ -192,7 +192,7 @@ class Contributor
     /**
      * Get BiographicalNote
      *
-     * @return Text
+     * @return ?Text
      */
     public function getBiographicalNote()
     {
@@ -202,7 +202,7 @@ class Contributor
     /**
      * An alias function for getNamesBeforeKey
      *
-     * @return string
+     * @return ?string
      */
     public function getFirstname()
     {
@@ -212,7 +212,7 @@ class Contributor
     /**
      * An alias for getKeyNames
      *
-     * @return string
+     * @return ?string
      */
     public function getLastname()
     {

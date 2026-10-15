@@ -43,7 +43,7 @@ class DescriptiveDetail
     /**
      * EpubTechnicalProtection
      *
-     * @var CodeList144
+     * @var ?CodeList144
      */
     protected $EpubTechnicalProtection;
 
@@ -71,7 +71,7 @@ class DescriptiveDetail
     /**
      * CountryOfManufacture
      *
-     * @var CodeList91
+     * @var ?CodeList91
      */
     protected $CountryOfManufacture;
 
@@ -99,7 +99,7 @@ class DescriptiveDetail
     /**
      * EditionNumber
      *
-     * @var string
+     * @var ?string
      */
     protected $EditionNumber;
 
@@ -127,7 +127,7 @@ class DescriptiveDetail
     /**
      * ProductClassification
      *
-     * @var ProductClassification
+     * @var ?ProductClassification
      */
     protected $ProductClassification;
 
@@ -472,7 +472,7 @@ class DescriptiveDetail
     /**
      * Get EpubTechnicalProtection
      *
-     * @return CodeList144|null
+     * @return ?CodeList144
      */
     public function getEpubTechnicalProtection()
     {
@@ -512,7 +512,7 @@ class DescriptiveDetail
     /**
      * Get CountryOfManufacture
      *
-     * @return CodeList91
+     * @return ?CodeList91
      */
     public function getCountryOfManufacture()
     {
@@ -552,7 +552,7 @@ class DescriptiveDetail
     /**
      * Get EditionNumber
      *
-     * @return string
+     * @return ?string
      */
     public function getEditionNumber()
     {
@@ -613,7 +613,7 @@ class DescriptiveDetail
     /**
      * Get ProductClassification
      *
-     * @return ProductClassification
+     * @return ?ProductClassification
      */
     public function getProductClassification()
     {
@@ -697,7 +697,7 @@ class DescriptiveDetail
     /**
      * Get the height measure of the product, if set
      *
-     * @return Measure|null
+     * @return ?Measure
      */
     public function getHeight()
     {
@@ -711,7 +711,7 @@ class DescriptiveDetail
     /**
      * Get the width measure of the product, if set
      *
-     * @return Measure|null
+     * @return ?Measure
      */
     public function getWidth()
     {
@@ -725,7 +725,7 @@ class DescriptiveDetail
     /**
      * Get the thickness measure of the product, if set
      *
-     * @return Measure|null
+     * @return ?Measure
      */
     public function getThickness()
     {
@@ -739,7 +739,7 @@ class DescriptiveDetail
     /**
      * Get the weight measure of the product, if set
      *
-     * @return Measure|null
+     * @return ?Measure
      */
     public function getWeight()
     {
@@ -753,7 +753,7 @@ class DescriptiveDetail
     /**
      * Get the main content page count, if set
      *
-     * @return int|null
+     * @return ?int
      */
     public function getPages(): ?int
     {

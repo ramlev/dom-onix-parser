@@ -24,14 +24,14 @@ class Supplier
     /**
      * SupplierName
      *
-     * @var string
+     * @var ?string
      */
     protected $SupplierName;
 
     /**
      * TelephoneNumber
      *
-     * @var string
+     * @var ?string
      */
     protected $TelephoneNumber;
 
@@ -102,7 +102,7 @@ class Supplier
     /**
      * Get SupplierName
      *
-     * @return string
+     * @return ?string
      */
     public function getSupplierName()
     {
@@ -112,7 +112,7 @@ class Supplier
     /**
      * Get TelephoneNumber
      *
-     * @return string
+     * @return ?string
      */
     public function getTelephoneNumber()
     {

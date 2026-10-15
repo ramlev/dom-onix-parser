@@ -7,14 +7,14 @@ class Stock
     /**
      * LocationName
      *
-     * @var string
+     * @var ?string
      */
     protected $LocationName;
 
     /**
      * OnHand
      *
-     * @var int
+     * @var ?int
      */
     protected $OnHand;
 
@@ -32,7 +32,7 @@ class Stock
     /**
      * Get PublisherName
      *
-     * @return string
+     * @return ?string
      */
     public function getLocationName()
     {
@@ -53,7 +53,7 @@ class Stock
     /**
      * Get OnHand
      *
-     * @return int
+     * @return ?int
      */
     public function getOnHand()
     {

@@ -29,14 +29,14 @@ class TextContent
     /**
      * SourceTitle
      *
-     * @var string
+     * @var ?string
      */
     protected $SourceTitle;
 
     /**
      * TextAuthor
      *
-     * @var string
+     * @var ?string
      */
     protected $TextAuthor;
 
@@ -94,7 +94,7 @@ class TextContent
     /**
      * Get TextAuthor
      *
-     * @return string $TextAuthor
+     * @return ?string
      */
     public function getTextAuthor()
     {
@@ -135,7 +135,7 @@ class TextContent
     /**
      * Get SourceTitle
      *
-     * @return string
+     * @return ?string
      */
     public function getSourceTitle()
     {

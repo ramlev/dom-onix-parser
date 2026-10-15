@@ -10,7 +10,7 @@ class Website
     /**
      * WebsiteRole
      *
-     * @var CodeList73
+     * @var ?CodeList73
      */
     protected $WebsiteRole;
 
@@ -46,7 +46,7 @@ class Website
     /**
      * Get WebsiteRole
      *
-     * @return CodeList73
+     * @return ?CodeList73
      */
     public function getWebsiteRole()
     {

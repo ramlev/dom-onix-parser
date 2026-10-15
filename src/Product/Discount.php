@@ -8,7 +8,7 @@ class Discount
     /**
      * DiscountPercent
      *
-     * @var float
+     * @var ?float
      */
     protected $DiscountPercent;
 
@@ -26,7 +26,7 @@ class Discount
     /**
      * Get DiscountPercent
      *
-     * @return float
+     * @return ?float
      */
     public function getDiscountPercent()
     {

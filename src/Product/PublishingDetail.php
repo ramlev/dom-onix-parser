@@ -12,21 +12,21 @@ class PublishingDetail
     /**
      * CityOfPublication
      *
-     * @var string
+     * @var ?string
      */
     protected $CityOfPublication;
 
     /**
      * CountryOfPublication
      *
-     * @var CodeList91
+     * @var ?CodeList91
      */
     protected $CountryOfPublication;
 
     /**
      * Publisher
      *
-     * @var Publisher
+     * @var ?Publisher
      */
     protected $Publisher;
 
@@ -54,14 +54,14 @@ class PublishingDetail
     /**
      * ROWSalesRightsType
      *
-     * @var CodeList46
+     * @var ?CodeList46
      */
     protected $ROWSalesRightsType;
 
     /**
      * Imprint
      *
-     * @var Imprint
+     * @var ?Imprint
      */
     protected $Imprint;
 
@@ -156,7 +156,7 @@ class PublishingDetail
     /**
      * Get CityOfPublication
      *
-     * @return string
+     * @return ?string
      */
     public function getCityOfPublication()
     {
@@ -166,7 +166,7 @@ class PublishingDetail
     /**
      * Get CountryOfPublication
      *
-     * @return CodeList91
+     * @return ?CodeList91
      */
     public function getCountryOfPublication()
     {
@@ -176,7 +176,7 @@ class PublishingDetail
     /**
      * Get Publisher
      *
-     * @return Publisher
+     * @return ?Publisher
      */
     public function getPublisher()
     {
@@ -216,7 +216,7 @@ class PublishingDetail
     /**
      * Get ROWSalesRightsType
      *
-     * @return CodeList46
+     * @return ?CodeList46
      */
     public function getROWSalesRightsType()
     {
@@ -226,7 +226,7 @@ class PublishingDetail
     /**
      * Get Imprint
      *
-     * @return Imprint
+     * @return ?Imprint
      */
     public function getImprint()
     {

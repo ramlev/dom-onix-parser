@@ -17,7 +17,7 @@ class NameIdentifier
     /**
      * IDTypeName
      *
-     * @var string
+     * @var ?string
      */
     protected $IDTypeName;
 
@@ -74,7 +74,7 @@ class NameIdentifier
     /**
      * IDTypeName
      *
-     * @return string
+     * @return ?string
      */
     public function getIDTypeName()
     {

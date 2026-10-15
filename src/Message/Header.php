@@ -24,14 +24,14 @@ class Header
     /**
      * MessageNote
      *
-     * @var string
+     * @var ?string
      */
     protected $MessageNote;
 
     /**
      * Message number
      *
-     * @var string
+     * @var ?string
      */
     protected $MessageNumber;
 
@@ -102,7 +102,7 @@ class Header
     /**
      * Get MessageNote
      *
-     * @return string
+     * @return ?string
      */
     public function getMessageNote()
     {
@@ -112,7 +112,7 @@ class Header
     /**
      * Get MessageNumber
      *
-     * @return string
+     * @return ?string
      */
     public function getMessageNumber()
     {

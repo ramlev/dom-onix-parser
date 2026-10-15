@@ -11,35 +11,35 @@ class Tax
     /**
      * TaxType
      *
-     * @var CodeList171
+     * @var ?CodeList171
      */
     protected $TaxType;
 
     /**
      * TaxRateCode
      *
-     * @var CodeList62
+     * @var ?CodeList62
      */
     protected $TaxRateCode;
 
     /**
      * TaxRatePercent
      *
-     * @var float
+     * @var ?float
      */
     protected $TaxRatePercent;
 
     /**
      * TaxableAmount
      *
-     * @var float
+     * @var ?float
      */
     protected $TaxableAmount;
 
     /**
      * TaxAmount
      *
-     * @var float
+     * @var ?float
      */
     protected $TaxAmount;
 
@@ -101,7 +101,7 @@ class Tax
     /**
      * Get TaxType
      *
-     * @return CodeList171
+     * @return ?CodeList171
      */
     public function getTaxType()
     {
@@ -111,7 +111,7 @@ class Tax
     /**
      * Get TaxRateCode
      *
-     * @return CodeList62
+     * @return ?CodeList62
      */
     public function getTaxRateCode()
     {
@@ -121,7 +121,7 @@ class Tax
     /**
      * Get TaxableAmount
      *
-     * @return float
+     * @return ?float
      */
     public function getTaxableAmount()
     {
@@ -131,7 +131,7 @@ class Tax
     /**
      * Get TaxAmount
      *
-     * @return float
+     * @return ?float
      */
     public function getTaxAmount()
     {

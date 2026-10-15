@@ -20,14 +20,14 @@ class ProductFormFeature
     /**
      * ProductFormFeatureValue
      *
-     * @var CodeList196|CodeList220|CodeList98
+     * @var CodeList196|CodeList220|CodeList98|null
      */
     protected $ProductFormFeatureValue;
 
     /**
      * ProductFormFeatureDescription
      *
-     * @var string
+     * @var ?string
      */
     protected $ProductFormFeatureDescription;
 
@@ -77,7 +77,7 @@ class ProductFormFeature
     /**
      * Get ProductFormFeatureValue
      *
-     * @return CodeList196|CodeList220|CodeList98
+     * @return CodeList196|CodeList220|CodeList98|null
      */
     public function getProductFormFeatureValue()
     {
@@ -87,7 +87,7 @@ class ProductFormFeature
     /**
      * Get ProductFormFeatureDescription
      *
-     * @return string
+     * @return ?string
      */
     public function getProductFormFeatureDescription()
     {

@@ -24,21 +24,21 @@ class Product
     /**
      * RecordSourceType
      *
-     * @var CodeList3
+     * @var ?CodeList3
      */
     protected $RecordSourceType;
 
     /**
      * RecordSourceIdentifier
      *
-     * @var RecordSourceIdentifier
+     * @var ?RecordSourceIdentifier
      */
     protected $RecordSourceIdentifier;
 
     /**
      * RecordSourceName
      *
-     * @var string
+     * @var ?string
      */
     protected $RecordSourceName;
 
@@ -52,28 +52,28 @@ class Product
     /**
      * DescriptiveDetail
      *
-     * @var DescriptiveDetail
+     * @var ?DescriptiveDetail
      */
     protected $DescriptiveDetail;
 
     /**
      * CollateralDetail
      *
-     * @var CollateralDetail
+     * @var ?CollateralDetail
      */
     protected $CollateralDetail;
 
     /**
      * PublishingDetail
      *
-     * @var PublishingDetail
+     * @var ?PublishingDetail
      */
     protected $PublishingDetail;
 
     /**
      * RelatedMaterial
      *
-     * @var RelatedMaterial
+     * @var ?RelatedMaterial
      */
     protected $RelatedMaterial;
 
@@ -252,7 +252,7 @@ class Product
     /**
      * Get DescriptiveDetail
      *
-     * @return DescriptiveDetail
+     * @return ?DescriptiveDetail
      */
     public function getDescriptiveDetail()
     {
@@ -262,7 +262,7 @@ class Product
     /**
      * Get CollateralDetail
      *
-     * @return CollateralDetail
+     * @return ?CollateralDetail
      */
     public function getCollateralDetail()
     {
@@ -282,7 +282,7 @@ class Product
     /**
      * Get PublishingDetail
      *
-     * @return PublishingDetail
+     * @return ?PublishingDetail
      */
     public function getPublishingDetail()
     {
@@ -292,7 +292,7 @@ class Product
     /**
      * Get RelatedMaterial
      *
-     * @return RelatedMaterial
+     * @return ?RelatedMaterial
      */
     public function getRelatedMaterial()
     {
@@ -312,7 +312,7 @@ class Product
     /**
      * Get RecordSourceIdentifier
      *
-     * @return RecordSourceIdentifier
+     * @return ?RecordSourceIdentifier
      */
     public function getRecordSourceIdentifier()
     {
@@ -322,7 +322,7 @@ class Product
     /**
      * Get RecordSourceName
      *
-     * @return string
+     * @return ?string
      */
     public function getRecordSourceName()
     {

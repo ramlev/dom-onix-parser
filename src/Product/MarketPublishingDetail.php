@@ -17,7 +17,7 @@ class MarketPublishingDetail
     /**
      * MarketDate
      *
-     * @var MarketDate
+     * @var ?MarketDate
      */
     protected $MarketDate;
 
@@ -56,7 +56,7 @@ class MarketPublishingDetail
     /**
      * Get MarketDate
      *
-     * @return MarketDate
+     * @return ?MarketDate
      */
     public function getMarketDate()
     {

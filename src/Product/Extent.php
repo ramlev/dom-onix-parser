@@ -18,7 +18,7 @@ class Extent
     /**
      * ExtentValue
      *
-     * @var string
+     * @var ?string
      */
     protected $ExtentValue;
 
@@ -75,7 +75,7 @@ class Extent
     /**
      * Get ExtentValue
      *
-     * @return string
+     * @return ?string
      */
     public function getExtentValue()
     {

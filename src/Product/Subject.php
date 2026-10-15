@@ -24,21 +24,21 @@ class Subject
     /**
      * SubjectSchemeVersion
      *
-     * @var string
+     * @var ?string
      */
     protected $SubjectSchemeVersion;
 
     /**
      * SubjectCode
      *
-     * @var string
+     * @var ?string
      */
     protected $SubjectCode;
 
     /**
      * SubjectHeadingText
      *
-     * @var string
+     * @var ?string
      */
     protected $SubjectHeadingText;
 
@@ -120,7 +120,7 @@ class Subject
     /**
      * Get SubjectSchemeVersion
      *
-     * @return string
+     * @return ?string
      */
     public function getSubjectSchemeVersion()
     {
@@ -130,7 +130,7 @@ class Subject
     /**
      * Get SubjectCode
      *
-     * @return string
+     * @return ?string
      */
     public function getSubjectCode()
     {
@@ -140,7 +140,7 @@ class Subject
     /**
      * Get SubjectHeadingText
      *
-     * @return string
+     * @return ?string
      */
     public function getSubjectHeadingText()
     {

@@ -456,6 +456,9 @@ class ShortTagNameConverter implements NameConverterInterface
      * e.g. on converting objects to xml files
      *
      * @param string $propertyName
+     * @param string|null $class
+     * @param string|null $format
+     * @param array $context
      * @return string
      */
     public function normalize(string $propertyName, ?string $class = null, ?string $format = null, array $context = []): string
@@ -469,6 +472,9 @@ class ShortTagNameConverter implements NameConverterInterface
      * e.g. on converting XML to objects
      *
      * @param string $propertyName
+     * @param string|null $class
+     * @param string|null $format
+     * @param array $context
      * @return string
      */
     public function denormalize(string $propertyName, ?string $class = null, ?string $format = null, array $context = []): string

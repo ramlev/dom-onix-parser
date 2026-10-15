@@ -17,7 +17,7 @@ class TitleElement
     /**
      * TitleElementLevel
      *
-     * @var CodeList
+     * @var CodeList149
      */
     protected $TitleElementLevel;
 
@@ -52,7 +52,7 @@ class TitleElement
     /**
      * PartNumber
      *
-     * @var int
+     * @var string
      */
     protected $PartNumber;
 
@@ -70,7 +70,7 @@ class TitleElement
     /**
      * Set TitleElementLevel
      *
-     * @param string $TitleElementLevel
+     * @param CodeList149 $TitleElementLevel
      * @return void
      */
     public function setTitleElementLevel(CodeList149 $TitleElementLevel)
@@ -136,7 +136,7 @@ class TitleElement
     /**
      * Get SequenceNumber
      *
-     * @return void
+     * @return string
      */
     public function getSequenceNumber()
     {
@@ -146,7 +146,7 @@ class TitleElement
     /**
      * TitleElementLevel
      *
-     * @return void
+     * @return CodeList149
      */
     public function getTitleElementLevel()
     {
@@ -176,7 +176,7 @@ class TitleElement
     /**
      * Get PartNumber
      *
-     * @return int
+     * @return string
      */
     public function getPartNumber()
     {

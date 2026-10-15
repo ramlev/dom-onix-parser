@@ -10,14 +10,14 @@ class RelatedWork
     /**
      * WorkRelationCode
      *
-     * @var CodeList
+     * @var CodeList164
      */
     protected $WorkRelationCode;
 
     /**
      * Array of WorkIdentifiers
      *
-     * @var arrayWorkIdentifier
+     * @var WorkIdentifier[]
      */
     protected $WorkIdentifier = [];
 
@@ -46,7 +46,7 @@ class RelatedWork
     /**
      * Get WorkRelationCode
      *
-     * @return CodeList
+     * @return CodeList164
      */
     public function getWorkRelationCode()
     {
@@ -56,7 +56,7 @@ class RelatedWork
     /**
      * WorkIdentifier
      *
-     * @return array
+     * @return WorkIdentifier[]
      */
     public function getWorkIdentifier()
     {

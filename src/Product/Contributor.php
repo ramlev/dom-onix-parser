@@ -13,21 +13,21 @@ class Contributor
     /**
      * SequenceNumber
      *
-     * @var int
+     * @var string
      */
     protected $SequenceNumber;
 
     /**
      * ContributorRole
      *
-     * @var CodeList
+     * @var CodeList17
      */
     protected $ContributorRole;
 
     /**
      * Array of NameIdentifiers
      *
-     * @var array|NameIdentifier
+     * @var NameIdentifier[]
      */
     protected $NameIdentifier = [];
 
@@ -41,7 +41,7 @@ class Contributor
     /**
      * BiographicalNote
      *
-     * @var string
+     * @var Text
      */
     protected $BiographicalNote;
 
@@ -55,7 +55,7 @@ class Contributor
     /**
      * Set SequenceNumber
      *
-     * @param int $SequenceNumber
+     * @param string $SequenceNumber
      * @return void
      */
     public function setSequenceNumber(string $SequenceNumber)
@@ -66,7 +66,7 @@ class Contributor
     /**
      * Set ContributorRole
      *
-     * @param string $ContributorRole
+     * @param CodeList17 $ContributorRole
      * @return void
      */
     public function setContributorRole(CodeList17 $ContributorRole)
@@ -121,7 +121,7 @@ class Contributor
     /**
      * Set BiographicalNote
      *
-     * @param string $BiographicalNote
+     * @param Text $BiographicalNote
      * @return void
      */
     public function setBiographicalNote(Text $BiographicalNote)
@@ -132,7 +132,7 @@ class Contributor
     /**
      * Get SequenceNumber
      *
-     * @return int
+     * @return string
      */
     public function getSequenceNumber()
     {
@@ -142,7 +142,7 @@ class Contributor
     /**
      * Get ContributorRole
      *
-     * @return CodeList
+     * @return CodeList17
      */
     public function getContributorRole()
     {
@@ -152,7 +152,7 @@ class Contributor
     /**
      * Get NameIdentifiers
      *
-     * @return array
+     * @return NameIdentifier[]
      */
     public function getNameIdentifier()
     {
@@ -162,7 +162,7 @@ class Contributor
     /**
      * Get NameIdentifiers
      *
-     * @return array
+     * @return NameIdentifier[]
      */
     public function getNameIdentifiers()
     {
@@ -172,7 +172,7 @@ class Contributor
     /**
      * Get NamesBeforeKey
      *
-     * @return void
+     * @return string
      */
     public function getNamesBeforeKey()
     {
@@ -192,7 +192,7 @@ class Contributor
     /**
      * Get BiographicalNote
      *
-     * @return string
+     * @return Text
      */
     public function getBiographicalNote()
     {

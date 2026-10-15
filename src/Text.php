@@ -39,7 +39,7 @@ class Text
      *
      * @param string $content
      * @param string $format
-     * @param string $language
+     * @param string|null $language
      */
     public function __construct(string $content, string $format = self::TYPE_DEFAULT, ?string $language = null)
     {

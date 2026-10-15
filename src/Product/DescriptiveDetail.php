@@ -15,112 +15,112 @@ class DescriptiveDetail
     /**
      * ProductComposition
      *
-     * @var CodeListList
+     * @var CodeList2
      */
     protected $ProductComposition;
 
     /**
      * ProductForm
      *
-     * @var CodeListList
+     * @var CodeList150
      */
     protected $ProductForm;
 
     /**
      * ProductFormDetail
      *
-     * @var CodeList[]
+     * @var CodeList175[]
      */
     protected $ProductFormDetail = [];
 
     /**
      * ProductFormFeature
      *
-     * @var array|ProductFormFeature
+     * @var ProductFormFeature[]
      */
     protected $ProductFormFeature = [];
 
     /**
      * EpubTechnicalProtection
      *
-     * @var CodeList
+     * @var CodeList144
      */
     protected $EpubTechnicalProtection;
 
     /**
      * EpubUsageConstraint
      *
-     * @var array|EpubUsageConstraint
+     * @var EpubUsageConstraint[]
      */
     protected $EpubUsageConstraint = [];
 
     /**
      * ProductContentType
      *
-     * @var ProductContentType[]
+     * @var CodeList81[]
      */
     protected $ProductContentType = [];
 
     /**
      * Measure
      *
-     * @var array|Measure
+     * @var Measure[]
      */
     protected $Measure = [];
 
     /**
      * CountryOfManufacture
      *
-     * @var CodeList
+     * @var CodeList91
      */
     protected $CountryOfManufacture;
 
     /**
      * TitleDetail
      *
-     * @var array|TitleDetail
+     * @var TitleDetail[]
      */
     protected $TitleDetail = [];
 
     /**
      * Array of Contributors
      *
-     * @var array|Contributor
+     * @var Contributor[]
      */
     protected $Contributor = [];
 
     /**
      * Array of ContributorStatements
      *
-     * @var string
+     * @var string[]
      */
     protected $ContributorStatement = [];
 
     /**
      * EditionNumber
      *
-     * @var int
+     * @var string
      */
     protected $EditionNumber;
 
     /**
      * Array of Extents
      *
-     * @var array|Extent
+     * @var Extent[]
      */
     protected $Extent = [];
 
     /**
      * Array of Language
      *
-     * @var array|Language
+     * @var Language[]
      */
     protected $Language = [];
 
     /**
      * Array Subject
      *
-     * @var array
+     * @var Subject[]
      */
     protected $Subject = [];
 
@@ -141,14 +141,14 @@ class DescriptiveDetail
     /**
      * Array of Audiences
      *
-     * @var array|Audience
+     * @var Audience[]
      */
     protected $Audience = [];
 
     /**
      * Set ProductComposition
      *
-     * @param string $ProductComposition
+     * @param CodeList2 $ProductComposition
      * @return void
      */
     public function setProductComposition(CodeList2 $ProductComposition)
@@ -159,7 +159,7 @@ class DescriptiveDetail
     /**
      * Set Product Form
      *
-     * @param string $ProductForm
+     * @param CodeList150 $ProductForm
      * @return void
      */
     public function setProductForm(CodeList150 $ProductForm)
@@ -170,7 +170,7 @@ class DescriptiveDetail
     /**
      * Set ProductFormDetail
      *
-     * @param CodeList $ProductFormDetail
+     * @param CodeList175 $ProductFormDetail
      * @return void
      */
     public function addProductFormDetail(CodeList175 $ProductFormDetail)
@@ -236,7 +236,7 @@ class DescriptiveDetail
     /**
      * PrimaryContentType
      *
-     * @param string $ProductContentType
+     * @param CodeList81 $ProductContentType
      * @return void
      */
     public function addProductContentType(CodeList81 $ProductContentType)
@@ -269,7 +269,7 @@ class DescriptiveDetail
     /**
      * Set CountryOfManufacture
      *
-     * @param string $CountryOfManufacture
+     * @param CodeList91 $CountryOfManufacture
      * @return void
      */
     public function setCountryOfManufacture(CodeList91 $CountryOfManufacture)
@@ -333,7 +333,7 @@ class DescriptiveDetail
     /**
      * EditionNumber
      *
-     * @param integer $EditionNumber
+     * @param string $EditionNumber
      * @return void
      */
     public function setEditionNumber(string $EditionNumber)
@@ -421,7 +421,7 @@ class DescriptiveDetail
     /**
      * Get ProductComposition
      *
-     * @return CodeList
+     * @return CodeList2
      */
     public function getProductComposition()
     {
@@ -431,7 +431,7 @@ class DescriptiveDetail
     /**
      * Get Product Form
      *
-     * @return CodeList
+     * @return CodeList150
      */
     public function getProductForm()
     {
@@ -441,7 +441,7 @@ class DescriptiveDetail
     /**
      * Get ProductFormDetail
      *
-     * @return array
+     * @return CodeList175[]
      */
     public function getProductFormDetail()
     {
@@ -451,6 +451,7 @@ class DescriptiveDetail
     /**
      * Remove ProductFormDetail
      *
+     * @param CodeList175 $ProductFormDetail
      * @return void
      */
     public function removeProductFormDetail(CodeList175 $ProductFormDetail)
@@ -461,7 +462,7 @@ class DescriptiveDetail
     /**
      * ProductFormFeatures
      *
-     * @return array
+     * @return ProductFormFeature[]
      */
     public function getProductFormFeature()
     {
@@ -491,7 +492,7 @@ class DescriptiveDetail
     /**
      * Get Measure
      *
-     * @return array
+     * @return Measure[]
      */
     public function getMeasure()
     {
@@ -501,7 +502,7 @@ class DescriptiveDetail
     /**
      * Get all Measures
      *
-     * @return array
+     * @return Measure[]
      */
     public function getMeasures()
     {
@@ -511,7 +512,7 @@ class DescriptiveDetail
     /**
      * Get CountryOfManufacture
      *
-     * @return CodeList
+     * @return CodeList91
      */
     public function getCountryOfManufacture()
     {
@@ -521,7 +522,7 @@ class DescriptiveDetail
     /**
      * Get all Contributors
      *
-     * @return void
+     * @return Contributor[]
      */
     public function getContributor()
     {
@@ -531,7 +532,7 @@ class DescriptiveDetail
     /**
      * Get ContributorStatement
      *
-     * @return string
+     * @return string[]
      */
     public function getContributorStatement()
     {
@@ -541,7 +542,7 @@ class DescriptiveDetail
     /**
      * Get Title detail
      *
-     * @return TitleDetail
+     * @return TitleDetail[]
      */
     public function getTitleDetail()
     {
@@ -551,7 +552,7 @@ class DescriptiveDetail
     /**
      * Get EditionNumber
      *
-     * @return int
+     * @return string
      */
     public function getEditionNumber()
     {
@@ -561,7 +562,7 @@ class DescriptiveDetail
     /**
      * Get Extent
      *
-     * @return array
+     * @return Extent[]
      */
     public function getExtent()
     {
@@ -571,7 +572,8 @@ class DescriptiveDetail
     /**
      * Remove Extent
      *
-     * @return array
+     * @param Extent $extent
+     * @return Extent[]
      */
     public function removeExtent(Extent $extent)
     {
@@ -621,7 +623,7 @@ class DescriptiveDetail
     /**
      * Get Collections
      *
-     * @return array
+     * @return Collection[]
      */
     public function getCollection()
     {
@@ -631,7 +633,7 @@ class DescriptiveDetail
     /**
      * Get Audience
      *
-     * @return array
+     * @return Audience[]
      */
     public function getAudience()
     {
@@ -641,7 +643,7 @@ class DescriptiveDetail
     /**
      * Get ProductContentType
      *
-     * @return void
+     * @return CodeList81[]
      */
     public function getProductContentType()
     {
@@ -661,7 +663,7 @@ class DescriptiveDetail
     /**
      * Get Language
      *
-     * @return array
+     * @return Language[]
      */
     public function getLanguage()
     {
@@ -685,8 +687,8 @@ class DescriptiveDetail
     /**
      * Remove a ProductFormFeature
      *
-     * @param ProductFormFeature
-     * @return array
+     * @param ProductFormFeature $ProductFormFeature
+     * @return void
      */
     public function removeProductFormFeature(ProductFormFeature $ProductFormFeature)
     {
@@ -695,7 +697,7 @@ class DescriptiveDetail
     /**
      * Get the height measure of the product, if set
      *
-     * @return Measure
+     * @return Measure|null
      */
     public function getHeight()
     {
@@ -709,7 +711,7 @@ class DescriptiveDetail
     /**
      * Get the width measure of the product, if set
      *
-     * @return Measure
+     * @return Measure|null
      */
     public function getWidth()
     {
@@ -723,7 +725,7 @@ class DescriptiveDetail
     /**
      * Get the thickness measure of the product, if set
      *
-     * @return Measure
+     * @return Measure|null
      */
     public function getThickness()
     {
@@ -737,7 +739,7 @@ class DescriptiveDetail
     /**
      * Get the weight measure of the product, if set
      *
-     * @return Measure
+     * @return Measure|null
      */
     public function getWeight()
     {
@@ -767,7 +769,7 @@ class DescriptiveDetail
     /**
      * Get all contributors marked as authors
      *
-     * @return array
+     * @return Contributor[]
      */
     public function getAuthors()
     {

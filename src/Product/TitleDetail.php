@@ -10,7 +10,7 @@ class TitleDetail
     /**
      * TitleType
      *
-     * @var CodeList
+     * @var CodeList15
      */
     protected $TitleType;
 
@@ -24,7 +24,7 @@ class TitleDetail
     /**
      * Set TitleType
      *
-     * @param string $TitleType
+     * @param CodeList15 $TitleType
      * @return void
      */
     public function setTitleType(CodeList15 $TitleType)
@@ -56,7 +56,7 @@ class TitleDetail
     /**
      * Get TitleType
      *
-     * @return void
+     * @return CodeList15
      */
     public function getTitleType()
     {
@@ -66,7 +66,7 @@ class TitleDetail
     /**
      * Get TitleElements
      *
-     * @return void
+     * @return TitleElement[]
      */
     public function getTitleElement()
     {

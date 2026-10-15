@@ -11,14 +11,14 @@ class ContentDate
     /**
      * ContentDateRole
      *
-     * @var CodeList
+     * @var CodeList155
      */
     protected $ContentDateRole;
 
     /**
      * Date
      *
-     * @var \DateTime
+     * @var Date
      */
     protected $Date;
 
@@ -36,7 +36,7 @@ class ContentDate
     /**
      * Set Date
      *
-     * @param string $Date
+     * @param Date $Date
      * @return void
      */
     public function setDate(Date $Date)
@@ -47,7 +47,7 @@ class ContentDate
     /**
      * Get ContentDateRole
      *
-     * @return CodeList
+     * @return CodeList155
      */
     public function getContentDateRole()
     {

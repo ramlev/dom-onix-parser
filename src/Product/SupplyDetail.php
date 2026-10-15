@@ -24,7 +24,7 @@ class SupplyDetail
     /**
      * ProductAvailability
      *
-     * @var CodeList
+     * @var CodeList65
      */
     protected $ProductAvailability;
 
@@ -38,7 +38,7 @@ class SupplyDetail
     /**
      * PackQuantity
      *
-     * @var int
+     * @var string
      */
     protected $PackQuantity;
 
@@ -85,7 +85,7 @@ class SupplyDetail
     /**
      * Set PackQuantity
      *
-     * @param integer $PackQuantity
+     * @param string $PackQuantity
      * @return void
      */
     public function setPackQuantity(string $PackQuantity)
@@ -144,7 +144,7 @@ class SupplyDetail
     /**
      * Get ProductAvailability
      *
-     * @return CodeList
+     * @return CodeList65
      */
     public function getProductAvailability()
     {
@@ -175,7 +175,7 @@ class SupplyDetail
     /**
      * Get PackQuantity
      *
-     * @return integer
+     * @return string
      */
     public function getPackQuantity()
     {

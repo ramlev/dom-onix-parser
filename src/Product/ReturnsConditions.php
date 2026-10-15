@@ -10,7 +10,7 @@ class ReturnsConditions
     /**
      * ReturnsCodeType
      *
-     * @var CodeList
+     * @var CodeList53
      */
     protected $ReturnsCodeType;
 
@@ -46,7 +46,7 @@ class ReturnsConditions
     /**
      * Get ReturnsCodeType
      *
-     * @return CodeList
+     * @return CodeList53
      */
     public function getReturnsCodeType()
     {

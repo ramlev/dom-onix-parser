@@ -10,7 +10,7 @@ class Collection
     /**
      * CollectionType
      *
-     * @var CodeList
+     * @var CodeList148
      */
     protected $CollectionType;
 
@@ -24,7 +24,7 @@ class Collection
     /**
      * Set CollectionType
      *
-     * @param string $CollectionType
+     * @param CodeList148 $CollectionType
      * @return void
      */
     public function setCollectionType(CodeList148 $CollectionType)
@@ -46,7 +46,7 @@ class Collection
     /**
      * Get CollectionType
      *
-     * @return CodeList
+     * @return CodeList148
      */
     public function getCollectionType()
     {

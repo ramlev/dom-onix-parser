@@ -11,7 +11,7 @@ class PublishingDate
     /**
      * PublishingDateRole
      *
-     * @var CodeList
+     * @var CodeList163
      */
     protected $PublishingDateRole;
 
@@ -47,7 +47,7 @@ class PublishingDate
     /**
      * Get PublishingDateRole
      *
-     * @return CodeList
+     * @return CodeList163
      */
     public function getPublishingDateRole()
     {

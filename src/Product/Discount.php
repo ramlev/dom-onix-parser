@@ -15,7 +15,7 @@ class Discount
     /**
      * Set DiscountPercent
      *
-     * @param float $DiscountPercent
+     * @param string $DiscountPercent
      * @return void
      */
     public function setDiscountPercent(string $DiscountPercent)

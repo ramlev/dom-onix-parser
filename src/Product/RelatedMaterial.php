@@ -8,14 +8,14 @@ class RelatedMaterial
     /**
      * Array of RelatedWork
      *
-     * @var array|RelatedWork
+     * @var RelatedWork[]
      */
     protected $RelatedWork = [];
 
     /**
      * Array of RelatedProduct
      *
-     * @var array|RelatedProduct
+     * @var RelatedProduct[]
      */
     protected $RelatedProduct = [];
 
@@ -44,7 +44,7 @@ class RelatedMaterial
     /**
      * Get RelatedWork
      *
-     * @return array
+     * @return RelatedWork[]
      */
     public function getRelatedWork()
     {
@@ -54,7 +54,7 @@ class RelatedMaterial
     /**
      * Get RelatedProduct
      *
-     * @return RelatedProduct
+     * @return RelatedProduct[]
      */
     public function getRelatedProduct()
     {

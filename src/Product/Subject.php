@@ -17,7 +17,7 @@ class Subject
     /**
      * SubjectSchemeIdentifier
      *
-     * @var CodeList
+     * @var CodeList27
      */
     protected $SubjectSchemeIdentifier;
 
@@ -45,6 +45,7 @@ class Subject
     /**
      * Set as MainSubject
      *
+     * @param string $MainSubject
      * @return void
      */
     public function setMainSubject(string $MainSubject)
@@ -55,7 +56,7 @@ class Subject
     /**
      * Set SubjectSchemeIdentifier
      *
-     * @param string $SubjectSchemeIdentifier
+     * @param CodeList27 $SubjectSchemeIdentifier
      * @return void
      */
     public function setSubjectSchemeIdentifier(CodeList27 $SubjectSchemeIdentifier)
@@ -109,7 +110,7 @@ class Subject
     /**
      * Get SubjectSchemeIdentifier
      *
-     * @return CodeList
+     * @return CodeList27
      */
     public function getSubjectSchemeIdentifier()
     {

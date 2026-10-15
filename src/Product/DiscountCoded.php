@@ -10,7 +10,7 @@ class DiscountCoded
     /**
      * DiscountCodeType
      *
-     * @var CodeList
+     * @var CodeList100
      */
     protected $DiscountCodeType;
 
@@ -46,7 +46,7 @@ class DiscountCoded
     /**
      * Get DiscountCodeType
      *
-     * @return CodeList
+     * @return CodeList100
      */
     public function getDiscountCodeType()
     {

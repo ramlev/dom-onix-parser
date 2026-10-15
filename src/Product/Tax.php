@@ -11,14 +11,14 @@ class Tax
     /**
      * TaxType
      *
-     * @var CodeList
+     * @var CodeList171
      */
     protected $TaxType;
 
     /**
      * TaxRateCode
      *
-     * @var CodeList
+     * @var CodeList62
      */
     protected $TaxRateCode;
 
@@ -68,7 +68,7 @@ class Tax
     /**
      * Set TaxRatePercent
      *
-     * @param float $TaxRatePercent
+     * @param string $TaxRatePercent
      * @return void
      */
     public function setTaxRatePercent(string $TaxRatePercent)
@@ -79,7 +79,7 @@ class Tax
     /**
      * Set TaxableAmount
      *
-     * @param float $TaxableAmount
+     * @param string $TaxableAmount
      * @return void
      */
     public function setTaxableAmount(string $TaxableAmount)
@@ -90,7 +90,7 @@ class Tax
     /**
      * Set TaxAmount
      *
-     * @param float $TaxAmount
+     * @param string $TaxAmount
      * @return void
      */
     public function setTaxAmount(string $TaxAmount)
@@ -101,7 +101,7 @@ class Tax
     /**
      * Get TaxType
      *
-     * @return CodeList
+     * @return CodeList171
      */
     public function getTaxType()
     {
@@ -111,7 +111,7 @@ class Tax
     /**
      * Get TaxRateCode
      *
-     * @return CodeList
+     * @return CodeList62
      */
     public function getTaxRateCode()
     {

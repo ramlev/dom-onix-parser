@@ -18,21 +18,21 @@ class SupportingResource
     /**
      * ResourceContentType
      *
-     * @var CodeList
+     * @var CodeList158
      */
     protected $ResourceContentType;
 
     /**
      * ContentAudience
      *
-     * @var CodeList
+     * @var CodeList154
      */
     protected $ContentAudience;
 
     /**
      * ResourceMode
      *
-     * @var CodeList
+     * @var CodeList159
      */
     protected $ResourceMode;
 
@@ -90,7 +90,7 @@ class SupportingResource
     /**
      * Get ResourceContentType
      *
-     * @return CodeList
+     * @return CodeList158
      */
     public function getResourceContentType()
     {
@@ -100,7 +100,7 @@ class SupportingResource
     /**
      * Get ContentAudience
      *
-     * @return CodeList
+     * @return CodeList154
      */
     public function getContentAudience()
     {
@@ -110,7 +110,7 @@ class SupportingResource
     /**
      * Get ResourceMode
      *
-     * @return CodeList
+     * @return CodeList159
      */
     public function getResourceMode()
     {

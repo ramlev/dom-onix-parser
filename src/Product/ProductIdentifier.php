@@ -12,7 +12,7 @@ class ProductIdentifier
     /**
      * ProductIDType
      *
-     * @var CodeListList5
+     * @var CodeList5
      */
     protected $ProductIDType;
 
@@ -26,7 +26,7 @@ class ProductIdentifier
     /**
      * Set ProductIDType
      *
-     * @param string $value
+     * @param CodeList5 $ProductIDType
      * @return void
      */
     public function setProductIDType(CodeList5 $ProductIDType)
@@ -37,7 +37,7 @@ class ProductIdentifier
     /**
      * Get ProductIDType
      *
-     * @return object
+     * @return CodeList5
      */
     public function getProductIDType()
     {

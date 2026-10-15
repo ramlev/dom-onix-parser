@@ -15,14 +15,14 @@ class TextContent
     /**
      * Type of the Text
      *
-     * @var CodeList
+     * @var CodeList153
      */
     protected $TextType;
 
     /**
      * ContentAudience
      *
-     * @var CodeList
+     * @var CodeList154
      */
     protected $ContentAudience;
 
@@ -43,14 +43,14 @@ class TextContent
     /**
      * Text
      *
-     * @var string
+     * @var Text
      */
     protected $Text;
 
     /**
      * Set Text Type
      *
-     * @param string $TextType
+     * @param CodeList153 $TextType
      * @return void
      */
     public function setTextType(CodeList153 $TextType)
@@ -61,7 +61,7 @@ class TextContent
     /**
      * Set ContentAudience
      *
-     * @param string $ContentAudience
+     * @param CodeList154 $ContentAudience
      * @return void
      */
     public function setContentAudience(CodeList154 $ContentAudience)
@@ -115,7 +115,7 @@ class TextContent
     /**
      * Get TextType
      *
-     * @return CodeList
+     * @return CodeList153
      */
     public function getTextType()
     {
@@ -125,7 +125,7 @@ class TextContent
     /**
      * Get ContentAudience
      *
-     * @return CodeList
+     * @return CodeList154
      */
     public function getContentAudience()
     {
@@ -135,7 +135,7 @@ class TextContent
     /**
      * Get SourceTitle
      *
-     * @return void
+     * @return string
      */
     public function getSourceTitle()
     {

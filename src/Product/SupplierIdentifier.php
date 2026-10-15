@@ -10,7 +10,7 @@ class SupplierIdentifier
     /**
      * SupplierIDType
      *
-     * @var CodeList
+     * @var CodeList92
      */
     protected $SupplierIDType;
 
@@ -46,7 +46,7 @@ class SupplierIdentifier
     /**
      * Get SupplierIDType
      *
-     * @return CodeList
+     * @return CodeList92
      */
     public function getSupplierIDType()
     {

@@ -10,7 +10,7 @@ class NameIdentifier
     /**
      * NameIDType
      *
-     * @var CodeList
+     * @var CodeList44
      */
     protected $NameIDType;
 
@@ -31,7 +31,7 @@ class NameIdentifier
     /**
      * Set NameIDType
      *
-     * @param  string $NameIDType
+     * @param CodeList44 $NameIDType
      * @return void
      */
     public function setNameIDType(CodeList44 $NameIDType)
@@ -42,7 +42,7 @@ class NameIdentifier
     /**
      * Set IDTypeName
      *
-     * @param  string $IDTypeName
+     * @param string $IDTypeName
      * @return void
      */
     public function setIDTypeName(string $IDTypeName)
@@ -53,7 +53,7 @@ class NameIdentifier
     /**
      * Set IDValue
      *
-     * @param  string $IDValue
+     * @param string $IDValue
      * @return void
      */
     public function setIDValue(string $IDValue)
@@ -64,7 +64,7 @@ class NameIdentifier
     /**
      * Get NameIDType
      *
-     * @return CodeList
+     * @return CodeList44
      */
     public function getNameIDType()
     {

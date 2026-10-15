@@ -11,14 +11,14 @@ class Message
     /**
      * Message Header
      *
-     * @var Header $header
+     * @var Header
      */
     protected $Header;
 
     /**
      * Message Products
      *
-     * @var Product $Product[]
+     * @var Product[]
      */
     protected $Product = [];
 
@@ -68,7 +68,7 @@ class Message
     /**
      * Get the products
      *
-     * @return array
+     * @return Product[]
      */
     public function getProduct()
     {
@@ -78,7 +78,7 @@ class Message
     /**
      * Get the products
      *
-     * @return array
+     * @return Product[]
      */
     public function getProducts()
     {

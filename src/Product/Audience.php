@@ -10,7 +10,7 @@ class Audience
     /**
      * AudienceCodeType
      *
-     * @var CodeList
+     * @var CodeList29
      */
     protected $AudienceCodeType;
 
@@ -24,7 +24,7 @@ class Audience
     /**
      * Set AudienceCodeType
      *
-     * @param string $AudienceCodeType
+     * @param CodeList29 $AudienceCodeType
      * @return void
      */
     public function setAudienceCodeType(CodeList29 $AudienceCodeType)
@@ -46,7 +46,7 @@ class Audience
     /**
      * Get AudienceCodeType
      *
-     * @return CodeList
+     * @return CodeList29
      */
     public function getAudienceCodeType()
     {

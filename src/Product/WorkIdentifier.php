@@ -10,7 +10,7 @@ class WorkIdentifier
     /**
      * WorkIDType
      *
-     * @var CodeList
+     * @var CodeList16
      */
     protected $WorkIDType;
     
@@ -46,7 +46,7 @@ class WorkIdentifier
     /**
      * Get WorkIDType
      *
-     * @return void
+     * @return CodeList16
      */
     public function getWorkIDType()
     {

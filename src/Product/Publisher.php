@@ -10,14 +10,14 @@ class Publisher
     /**
      * PublishingRole
      *
-     * @var CodeList
+     * @var CodeList45
      */
     protected $PublishingRole;
 
     /**
      * PublisherIdentifier
      *
-     * @var array
+     * @var PublisherIdentifier[]
      */
     protected $PublisherIdentifier = [];
 
@@ -97,7 +97,7 @@ class Publisher
     /**
      * Get PublishingRole
      *
-     * @return CodeList
+     * @return CodeList45
      */
     public function getPublishingRole()
     {
@@ -107,7 +107,7 @@ class Publisher
     /**
      * Get PublisherIdentifier
      *
-     * @return PublisherIdentifier
+     * @return PublisherIdentifier[]
      */
     public function getPublisherIdentifier()
     {

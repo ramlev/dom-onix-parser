@@ -10,7 +10,7 @@ class RecordSourceIdentifier
     /**
      * RecordSourceIDType
      *
-     * @var CodeList
+     * @var CodeList44
      */
     protected $RecordSourceIDType;
 
@@ -24,7 +24,7 @@ class RecordSourceIdentifier
     /**
      * Set RecordSourceIDType
      *
-     * @param string $RecordSourceIDType
+     * @param CodeList44 $RecordSourceIDType
      * @return void
      */
     public function setRecordSourceIDType(CodeList44 $RecordSourceIDType)
@@ -46,7 +46,7 @@ class RecordSourceIdentifier
     /**
      * Get RecordSourceIDType
      *
-     * @return CodeList
+     * @return CodeList44
      */
     public function getRecordSourceIDType()
     {

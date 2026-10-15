@@ -19,7 +19,7 @@ class PublishingDetail
     /**
      * CountryOfPublication
      *
-     * @var CodeList
+     * @var CodeList91
      */
     protected $CountryOfPublication;
 
@@ -33,28 +33,28 @@ class PublishingDetail
     /**
      * PublishingStatus
      *
-     * @var CodeList
+     * @var CodeList64
      */
     protected $PublishingStatus;
 
     /**
      * Array of PublishingDate
      *
-     * @var array|PublishingDate
+     * @var PublishingDate[]
      */
     protected $PublishingDate = [];
 
     /**
      * Array of SalesRights
      *
-     * @var array|SalesRights
+     * @var SalesRights[]
      */
     protected $SalesRights = [];
 
     /**
      * ROWSalesRightsType
      *
-     * @var CodeList
+     * @var CodeList46
      */
     protected $ROWSalesRightsType;
 
@@ -166,7 +166,7 @@ class PublishingDetail
     /**
      * Get CountryOfPublication
      *
-     * @return CodeList
+     * @return CodeList91
      */
     public function getCountryOfPublication()
     {
@@ -186,7 +186,7 @@ class PublishingDetail
     /**
      * Get PublishingStatus
      *
-     * @return CodeList
+     * @return CodeList64
      */
     public function getPublishingStatus()
     {
@@ -196,7 +196,7 @@ class PublishingDetail
     /**
      * Get PublishingDate
      *
-     * @return array
+     * @return PublishingDate[]
      */
     public function getPublishingDate()
     {
@@ -206,7 +206,7 @@ class PublishingDetail
     /**
      * Get SalesRights
      *
-     * @return array
+     * @return SalesRights[]
      */
     public function getSalesRights()
     {
@@ -216,7 +216,7 @@ class PublishingDetail
     /**
      * Get ROWSalesRightsType
      *
-     * @return CodeList
+     * @return CodeList46
      */
     public function getROWSalesRightsType()
     {

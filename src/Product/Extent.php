@@ -11,7 +11,7 @@ class Extent
     /**
      * ExtentType
      *
-     * @var CodeList
+     * @var CodeList23
      */
     protected $ExtentType;
 
@@ -25,14 +25,14 @@ class Extent
     /**
      * ExtentUnit
      *
-     * @var CodeList
+     * @var CodeList24
      */
     protected $ExtentUnit;
 
     /**
      * Set ExtentType
      *
-     * @param string $ExtentType
+     * @param CodeList23 $ExtentType
      * @return void
      */
     public function setExtentType(CodeList23 $ExtentType)
@@ -54,7 +54,7 @@ class Extent
     /**
      * Set ExtentUnit
      *
-     * @param string $ExtentUnit
+     * @param CodeList24 $ExtentUnit
      * @return void
      */
     public function setExtentUnit(CodeList24 $ExtentUnit)
@@ -65,7 +65,7 @@ class Extent
     /**
      * Get ExtentType
      *
-     * @return CodeList
+     * @return CodeList23
      */
     public function getExtentType()
     {
@@ -85,7 +85,7 @@ class Extent
     /**
      * Get ExtentUnit
      *
-     * @return CodeList
+     * @return CodeList24
      */
     public function getExtentUnit()
     {

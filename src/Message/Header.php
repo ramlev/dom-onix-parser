@@ -10,7 +10,7 @@ class Header
     /**
      * Message Sender
      *
-     * @var Sender $sender
+     * @var Sender
      */
     protected $Sender;
 

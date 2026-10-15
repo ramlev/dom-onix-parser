@@ -8,21 +8,21 @@ class CollateralDetail
     /**
      * Array of TextContents
      *
-     * @var array|TextContent
+     * @var TextContent[]
      */
     protected $TextContent = [];
 
     /**
      * Array of CitedContents
      *
-     * @var array|CitedContent
+     * @var CitedContent[]
      */
     protected $CitedContent = [];
 
     /**
      * Array of SupportingResource
      *
-     * @var array|SupportingResource
+     * @var SupportingResource[]
      */
     protected $SupportingResource = [];
 
@@ -62,7 +62,7 @@ class CollateralDetail
     /**
      * Get TextContents
      *
-     * @return array
+     * @return TextContent[]
      */
     public function getTextContent()
     {
@@ -72,7 +72,7 @@ class CollateralDetail
     /**
      * Get TextContents
      *
-     * @return array
+     * @return TextContent[]
      */
     public function getTextContents()
     {
@@ -82,7 +82,7 @@ class CollateralDetail
     /**
      * Get CitedContents
      *
-     * @return array
+     * @return CitedContent[]
      */
     public function getCitedContent()
     {
@@ -92,7 +92,7 @@ class CollateralDetail
     /**
      * Get SupportingResources
      *
-     * @return array
+     * @return SupportingResource[]
      */
     public function getSupportingResource()
     {

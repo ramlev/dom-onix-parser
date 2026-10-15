@@ -42,7 +42,7 @@ class Stock
     /**
      * Set OnHand
      *
-     * @param string $OnHand
+     * @param int $OnHand
      * @return void
      */
     public function setOnHand(int $OnHand)
@@ -53,7 +53,7 @@ class Stock
     /**
      * Get OnHand
      *
-     * @return string
+     * @return int
      */
     public function getOnHand()
     {

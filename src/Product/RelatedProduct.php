@@ -10,14 +10,14 @@ class RelatedProduct
     /**
      * Array of Product Relation Codes
      *
-     * @var array
+     * @var CodeList51[]
      */
     protected $ProductRelationCode = [];
 
     /**
      * Array of ProductIdentifiers
      *
-     * @var array|ProductIdentifier
+     * @var ProductIdentifier[]
      */
     protected $ProductIdentifier = [];
     
@@ -46,7 +46,7 @@ class RelatedProduct
     /**
      * Get ProductRelationCodes
      *
-     * @return array
+     * @return CodeList51[]
      */
     public function getProductRelationCode()
     {
@@ -56,7 +56,7 @@ class RelatedProduct
     /**
      * Get ProductIdentifiers
      *
-     * @return array
+     * @return ProductIdentifier[]
      */
     public function getProductIdentifier()
     {

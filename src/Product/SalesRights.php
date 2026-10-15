@@ -10,7 +10,7 @@ class SalesRights
     /**
      * SalesRightsType
      *
-     * @var CodeList
+     * @var CodeList46
      */
     protected $SalesRightsType;
 
@@ -46,7 +46,7 @@ class SalesRights
     /**
      * Get SalesRightsType
      *
-     * @return CodeList
+     * @return CodeList46
      */
     public function getSalesRightsType()
     {

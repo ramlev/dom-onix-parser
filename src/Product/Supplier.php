@@ -10,14 +10,14 @@ class Supplier
     /**
      * SupplierRole
      *
-     * @var CodeList
+     * @var CodeList93
      */
     protected $SupplierRole;
 
     /**
      * Array of SupplierIdentifiers
      *
-     * @var array|SupplierIdentifier
+     * @var SupplierIdentifier[]
      */
     protected $SupplierIdentifier = [];
 
@@ -82,7 +82,7 @@ class Supplier
     /**
      * Get SupplierRole
      *
-     * @return CodeList
+     * @return CodeList93
      */
     public function getSupplierRole()
     {
@@ -92,7 +92,7 @@ class Supplier
     /**
      * Get SupplierIdentifiers
      *
-     * @return array
+     * @return SupplierIdentifier[]
      */
     public function getSupplierIdentifier()
     {

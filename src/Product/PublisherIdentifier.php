@@ -10,7 +10,7 @@ class PublisherIdentifier
     /**
      * PublisherIDType
      *
-     * @var CodeList
+     * @var CodeList44
      */
     protected $PublisherIDType;
 
@@ -46,7 +46,7 @@ class PublisherIdentifier
     /**
      * Get PublisherIDType
      *
-     * @return CodeList
+     * @return CodeList44
      */
     public function getPublisherIDType()
     {

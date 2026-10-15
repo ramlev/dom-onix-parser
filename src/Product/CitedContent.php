@@ -12,21 +12,21 @@ class CitedContent
     /**
      * CitedContent
      *
-     * @var CodeList
+     * @var CodeList156
      */
     protected $CitedContent;
 
     /**
      * ContentAudience
      *
-     * @var CodeList
+     * @var CodeList154
      */
     protected $ContentAudience;
 
     /**
      * SourceType
      *
-     * @var CodeList
+     * @var CodeList157
      */
     protected $SourceType;
 
@@ -138,7 +138,7 @@ class CitedContent
     /**
      * Get CitedContent
      *
-     * @return CodeList
+     * @return CodeList156
      */
     public function getCitedContent()
     {
@@ -148,7 +148,7 @@ class CitedContent
     /**
      * Get ContentAudience
      *
-     * @return void
+     * @return CodeList154
      */
     public function getContentAudience()
     {
@@ -158,7 +158,7 @@ class CitedContent
     /**
      * Get SourceType
      *
-     * @return CodeList
+     * @return CodeList157
      */
     public function getSourceType()
     {

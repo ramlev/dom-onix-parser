@@ -16,7 +16,7 @@ class Measure
     /**
      * MeasureType
      *
-     * @var CodeList
+     * @var CodeList48
      */
     protected $MeasureType;
 
@@ -30,14 +30,14 @@ class Measure
     /**
      * MeasureUnitCode
      *
-     * @var CodeList
+     * @var CodeList50
      */
     protected $MeasureUnitCode;
 
     /**
      * Set MeasureType
      *
-     * @param string $MeasureType
+     * @param CodeList48 $MeasureType
      * @return void
      */
     public function setMeasureType(CodeList48 $MeasureType)
@@ -59,7 +59,7 @@ class Measure
     /**
      * Set MeasureUnitCode
      *
-     * @param string $MeasureUnitCode
+     * @param CodeList50 $MeasureUnitCode
      * @return void
      */
     public function setMeasureUnitCode(CodeList50 $MeasureUnitCode)
@@ -70,7 +70,7 @@ class Measure
     /**
      * Get MeasureType
      *
-     * @return CodeList
+     * @return CodeList48
      */
     public function getMeasureType()
     {
@@ -80,7 +80,7 @@ class Measure
     /**
      * Get Measurement
      *
-     * @return int
+     * @return string
      */
     public function getMeasurement()
     {
@@ -90,7 +90,7 @@ class Measure
     /**
      * Get MeasureUnitCode
      *
-     * @return CodeList
+     * @return CodeList50
      */
     public function getMeasureUnitCode()
     {

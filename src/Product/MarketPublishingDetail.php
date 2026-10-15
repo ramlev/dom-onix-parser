@@ -10,7 +10,7 @@ class MarketPublishingDetail
     /**
      * MarketPublishingStatus
      *
-     * @var CodeList
+     * @var CodeList68
      */
     protected $MarketPublishingStatus;
 
@@ -46,7 +46,7 @@ class MarketPublishingDetail
     /**
      * Get MarketPublishingStatus
      *
-     * @return CodeList
+     * @return CodeList68
      */
     public function getMarketPublishingStatus()
     {

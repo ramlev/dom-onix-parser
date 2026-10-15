@@ -11,14 +11,14 @@ class MarketDate
     /**
      * MarketDateRole
      *
-     * @var CodeList
+     * @var CodeList163
      */
     protected $MarketDateRole;
 
     /**
      * Date
      *
-     * @var \Dso\Onix
+     * @var Date
      */
     protected $Date;
 
@@ -47,7 +47,7 @@ class MarketDate
     /**
      * Get MarketDateRole
      *
-     * @return CodeList
+     * @return CodeList163
      */
     public function getMarketDateRole()
     {

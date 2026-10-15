@@ -17,14 +17,14 @@ class Product
     /**
      * NotificationType (Early Notification by default)
      *
-     * @var CodeList
+     * @var CodeList1
      */
     protected $NotificationType;
 
     /**
      * RecordSourceType
      *
-     * @var string
+     * @var CodeList3
      */
     protected $RecordSourceType;
 
@@ -45,7 +45,7 @@ class Product
     /**
      * ProductIdentifiers
      *
-     * @var array|ProductIdentifier
+     * @var ProductIdentifier[]
      */
     protected $ProductIdentifier = [];
 
@@ -80,7 +80,7 @@ class Product
     /**
      * ProductSupply
      *
-     * @var array|ProductSupply
+     * @var ProductSupply[]
      */
     protected $ProductSupply = [];
 
@@ -98,7 +98,7 @@ class Product
     /**
      * Set the type of notification
      *
-     * @param Code $NotificationType
+     * @param CodeList1 $NotificationType
      * @return void
      */
     public function setNotificationType(CodeList1 $NotificationType)
@@ -109,7 +109,7 @@ class Product
     /**
      * Set RecordSourceType
      *
-     * @param string $RecordSourceType
+     * @param CodeList3 $RecordSourceType
      * @return void
      */
     public function setRecordSourceType(CodeList3 $RecordSourceType)
@@ -242,7 +242,7 @@ class Product
     /**
      * Get the Notification Type
      *
-     * @return \Dso\Onix\Code
+     * @return CodeList1
      */
     public function getNotificationType()
     {
@@ -272,7 +272,7 @@ class Product
     /**
      * Get ProductIdentifiers
      *
-     * @return array
+     * @return ProductIdentifier[]
      */
     public function getProductIdentifier()
     {
@@ -302,7 +302,7 @@ class Product
     /**
      * Get ProductSupply
      *
-     * @return ProductSupply
+     * @return ProductSupply[]
      */
     public function getProductSupply()
     {

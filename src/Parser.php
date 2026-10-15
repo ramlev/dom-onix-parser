@@ -43,7 +43,6 @@ class Parser
      * Initializes the needed libraries and classes to work with
      * 
      * @param string $language
-     * @return Parser
      */
     public function __construct(string $language = 'en')
     {

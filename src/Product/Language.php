@@ -11,21 +11,21 @@ class Language
     /**
      * LanguageRole
      *
-     * @var CodeList
+     * @var CodeList22
      */
     protected $LanguageRole;
 
     /**
      * LanguageCode
      *
-     * @var CodeList
+     * @var CodeList74
      */
     protected $LanguageCode;
 
     /**
      * Set LanguageRole
      *
-     * @param CodeList $LanguageRole
+     * @param CodeList22 $LanguageRole
      * @return void
      */
     public function setLanguageRole(CodeList22 $LanguageRole)
@@ -36,7 +36,7 @@ class Language
     /**
      * Set LanguageCode
      *
-     * @param CodeList $LanguageCode
+     * @param CodeList74 $LanguageCode
      * @return void
      */
     public function setLanguageCode(CodeList74 $LanguageCode)
@@ -47,7 +47,7 @@ class Language
     /**
      * Get LanguageRole
      *
-     * @return CodeList
+     * @return CodeList22
      */
     public function getLanguageRole()
     {
@@ -57,7 +57,7 @@ class Language
     /**
      * Get LanguageCode
      *
-     * @return CodeList
+     * @return CodeList74
      */
     public function getLanguageCode()
     {

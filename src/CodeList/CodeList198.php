@@ -30,6 +30,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'09' => 'Rights and licensing contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Customer services contact',
 	];
 
@@ -52,6 +53,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'09' => 'Contacto para derechos y licencias',
 		'10' => 'Contacto para seguridad del producto',
 		'11' => 'Contacto para materias primas del producto',
+		'12' => 'Contacto para embalaje, reciclaje, residuos y RAP',
 		'99' => 'Contacto para servicio al cliente',
 	];
 
@@ -74,6 +76,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'09' => 'Rights and licensing contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Customer services contact',
 	];
 
@@ -96,6 +99,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'09' => 'Contact pour les droits et licences',
 		'10' => 'Contact pour la sécurité du produit',
 		'11' => 'Contact pour les matières premières du produit',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Contact du service clients',
 	];
 
@@ -118,6 +122,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'09' => 'Contatto per diritti e licenze',
 		'10' => 'Contatto per la sicurezza del prodotto',
 		'11' => 'Contatto per le materie prime del prodotto',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Contatto del servizio clienti',
 	];
 
@@ -140,6 +145,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'09' => 'Rights and licensing contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Customer services contact',
 	];
 
@@ -162,6 +168,7 @@ class CodeList198 extends CodeList implements CodeListInterface
 		'09' => 'Rights and licensing contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Customer services contact',
 	];
 }

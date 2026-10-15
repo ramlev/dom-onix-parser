@@ -50,8 +50,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 		'09' => 'Licencia multi-usuario',
 		'10' => 'Previsualización en una ubicación física',
 		'11' => 'Minería de texto y datos',
-		'13' => 'TDM for AI to enhance the private purchase experience',
-		'14' => 'TDM for AI to enhance the private reading experience',
+		'13' => 'Minería de texto y datos (TDM) para IA con el fin de mejorar la experiencia privada de compra',
+		'14' => 'Minería de texto y datos (TDM) para IA con el fin de mejorar la experiencia privada de lectura',
 		'16' => 'Préstamo en biblioteca',
 	];
 
@@ -94,8 +94,8 @@ class CodeList230 extends CodeList implements CodeListInterface
 		'09' => 'Licence multi-utilisateurs',
 		'10' => 'Aperçu sur site',
 		'11' => 'Text and data mining',
-		'13' => 'TDM for AI to enhance the private purchase experience',
-		'14' => 'TDM for AI to enhance the private reading experience',
+		'13' => 'TDM pour l’IA afin d’améliorer l’expérience d’achat des particuliers',
+		'14' => 'TDM pour l’IA afin d’améliorer l’expérience de lecture des particuliers',
 		'16' => 'Prêt en bibliothèque',
 	];
 

@@ -79,7 +79,7 @@ class CodeList29 extends CodeList implements CodeListInterface
 		'20' => 'Puntuación de legibilidad Fry',
 		'21' => 'Código de público infantil / juvenil en Japón',
 		'22' => 'Código de calificación ONIX para audiencia adulta',
-		'23' => 'Marco común europeo de referencia para las lenguas',
+		'23' => 'Marco común europeo de referencia para el aprendizaje de lenguas (CEFR)',
 		'24' => 'Calificación de la Korean Publication Ethics Commission',
 		'25' => 'IoE Book Band',
 		'26' => 'FSK Lehr / Infoprogramm',

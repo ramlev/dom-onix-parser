@@ -200,7 +200,7 @@ class CodeList17 extends CodeList implements CodeListInterface
 		'A47' => 'Colorista',
 		'A48' => 'Rotulista',
 		'A49' => 'Entintador de la cubierta («Cover inker»)',
-		'A50' => 'Colorista de la portada («Cover colorist»)',
+		'A50' => 'Colorista de la cubierta («Cover colorist»)',
 		'A51' => 'Investigador',
 		'A52' => 'Diseño original de personajes',
 		'A56' => 'Diseño gráfico de la cubierta de',

@@ -21,6 +21,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 		'07' => 'Return authorization contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Customer services contact',
 	];
 
@@ -34,6 +35,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 		'07' => 'Contacto para autorización de devoluciones',
 		'10' => 'Contacto para seguridad del producto',
 		'11' => 'Contacto para materias primas del producto',
+		'12' => 'Contacto para embalaje, reciclaje, residuos y RAP',
 		'99' => 'Atención al usuario',
 	];
 
@@ -47,6 +49,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 		'07' => 'Return authorization contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Customer services contact',
 	];
 
@@ -60,6 +63,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 		'07' => 'Contact pour l’autorisation de retour',
 		'10' => 'Contact pour la sécurité du produit',
 		'11' => 'Contact pour les matières premières',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Service clients',
 	];
 
@@ -73,6 +77,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 		'07' => 'Contatto per l’autorizzazione al reso',
 		'10' => 'Contatto per la sicurezza del prodotto',
 		'11' => 'Contatto per le materie prime del prodotto',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Contatto per l’assistenza al cliente',
 	];
 
@@ -86,6 +91,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 		'07' => 'Return authorisation contact',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Customer services contact',
 	];
 
@@ -99,6 +105,7 @@ class CodeList239 extends CodeList implements CodeListInterface
 		'07' => 'İade izin sözleşmesi',
 		'10' => 'Product safety contact',
 		'11' => 'Product raw materials contact',
+		'12' => 'Packaging, recycling, waste and EPR contact',
 		'99' => 'Müşteri hizmetleri',
 	];
 }

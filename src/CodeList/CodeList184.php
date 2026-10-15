@@ -28,6 +28,8 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'07' => 'Declaration of Conformity available',
 		'08' => 'Carries EN71 conformity statement',
 		'09' => 'Carries ‘UKCA’ logo',
+		'10' => 'Declaration of Conformity for product packaging available',
+		'11' => 'Technical documentation for product packaging available',
 	];
 
 	/**
@@ -47,6 +49,8 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'07' => 'Disponible declaración de conformidad',
 		'08' => 'Incluye la declaración «Conforme con EN71»',
 		'09' => 'Incluye el logo «UKCA»',
+		'10' => 'Declaración de conformidad del embalaje del producto disponible',
+		'11' => 'Documentación técnica del embalaje del producto disponible',
 	];
 
 	/**
@@ -66,6 +70,8 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'07' => 'Declaration of Conformity available',
 		'08' => 'Carries EN71 conformity statement',
 		'09' => 'Carries ‘UKCA’ logo',
+		'10' => 'Declaration of Conformity for product packaging available',
+		'11' => 'Technical documentation for product packaging available',
 	];
 
 	/**
@@ -85,6 +91,8 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'07' => 'Déclaration de conformité disponible',
 		'08' => 'Porte la déclaration « Conforme à la norme EN71 »',
 		'09' => 'Porte le logo UKCA',
+		'10' => 'Declaration of Conformity for product packaging available',
+		'11' => 'Technical documentation for product packaging available',
 	];
 
 	/**
@@ -104,6 +112,8 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'07' => 'Dichiarazione di conformità disponibile',
 		'08' => 'Contiene la dichiarazione di conformità EN71',
 		'09' => 'Riporta il logo «UKCA»',
+		'10' => 'Declaration of Conformity for product packaging available',
+		'11' => 'Technical documentation for product packaging available',
 	];
 
 	/**
@@ -123,6 +133,8 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'07' => 'Declaration of Conformity available',
 		'08' => 'Carries EN71 conformity statement',
 		'09' => 'Carries ‘UKCA’ logo',
+		'10' => 'Declaration of Conformity for product packaging available',
+		'11' => 'Technical documentation for product packaging available',
 	];
 
 	/**
@@ -142,5 +154,7 @@ class CodeList184 extends CodeList implements CodeListInterface
 		'07' => 'Uygunluk Beyanı mevcut',
 		'08' => 'Carries EN71 conformity statement',
 		'09' => 'Carries ‘UKCA’ logo',
+		'10' => 'Declaration of Conformity for product packaging available',
+		'11' => 'Technical documentation for product packaging available',
 	];
 }

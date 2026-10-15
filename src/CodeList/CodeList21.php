@@ -61,7 +61,7 @@ class CodeList21 extends CodeList implements CodeListInterface
 		'UNN' => 'Edition with unnumbered copies',
 		'UXP' => 'Unexpurgated edition',
 		'VAR' => 'Variorum edition',
-		'VOR' => 'Vorlesebücher',
+		'VOR' => 'Readaloud edition',
 	];
 
 	/**
@@ -114,7 +114,7 @@ class CodeList21 extends CodeList implements CodeListInterface
 		'UNN' => 'Edición limitada con ejemplares sin numerar',
 		'UXP' => 'Edición no expurgada',
 		'VAR' => 'Variórum',
-		'VOR' => 'Vorlesebücher',
+		'VOR' => 'Edición para lectura en voz alta',
 	];
 
 	/**
@@ -377,6 +377,6 @@ class CodeList21 extends CodeList implements CodeListInterface
 		'UNN' => 'Edition with unnumbered copies',
 		'UXP' => 'Sansürsüz basım',
 		'VAR' => 'Şerhli basım',
-		'VOR' => 'Vorlesebücher',
+		'VOR' => 'Readaloud edition',
 	];
 }

@@ -69,6 +69,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'52' => 'Publisher’s or third party contact form',
 		'53' => 'Organization’s website for corporate social responsibility',
 		'54' => 'Website for Indigenous statement or resource',
+		'55' => 'Link to third-party certification of absence of AI-generated content',
+		'56' => 'Link to first-party declaration of absence of AI-generated content',
+		'57' => 'Organization’s website for packaging details',
 	];
 
 	/**
@@ -83,7 +86,7 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'02' => 'Sitio web de la editorial para una obra concreta',
 		'03' => 'Página de inicio de un servicio en línea',
 		'04' => 'Sitio web de una revista',
-		'05' => 'Página de «contenidos disponibles» en línea',
+		'05' => 'Página de «contenidos disponibles» «online»',
 		'06' => 'Sitio web particular de un autor, ilustrador, etc.',
 		'07' => 'Sitio web de la editorial relacionado con un un autor, ilustrador… concreto',
 		'08' => 'Sitio web de otra editorial relacionado con un un autor, ilustrador… concreto',
@@ -129,6 +132,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'52' => 'Formulario de contacto de la editorial o de terceros',
 		'53' => 'Sitio web de políticas de Responsabilidad Social Corporativa de la entidad',
 		'54' => 'Sitio web para declaraciones o recursos indígenas',
+		'55' => 'Enlace a certificación de terceros de ausencia de contenido generado por IA',
+		'56' => 'Enlace a declaración propia de ausencia de contenido generado por IA',
+		'57' => 'Sitio web de la organización con información sobre embalajes',
 	];
 
 	/**
@@ -189,6 +195,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'52' => 'Publisher’s or third party contact form',
 		'53' => 'Organization’s website for corporate social responsibility',
 		'54' => 'Website for Indigenous statement or resource',
+		'55' => 'Link to third-party certification of absence of AI-generated content',
+		'56' => 'Link to first-party declaration of absence of AI-generated content',
+		'57' => 'Organization’s website for packaging details',
 	];
 
 	/**
@@ -249,6 +258,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'52' => 'Formulaire de contact de l’éditeur ou d’un tiers',
 		'53' => 'Site web de l’organisme pour la responsabilité sociale des entreprises',
 		'54' => 'Site web contenant une déclaration ou une ressource relative aux peuples autochtones',
+		'55' => 'Link to third-party certification of absence of AI-generated content',
+		'56' => 'Link to first-party declaration of absence of AI-generated content',
+		'57' => 'Organization’s website for packaging details',
 	];
 
 	/**
@@ -309,6 +321,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'52' => 'Modulo di contatto dell’editore o di terze parti',
 		'53' => 'Sito web aziendale per la responsabilità sociale d’impresa',
 		'54' => 'Sito web per dichiarazioni o risorse sulle popolazioni indigene',
+		'55' => 'Link alla certificazione di terze parti di assenza di contenuti generati da IA',
+		'56' => 'Link all’autodichiarazione di assenza di contenuti generati da IA',
+		'57' => 'Organization’s website for packaging details',
 	];
 
 	/**
@@ -369,6 +384,9 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'52' => 'Forlagets eller en tredjeparts kontaktskjema',
 		'53' => 'Organisasjonens nettside for samfunnsansvar',
 		'54' => 'Nettside om publisering av innhold som berører urfolk',
+		'55' => 'Lenke til tredjepartssertifisering av fravær av AI-generert innhold',
+		'56' => 'Lenke til førstepartserklæring om fravær av AI-generert innhold',
+		'57' => 'Organization’s website for packaging details',
 	];
 
 	/**
@@ -429,5 +447,8 @@ class CodeList73 extends CodeList implements CodeListInterface
 		'52' => 'Publisher’s or third party contact form',
 		'53' => 'Organization’s website for corporate social responsibility',
 		'54' => 'Website for Indigenous statement or resource',
+		'55' => 'Link to third-party certification of absence of AI-generated content',
+		'56' => 'Link to first-party declaration of absence of AI-generated content',
+		'57' => 'Organization’s website for packaging details',
 	];
 }

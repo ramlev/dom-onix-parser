@@ -30,6 +30,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'23' => 'VAT Identity Number',
 		'41' => 'EORI',
 		'45' => 'Chinese participant identifier',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -51,6 +52,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'23' => 'Número de identificación fiscal (NIF) europeo («VAT Id number»)',
 		'41' => 'Número EORI',
 		'45' => 'Identificador chino de participante',
+		'46' => 'Número de registro EPR (Extended Producer Responsibility, RAP- Responsabilidad Ampliada de Producto)',
 	];
 
 	/**
@@ -72,6 +74,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'23' => 'VAT Identity Number',
 		'41' => 'EORI',
 		'45' => 'Chinese participant identifier',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -93,6 +96,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'23' => 'Numéro d’identification TVA',
 		'41' => 'EORI',
 		'45' => 'Identifiant d’adhérent chinois',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -114,6 +118,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'23' => 'Numero di partita IVA',
 		'41' => 'EORI',
 		'45' => 'Identificativo cinese del partecipante',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -135,6 +140,7 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'23' => 'VAT Identity Number',
 		'41' => 'EORI',
 		'45' => 'Chinese participant identifier',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -156,5 +162,6 @@ class CodeList92 extends CodeList implements CodeListInterface
 		'23' => 'KDV Kimlik Numarası',
 		'41' => 'EORI',
 		'45' => 'Chinese participant identifier',
+		'46' => 'EPR registration number',
 	];
 }

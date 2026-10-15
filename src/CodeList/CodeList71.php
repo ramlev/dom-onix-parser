@@ -142,8 +142,8 @@ class CodeList71 extends CodeList implements CodeListInterface
 		'19' => 'Sauf par l’utilisation de l’IAD',
 		'20' => 'Sauf pour certains services d’abonnement',
 		'21' => 'Service d’abonnement exclusif',
-		'22' => 'To education only',
-		'23' => 'Except to education',
+		'22' => 'Pour l’enseignement uniquement',
+		'23' => 'Sauf pour l’enseignement',
 		'99' => 'Pas de restrictions sur les ventes',
 	];
 

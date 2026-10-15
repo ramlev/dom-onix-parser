@@ -77,6 +77,10 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'60' => 'EUDR raw material location (interior or full product) URL',
 		'61' => 'EUDR raw material location (binding) URL',
 		'62' => 'EUDR raw material location (other) URL',
+		'63' => 'EUDR raw material location (interior or full product) Postal address',
+		'64' => 'EUDR raw material location (binding) Postal address',
+		'65' => 'EUDR raw material location (other) Postal address',
+		'66' => 'Map projection',
 	];
 
 	/**
@@ -145,6 +149,10 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'60' => 'URL para geolocalización original de la materia prima: Interior o todo el producto (EUDR)',
 		'61' => 'URL para geolocalización original de la materia prima: para la encuadernación (EUDR)',
 		'62' => 'URL para geolocalización original de la materia prima del libro: Otros usos (EUDR)',
+		'63' => 'Ubicación de la materia prima EUDR (interior o producto completo): dirección postal',
+		'64' => 'Ubicación de la materia prima EUDR (encuadernación): dirección postal',
+		'65' => 'Ubicación de la materia prima EUDR (otros): dirección postal',
+		'66' => 'Proyección cartográfica',
 	];
 
 	/**
@@ -213,6 +221,10 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'60' => 'EUDR raw material location (interior or full product) URL',
 		'61' => 'EUDR raw material location (binding) URL',
 		'62' => 'EUDR raw material location (other) URL',
+		'63' => 'EUDR raw material location (interior or full product) Postal address',
+		'64' => 'EUDR raw material location (binding) Postal address',
+		'65' => 'EUDR raw material location (other) Postal address',
+		'66' => 'Map projection',
 	];
 
 	/**
@@ -281,6 +293,10 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'60' => 'URL de l’emplacement des matières premières RDUE (intérieur ou produit complet)',
 		'61' => 'URL de l’emplacement des matières premières RDUE (reliure)',
 		'62' => 'URL de l’emplacement des matières premières RDUE (autre)',
+		'63' => 'EUDR raw material location (interior or full product) Postal address',
+		'64' => 'EUDR raw material location (binding) Postal address',
+		'65' => 'EUDR raw material location (other) Postal address',
+		'66' => 'Map projection',
 	];
 
 	/**
@@ -349,6 +365,10 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'60' => 'Ubicazione EUDR delle materie prime (interno del prodotto o prodotto completo) – URL',
 		'61' => 'Ubicazione EUDR delle materie prime (rilegatura) – URL',
 		'62' => 'Ubicazione EUDR delle materie prime (altro) – URL',
+		'63' => 'Ubicazione EUDR delle materie prime (interno del prodotto o prodotto completo) – Indirizzo postale',
+		'64' => 'Ubicazione EUDR delle materie prime (rilegatura) – Indirizzo postale',
+		'65' => 'Ubicazione EUDR delle materie prime (altro) – Indirizzo postale',
+		'66' => 'Proiezione cartografica',
 	];
 
 	/**
@@ -417,6 +437,10 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'60' => 'EUDR råvarelokasjon (innmat eller hele produktet) URL',
 		'61' => 'EUDR råvarelokasjon (innbinding) URL',
 		'62' => 'EUDR råvarelokasjon (annet) URL',
+		'63' => 'EUDR råvarelokasjon (innmat eller hele produktet) Postadresse',
+		'64' => 'EUDR råvarelokasjon (innbinding) Postadresse',
+		'65' => 'EUDR råvarelokasjon (annet) Postadresse',
+		'66' => 'Kartprojeksjon',
 	];
 
 	/**
@@ -485,5 +509,9 @@ class CodeList79 extends CodeList implements CodeListInterface
 		'60' => 'EUDR raw material location (interior or full product) URL',
 		'61' => 'EUDR raw material location (binding) URL',
 		'62' => 'EUDR raw material location (other) URL',
+		'63' => 'EUDR raw material location (interior or full product) Postal address',
+		'64' => 'EUDR raw material location (binding) Postal address',
+		'65' => 'EUDR raw material location (other) Postal address',
+		'66' => 'Map projection',
 	];
 }

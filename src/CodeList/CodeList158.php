@@ -75,6 +75,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'53' => 'Product safety contacts',
 		'54' => 'Page edge deco image',
 		'55' => 'Endpaper deco image',
+		'58' => 'Image of warranty label',
+		'60' => 'LLM training data',
 		'99' => 'License',
 	];
 
@@ -142,6 +144,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'53' => 'Contactos de seguridad del producto',
 		'54' => 'Imagen decorativa de los cantos',
 		'55' => 'Imagen decorativa de las guardas',
+		'58' => 'Imagen de la etiqueta de garantía',
+		'60' => 'Datos para entrenamiento de LLM',
 		'99' => 'Licencia',
 	];
 
@@ -209,6 +213,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'53' => 'Product safety contacts',
 		'54' => 'Page edge deco image',
 		'55' => 'Endpaper deco image',
+		'58' => 'Image of warranty label',
+		'60' => 'LLM training data',
 		'99' => 'License',
 	];
 
@@ -276,6 +282,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'53' => 'Contact sécurité des produits',
 		'54' => 'Image décorative sur la tranche',
 		'55' => 'Image décorative des pages de garde',
+		'58' => 'Image of warranty label',
+		'60' => 'LLM training data',
 		'99' => 'Licence',
 	];
 
@@ -343,6 +351,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'53' => 'Contatti per la sicurezza del prodotto',
 		'54' => 'Immagine della decorazione del bordo pagina',
 		'55' => 'Immagine della decorazione del risguardo',
+		'58' => 'Image of warranty label',
+		'60' => 'LLM training data',
 		'99' => 'Licenza',
 	];
 
@@ -410,6 +420,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'53' => 'Kontaktinformasjon for produktsikkerhet',
 		'54' => 'Bilde av dekorert boksnitt',
 		'55' => 'Bilde av dekorert baksats',
+		'58' => 'Image of warranty label',
+		'60' => 'LLM training data',
 		'99' => 'Lisens',
 	];
 
@@ -477,6 +489,8 @@ class CodeList158 extends CodeList implements CodeListInterface
 		'53' => 'Product safety contacts',
 		'54' => 'Page edge deco image',
 		'55' => 'Endpaper deco image',
+		'58' => 'Image of warranty label',
+		'60' => 'LLM training data',
 		'99' => 'Lisans',
 	];
 }

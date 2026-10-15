@@ -31,6 +31,7 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'10' => 'Social media',
 		'11' => 'Children',
 		'12' => 'Teens',
+		'13' => 'LLM training',
 	];
 
 	/**
@@ -53,6 +54,7 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'10' => 'Redes sociales',
 		'11' => 'Niños',
 		'12' => 'Adolescentes',
+		'13' => 'Entrenamiento de LLM',
 	];
 
 	/**
@@ -75,6 +77,7 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'10' => 'Social media',
 		'11' => 'Children',
 		'12' => 'Teens',
+		'13' => 'LLM training',
 	];
 
 	/**
@@ -97,6 +100,7 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'10' => 'Réseaux sociaux',
 		'11' => 'Enfants',
 		'12' => 'Adolescents',
+		'13' => 'LLM training',
 	];
 
 	/**
@@ -119,6 +123,7 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'10' => 'Social media',
 		'11' => 'Bambini',
 		'12' => 'Adolescenti',
+		'13' => 'LLM training',
 	];
 
 	/**
@@ -141,6 +146,7 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'10' => 'Sosiale medier',
 		'11' => 'Barn',
 		'12' => 'Ungdom',
+		'13' => 'LLM training',
 	];
 
 	/**
@@ -163,5 +169,6 @@ class CodeList154 extends CodeList implements CodeListInterface
 		'10' => 'Social media',
 		'11' => 'Children',
 		'12' => 'Teens',
+		'13' => 'LLM training',
 	];
 }

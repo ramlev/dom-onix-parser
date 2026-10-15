@@ -46,7 +46,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Nombre posterior',
 		'07' => 'Nombre de personaje ficticio',
 		'08' => 'Acrónimo / sigla',
-		'09' => 'Professional name',
+		'09' => 'Nombre profesional',
 	];
 
 	/**
@@ -84,7 +84,7 @@ class CodeList18 extends CodeList implements CodeListInterface
 		'06' => 'Dernière forme du nom',
 		'07' => 'Nom de personnage de fiction',
 		'08' => 'Acronyme/Sigle',
-		'09' => 'Professional name',
+		'09' => 'Nom professionnel',
 	];
 
 	/**

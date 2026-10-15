@@ -45,6 +45,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'37' => 'Year of publication',
 		'38' => 'Preview embargo date',
 		'39' => 'Library embargo date',
+		'40' => 'Availability embargo date',
+		'41' => 'Manuscript submission date',
+		'42' => 'Manuscript accepted date',
 	];
 
 	/**
@@ -78,9 +81,12 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Fecha de embargo de compra',
 		'35' => 'Fecha de la «catalogación en publicación» (CIP)',
 		'36' => 'Fecha de la primera publicación íntegra',
-		'37' => 'Year of publication',
-		'38' => 'Preview embargo date',
-		'39' => 'Library embargo date',
+		'37' => 'Año de publicación',
+		'38' => 'Fecha de embargo de la vista previa',
+		'39' => 'Fecha de embargo para bibliotecas',
+		'40' => 'Fecha de embargo de disponibilidad',
+		'41' => 'Fecha de entrega del manuscrito',
+		'42' => 'Fecha de aceptación del manuscrito',
 	];
 
 	/**
@@ -117,6 +123,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'37' => 'Year of publication',
 		'38' => 'Preview embargo date',
 		'39' => 'Library embargo date',
+		'40' => 'Availability embargo date',
+		'41' => 'Manuscript submission date',
+		'42' => 'Manuscript accepted date',
 	];
 
 	/**
@@ -150,9 +159,12 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'33' => 'Date d’embargo d’achat',
 		'35' => 'Date du catalogage avant publication',
 		'36' => 'Date de la première publication intégrale',
-		'37' => 'Year of publication',
-		'38' => 'Preview embargo date',
-		'39' => 'Library embargo date',
+		'37' => 'Année de publication',
+		'38' => 'Date d’embargo sur l’aperçu',
+		'39' => 'Date d’embargo pour les bibliothèques',
+		'40' => 'Availability embargo date',
+		'41' => 'Manuscript submission date',
+		'42' => 'Manuscript accepted date',
 	];
 
 	/**
@@ -189,6 +201,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'37' => 'Anno di pubblicazione',
 		'38' => 'Data di embargo dell’anteprima',
 		'39' => 'Data di embargo per la biblioteca',
+		'40' => 'Availability embargo date',
+		'41' => 'Manuscript submission date',
+		'42' => 'Manuscript accepted date',
 	];
 
 	/**
@@ -225,6 +240,9 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'37' => 'Utgivelsesår',
 		'38' => 'Sperrefrist for forhåndsvisning',
 		'39' => 'Sperrefrist for bibliotek',
+		'40' => 'Availability embargo date',
+		'41' => 'Manuscript submission date',
+		'42' => 'Manuscript accepted date',
 	];
 
 	/**
@@ -261,5 +279,8 @@ class CodeList163 extends CodeList implements CodeListInterface
 		'37' => 'Year of publication',
 		'38' => 'Preview embargo date',
 		'39' => 'Library embargo date',
+		'40' => 'Availability embargo date',
+		'41' => 'Manuscript submission date',
+		'42' => 'Manuscript accepted date',
 	];
 }

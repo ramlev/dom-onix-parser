@@ -40,6 +40,7 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'32' => 'French educational levels',
 		'33' => 'Finnish Upper secondary school course (2021+)',
 		'34' => 'Detailed French educational levels',
+		'35' => 'GREP Årstrinn',
 	];
 
 	/**
@@ -71,6 +72,7 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'32' => '«Nomenclature niveau éducatif de base»',
 		'33' => 'Curso escolar avanzado de secundaria en Finlandia (2021+)',
 		'34' => 'Niveles educativos franceses detallados',
+		'35' => 'GREP Årstrinn',
 	];
 
 	/**
@@ -102,6 +104,7 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'32' => 'French educational levels',
 		'33' => 'Finnish Upper secondary school course (2021+)',
 		'34' => 'Detailed French educational levels',
+		'35' => 'GREP Årstrinn',
 	];
 
 	/**
@@ -133,6 +136,7 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'32' => 'Niveau d’enseignement français',
 		'33' => 'Deuxième cycle d’enseignement secondaire finlandais (2021+)',
 		'34' => 'Niveau éducatif détaillé',
+		'35' => 'GREP Årstrinn',
 	];
 
 	/**
@@ -164,6 +168,7 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'32' => 'Livelli di istruzione francesi',
 		'33' => 'Corso di scuola secondaria superiore finlandese (2021+)',
 		'34' => 'Livelli di istruzione francesi dettagliati',
+		'35' => 'GREP Aarstrinn',
 	];
 
 	/**
@@ -195,6 +200,7 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'32' => 'Franske skoletrinn',
 		'33' => 'Finnish Upper secondary school course (2021+)',
 		'34' => 'Detailed French educational levels',
+		'35' => 'GREP Årstrinn',
 	];
 
 	/**
@@ -226,5 +232,6 @@ class CodeList30 extends CodeList implements CodeListInterface
 		'32' => 'French educational levels',
 		'33' => 'Finnish Upper secondary school course (2021+)',
 		'34' => 'Detailed French educational levels',
+		'35' => 'GREP Årstrinn',
 	];
 }

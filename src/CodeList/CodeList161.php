@@ -21,6 +21,7 @@ class CodeList161 extends CodeList implements CodeListInterface
 		'01' => 'Linkable resource',
 		'02' => 'Downloadable file',
 		'03' => 'Embeddable application',
+		'05' => 'Resource within closed app',
 	];
 
 	/**
@@ -33,6 +34,7 @@ class CodeList161 extends CodeList implements CodeListInterface
 		'01' => 'Recurso vinculable',
 		'02' => 'Archivo descargable',
 		'03' => 'Aplicación embebible',
+		'05' => 'Recurso dentro de una aplicación cerrada',
 	];
 
 	/**
@@ -45,6 +47,7 @@ class CodeList161 extends CodeList implements CodeListInterface
 		'01' => 'Linkable resource',
 		'02' => 'Downloadable file',
 		'03' => 'Embeddable application',
+		'05' => 'Resource within closed app',
 	];
 
 	/**
@@ -57,6 +60,7 @@ class CodeList161 extends CodeList implements CodeListInterface
 		'01' => 'Ressource accessible par lien',
 		'02' => 'Fichier téléchargeable',
 		'03' => 'Application embarquée',
+		'05' => 'Resource within closed app',
 	];
 
 	/**
@@ -69,6 +73,7 @@ class CodeList161 extends CodeList implements CodeListInterface
 		'01' => 'Risorsa accessibile tramite collegamento ipertestuale',
 		'02' => 'File scaricabile',
 		'03' => 'Applicazione incorporabile',
+		'05' => 'Resource within closed app',
 	];
 
 	/**
@@ -81,6 +86,7 @@ class CodeList161 extends CodeList implements CodeListInterface
 		'01' => 'Lenkbar ressurs',
 		'02' => 'Nedlastbar fil',
 		'03' => 'Applikasjon som kan inkluderes på nettsted',
+		'05' => 'Resource within closed app',
 	];
 
 	/**
@@ -93,5 +99,6 @@ class CodeList161 extends CodeList implements CodeListInterface
 		'01' => 'Bağlantılandırılabilir kaynak',
 		'02' => 'İndirilebilir dosya',
 		'03' => 'Gömülü uygulama',
+		'05' => 'Resource within closed app',
 	];
 }

@@ -27,7 +27,7 @@ class CodeList
      *
      * @param string $code
      * @param string $language
-     * @return CodeList
+     * @return static
      */
     public static function resolve(string $code, string $language = 'en'): static
     {

@@ -20,16 +20,18 @@ class CodeList203 extends CodeList implements CodeListInterface
 	protected static $en = [
 		'00' => 'Unrated',
 		'01' => 'Any adult audience',
-		'02' => 'Content warning',
-		'03' => 'Content warning (sex)',
-		'04' => 'Content warning (violence)',
-		'05' => 'Content warning (drugs)',
-		'06' => 'Content warning (language)',
-		'07' => 'Content warning (intolerance)',
-		'08' => 'Content warning (abuse)',
-		'09' => 'Content warning (self-harm)',
-		'10' => 'Content warning (animal cruelty)',
-		'11' => 'Content warning (illness)',
+		'02' => 'Content advice',
+		'03' => 'Content advice (sex)',
+		'04' => 'Content advice (violence)',
+		'05' => 'Content advice (drugs)',
+		'06' => 'Content advice (language)',
+		'07' => 'Content advice (intolerance)',
+		'08' => 'Content advice (abuse)',
+		'09' => 'Content advice (self-harm)',
+		'10' => 'Content advice (animal cruelty)',
+		'11' => 'Content advice (illness)',
+		'12' => 'Content advice (death and grief)',
+		'13' => 'Content advice (suicide)',
 	];
 
 	/**
@@ -49,8 +51,10 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'07' => 'Aviso de contenido (intolerancia)',
 		'08' => 'Aviso de contenido (abuso)',
 		'09' => 'Aviso de contenido (autolesiones)',
-		'10' => 'Advertencia sobre el contenido (crueldad hacia los animales)',
-		'11' => 'Advertencia de contenido (enfermedad)',
+		'10' => 'Aviso de contenido (crueldad hacia los animales)',
+		'11' => 'Aviso de contenido (enfermedad)',
+		'12' => 'Aviso de contenido (muerte y duelo)',
+		'13' => 'Aviso de contenido (suicidio)',
 	];
 
 	/**
@@ -62,16 +66,18 @@ class CodeList203 extends CodeList implements CodeListInterface
 	protected static $de = [
 		'00' => 'Unrated',
 		'01' => 'Any adult audience',
-		'02' => 'Content warning',
-		'03' => 'Content warning (sex)',
-		'04' => 'Content warning (violence)',
-		'05' => 'Content warning (drugs)',
-		'06' => 'Content warning (language)',
-		'07' => 'Content warning (intolerance)',
-		'08' => 'Content warning (abuse)',
-		'09' => 'Content warning (self-harm)',
-		'10' => 'Content warning (animal cruelty)',
-		'11' => 'Content warning (illness)',
+		'02' => 'Content advice',
+		'03' => 'Content advice (sex)',
+		'04' => 'Content advice (violence)',
+		'05' => 'Content advice (drugs)',
+		'06' => 'Content advice (language)',
+		'07' => 'Content advice (intolerance)',
+		'08' => 'Content advice (abuse)',
+		'09' => 'Content advice (self-harm)',
+		'10' => 'Content advice (animal cruelty)',
+		'11' => 'Content advice (illness)',
+		'12' => 'Content advice (death and grief)',
+		'13' => 'Content advice (suicide)',
 	];
 
 	/**
@@ -93,6 +99,8 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'09' => 'Avertissement de contenu (automutilation)',
 		'10' => 'Avertissement de contenu (cruauté envers les animaux)',
 		'11' => 'Avertissement de contenu (maladie)',
+		'12' => 'Content advice (death and grief)',
+		'13' => 'Content advice (suicide)',
 	];
 
 	/**
@@ -114,6 +122,8 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'09' => 'Avvertenza sul contenuto (autolesionismo)',
 		'10' => 'Avvertenza sul contenuto (crudeltà verso gli animali)',
 		'11' => 'Avvertenza sul contenuto (malattia)',
+		'12' => 'Avvertenza sul contenuto (morte e lutto)',
+		'13' => 'Avvertenza sul contenuto (suicidio)',
 	];
 
 	/**
@@ -135,6 +145,8 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'09' => 'Content warning (self-harm)',
 		'10' => 'Content warning (animal cruelty)',
 		'11' => 'Content warning (illness)',
+		'12' => 'Content advice (death and grief)',
+		'13' => 'Content advice (suicide)',
 	];
 
 	/**
@@ -152,9 +164,11 @@ class CodeList203 extends CodeList implements CodeListInterface
 		'05' => 'İçerik uyarısı (uyuşturucu kullanımı)',
 		'06' => 'İçerik uyarısı (söylem)',
 		'07' => 'İçerik uyarısı (hoşgörüsüzlük)',
-		'08' => 'Content warning (abuse)',
-		'09' => 'Content warning (self-harm)',
-		'10' => 'Content warning (animal cruelty)',
-		'11' => 'Content warning (illness)',
+		'08' => 'Content advice (abuse)',
+		'09' => 'Content advice (self-harm)',
+		'10' => 'Content advice (animal cruelty)',
+		'11' => 'Content advice (illness)',
+		'12' => 'Content advice (death and grief)',
+		'13' => 'Content advice (suicide)',
 	];
 }

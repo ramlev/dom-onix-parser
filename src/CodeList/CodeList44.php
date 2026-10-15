@@ -60,6 +60,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'43' => 'SIREN',
 		'44' => 'SIRET',
 		'45' => 'Chinese Participant identifier',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -111,6 +112,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'43' => 'SIREN',
 		'44' => 'SIRET',
 		'45' => 'Identificador chino de participante',
+		'46' => 'Número de registro EPR (Extended Producer Responsibility, RAP- Responsabilidad Ampliada de Producto)',
 	];
 
 	/**
@@ -162,6 +164,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'43' => 'SIREN',
 		'44' => 'SIRET',
 		'45' => 'Chinese Participant identifier',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -213,6 +216,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'43' => 'SIREN',
 		'44' => 'SIRET',
 		'45' => 'Identifiant d’adhérent chinois',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -264,6 +268,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'43' => 'SIREN',
 		'44' => 'SIRET',
 		'45' => 'Identificativo cinese del partecipante',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -315,6 +320,7 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'43' => 'SIREN',
 		'44' => 'SIRET',
 		'45' => 'Chinese Participant identifier',
+		'46' => 'EPR registration number',
 	];
 
 	/**
@@ -366,5 +372,6 @@ class CodeList44 extends CodeList implements CodeListInterface
 		'43' => 'SIREN',
 		'44' => 'SIRET',
 		'45' => 'Chinese Participant identifier',
+		'46' => 'EPR registration number',
 	];
 }

@@ -135,9 +135,9 @@ class Date
     /**
      * Parse a date by date string and format code
      *
-     * @param string $date
+     * @param string $input
      * @param string $formatCode
-     * @return void
+     * @return static
      */
     public static function parse(string $input, string $formatCode = "00"): static
     {
